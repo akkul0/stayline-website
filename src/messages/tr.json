@@ -1,0 +1,566 @@
+{
+  "nav": {
+    "features": "Özellikler",
+    "faq": "SSS",
+    "contact": "İletişim",
+    "privacy": "Gizlilik",
+    "terms": "Şartlar",
+    "dataDeletion": "Veri Silme",
+    "cta": "Demo isteyin",
+    "toggleTheme": "Temayı değiştir",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat"
+  },
+  "footer": {
+    "tagline": "WhatsApp üzerinden otel misafir iletişimi — AI yanıtlar, otomatik talep yönlendirme ve analitik tek platformda.",
+    "product": "Ürün",
+    "legal": "Yasal",
+    "rights": "StayLine. Tüm hakları saklıdır.",
+    "builtOn": "Meta WhatsApp Cloud API ve Claude AI üzerine kuruludur."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "WhatsApp üzerinden otel misafir iletişimi",
+      "title": "Tüm misafir konuşmaları WhatsApp'ta, ağır işi AI yapsın",
+      "subtitle": "StayLine otelinizi misafirlere WhatsApp üzerinden bağlar, AI ile akıllı yanıtlar hazırlar ve her talebi doğru vardiyadaki personele otomatik olarak yönlendirir.",
+      "ctaPrimary": "Demo isteyin",
+      "ctaSecondary": "Özellikleri keşfedin",
+      "trust": "Resmi Meta WhatsApp Cloud API ve Claude AI üzerine kuruludur."
+    },
+    "preview": {
+      "online": "Çevrimiçi",
+      "guestMsg": "Merhaba, 412 numaralı odanın kliması çalışmıyor ve oda epey sıcak.",
+      "aiLabel": "AI önerilen yanıt",
+      "aiReply": "Çok özür dileriz! Teknik ekibimizi bilgilendirdim — 15 dakika içinde biri 412 numaralı odada olacak.",
+      "orderTitle": "Yeni talep",
+      "orderDept": "Teknik · Oda 412",
+      "orderUrgency": "Yüksek",
+      "orderMeta": "Klima çalışmıyor — misafir odanın sıcak olduğunu bildiriyor.",
+      "orderSent": "Vardiyadaki teknik personele gönderildi"
+    },
+    "pillars": {
+      "eyebrow": "Neden StayLine",
+      "title": "Ön büronuzun ihtiyacı olan her şey tek kanalda",
+      "subtitle": "Misafirler zaten WhatsApp kullanıyor. StayLine bunu hızlı, düzenli ve AI destekli bir operasyona dönüştürür.",
+      "aiReplies": {
+        "title": "AI destekli yanıtlar",
+        "body": "Claude son konuşmayı ve misafir bağlamını okuyarak doğru yanıtlar önerir — ya da otomatik gönderir. AI'ı otel ve konuşma bazında açıp kapatın."
+      },
+      "routing": {
+        "title": "Otomatik talep yönlendirme",
+        "body": "Her mesaj sınıflandırılır ve eşleşen vardiyadaki personele WhatsApp'tan bildirilir; talepler manuel ayıklama olmadan doğru departmana ulaşır."
+      },
+      "multilingual": {
+        "title": "Varsayılan olarak çok dilli",
+        "body": "Misafirler kendi dilinde yazar. StayLine dili algılar ve her iki yöne çevirir; hem orijinali hem çevirisini saklar."
+      },
+      "analytics": {
+        "title": "Önemli olan analitik",
+        "body": "Kapsama, yanıt, AI kullanımı, departmanlar ve şikâyetler için canlı panolar ve raporlar — yöneticiler tüm resmi görür."
+      }
+    },
+    "how": {
+      "eyebrow": "Nasıl çalışır",
+      "title": "Bir misafir mesajından çözülmüş bir talebe",
+      "subtitle": "Tamamen otomatik dört adım — personeliniz yalnızca gerektiğinde devreye girer.",
+      "steps": [
+        {
+          "title": "Misafir WhatsApp'tan yazar",
+          "body": "Misafir otelinizin numarasına herhangi bir dilde yazar — kurulacak uygulama yok."
+        },
+        {
+          "title": "AI anlar ve sınıflandırır",
+          "body": "Claude dili algılar, bir yanıt taslağı hazırlar ve kategori, aciliyet ve departmanı etiketler."
+        },
+        {
+          "title": "Doğru personel bilgilendirilir",
+          "body": "O departmanın vardiyadaki personeli talebi anında WhatsApp'tan alır; akıllı yedeklerle birlikte."
+        },
+        {
+          "title": "Çözülür ve raporlanır",
+          "body": "Ekip ilgilenir ve her etkileşim panolarınıza ve günlük raporlarınıza akar."
+        }
+      ]
+    },
+    "featuresOverview": {
+      "eyebrow": "Özellikler",
+      "title": "Misafir mesajlaşması için eksiksiz bir araç seti",
+      "subtitle": "AI yanıtlardan vardiya duyarlı yönlendirmeye, raporlamaya ve PMS aktarımına — otel operasyonu için tasarlandı.",
+      "cta": "Tüm özellikleri görün"
+    },
+    "builtOn": {
+      "eyebrow": "Güvenilir bir temel",
+      "title": "Resmi API'ler, kurumsal düzeyde AI",
+      "subtitle": "StayLine tekerleği yeniden icat etmez — güvenebileceğiniz platformlar üzerine kurar.",
+      "whatsapp": {
+        "title": "Meta WhatsApp Cloud API",
+        "body": "Resmi WhatsApp Business platformu. Kendi doğrulanmış numaranızı ve Meta onaylı mesaj şablonlarınızı kullanın."
+      },
+      "claude": {
+        "title": "Anthropic'in Claude AI'ı",
+        "body": "Yanıt taslakları, talep sınıflandırma ve çeviri Claude ile çalışır — otel bazında yapılandırılabilir."
+      }
+    },
+    "cta": {
+      "title": "StayLine'ı otelinizin WhatsApp'ında görün",
+      "subtitle": "Kısa bir demo ayarlayın; AI yanıtları ve talep yönlendirmeyi kendi senaryolarınızla gösterelim.",
+      "button": "Demo isteyin"
+    }
+  },
+  "features": {
+    "hero": {
+      "eyebrow": "Özellikler",
+      "title": "Misafir iletişimini her saatte tam kadro bir resepsiyon gibi yönetin",
+      "subtitle": "Her StayLine özelliği gerçek otel operasyonuna dayanır: WhatsApp, AI, vardiyalar, misafirler ve raporlama birlikte çalışır."
+    },
+    "items": {
+      "aiReplies": {
+        "title": "AI yanıtlar ve öneriler",
+        "body": "Claude son mesajları ve misafir bağlamını (ad, oda, konaklama tarihleri, uyruk, dil) kullanarak yanıt taslağı hazırlar. Tek dokunuşla gönderin ya da AI otomatik yanıtlasın.",
+        "bullets": [
+          "Öneri ya da otomatik gönderim — seçim sizin",
+          "Otel ve konuşma bazında aç/kapat",
+          "Otel bazında özel sistem komutu ve model",
+          "Yanıtlar kısa ve markanıza uygun kalır"
+        ]
+      },
+      "routing": {
+        "title": "Akıllı talep yönlendirme",
+        "body": "Gelen her mesaj sınıflandırılır ve doğru departmanın vardiyadaki personeline WhatsApp üzerinden otomatik yönlendirilir.",
+        "bullets": [
+          "Kategori, aciliyet ve departman otomatik algılanır",
+          "Önce vardiyadaki personel, sonra departman telefonu, sonra yöneticiler bilgilendirilir",
+          "Bildirim için yapılandırılabilir asgari aciliyet",
+          "Tekrarlanan bildirimler 10 dakika içinde tekrarlanmaz"
+        ]
+      },
+      "multilingual": {
+        "title": "Çok dilli mesajlaşma",
+        "body": "Misafirler kendi dilinde yazar; personel kendi dilinde çalışır. StayLine dili algılar ve her iki yöne çevirir.",
+        "bullets": [
+          "Otomatik dil algılama",
+          "Çift yönlü çeviri",
+          "Hem orijinal hem çevrilmiş metin saklanır",
+          "Misafir bazında dil tercihi"
+        ]
+      },
+      "shifts": {
+        "title": "Vardiyalar ve departmanlar",
+        "body": "Gerçek vardiya düzeninizi modelleyin. Departmanlar, vardiya pencereleri ve personel atamaları şu anda kimin bilgilendirileceğini belirler.",
+        "bullets": [
+          "Departmanlar: ön büro, kat hizmetleri, teknik, yiyecek-içecek, yönetim",
+          "Gece aşan ve saat dilimine duyarlı vardiya pencereleri",
+          "Vardiya başına personel atama matrisi",
+          "Yalnızca vardiyadaki personel bilgilendirilir"
+        ]
+      },
+      "guests": {
+        "title": "Misafir yönetimi ve PMS aktarımı",
+        "body": "Zengin misafir profilleri tutun ve konuşmaları telefon numarasına göre doğru misafirle otomatik eşleştirin.",
+        "bullets": [
+          "Profiller: ad, telefon, e-posta, uyruk, oda, konaklama tarihleri, VIP, notlar",
+          "PMS dışa aktarımınızdan toplu içe aktarma",
+          "Konuşmalar telefona göre misafirlerle otomatik eşleşir",
+          "Rezervasyon kaynağı ve acente takibi"
+        ]
+      },
+      "reports": {
+        "title": "Panolar ve raporlar",
+        "body": "Canlı operasyon panosundan gecelik raporlara kadar yöneticiler kapsama, yanıt ve AI metriklerini bir bakışta görür.",
+        "bullets": [
+          "Canlı pano: kapsama, ulaşım oranı, teslim, AI kullanımı",
+          "CRM, günlük, agent performansı ve yönetim raporları",
+          "Departman dökümü, en çok mesajlaşan odalar ve şikâyetler",
+          "Telefon kapsama ve etkileşim özetleri"
+        ]
+      },
+      "templates": {
+        "title": "WhatsApp şablonları",
+        "body": "Karşılama, bilgi, anket ve daha fazlası için önceden onaylı WhatsApp şablonları gönderin — değişkenler ve düğmelerle.",
+        "bullets": [
+          "Kategoriler: karşılama, kat hizmetleri, yiyecek-içecek, teknik, anket, bilgi, çıkış",
+          "Değişken yerleştirme",
+          "Hızlı yanıt ve liste düğmeleri",
+          "Kendi Meta onaylı şablonlarınız"
+        ]
+      },
+      "security": {
+        "title": "Roller ve güvenlik",
+        "body": "Ayrıntılı roller veriyi kapsamlı tutar ve bir BFF (back-end-for-front-end) proxy sayesinde tokenlar tarayıcıya hiç ulaşmaz.",
+        "bullets": [
+          "Roller: süper admin, otel admin, yönetici, agent",
+          "Çoklu otel, tamamen kiracı bazlı kapsam",
+          "JWT kimlik doğrulama ve yenileme token rotasyonu",
+          "Tokenlar BFF proxy ile sunucu tarafında tutulur"
+        ]
+      }
+    },
+    "note": "Dürüstlük notu: StayLine personel bildirimlerini 1:1 WhatsApp mesajı olarak gönderir (Cloud API grup gönderimini desteklemez) ve sohbet ile panolar şu an düzenli yoklama (polling) ile yenilenir. Abartmak yerine tam olarak ne yaptığını söylemeyi tercih ediyoruz."
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "İletişim",
+      "title": "StayLine'ı otelinize getirelim",
+      "subtitle": "Tesisinizden kısaca bahsedin, size özel bir demo ayarlayalım."
+    },
+    "emailHeading": "Bize e-posta gönderin",
+    "emailBody": "E-postayı mı tercih edersiniz? Doğrudan ulaşın, bir iş günü içinde dönüş yapalım.",
+    "demoHeading": "Demo isteyin",
+    "demoBody": "AI yanıtları ve talep yönlendirmeyi kendi otelinizden örneklerle adım adım gösterelim.",
+    "form": {
+      "name": "Adınız",
+      "hotel": "Otel adı",
+      "email": "E-posta",
+      "message": "Mesaj",
+      "submit": "Mesajı gönder",
+      "note": "Bu, mesaj önceden doldurulmuş şekilde e-posta uygulamanızı açar — info@stayline.net adresine gönderilir.",
+      "successTitle": "Neredeyse tamam",
+      "successBody": "E-posta uygulamanız mesaj gönderilmeye hazır şekilde açılmış olmalı. Açılmadıysa info@stayline.net adresine yazın.",
+      "mailSubject": "StayLine demo talebi — {hotel}"
+    }
+  },
+  "faq": {
+    "hero": {
+      "eyebrow": "SSS",
+      "title": "Sorular, yanıtlandı",
+      "subtitle": "StayLine'a başlamadan önce bilmek isteyebileceğiniz her şey."
+    },
+    "items": [
+      {
+        "q": "StayLine nedir?",
+        "a": "StayLine, otelinizin misafir iletişimini WhatsApp üzerinden yürüten bir platformdur. AI yanıt taslakları hazırlar, her talebi sınıflandırır ve doğru vardiyadaki personeli bilgilendirir; üstüne panolar ve raporlar sunar."
+      },
+      {
+        "q": "Misafirlerin uygulama yüklemesi gerekir mi?",
+        "a": "Hayır. Misafirler zaten ellerinde olan WhatsApp ile otelinizin numarasına yazar — indirilecek bir şey yok."
+      },
+      {
+        "q": "Hangi WhatsApp API'sini kullanıyorsunuz?",
+        "a": "Resmi Meta WhatsApp Cloud API. Kendi doğrulanmış WhatsApp Business numaranızı ve Meta onaylı mesaj şablonlarınızı bağlarsınız."
+      },
+      {
+        "q": "AI otomatik mi yanıtlar yoksa sadece öneri mi sunar?",
+        "a": "İkisi de — seçim sizin. AI, personelin tek dokunuşla göndereceği taslaklar hazırlayabilir ya da otomatik yanıtlayabilir. Otel ve konuşma bazında açıp kapatabilirsiniz."
+      },
+      {
+        "q": "Hangi diller destekleniyor?",
+        "a": "Misafirler kendi dilinde yazabilir. StayLine dili algılar ve mesajları her iki yöne çevirir; hem orijinali hem çevirisini saklar."
+      },
+      {
+        "q": "Personel taleplerden nasıl haberdar olur?",
+        "a": "Bir mesaj geldiğinde AI onu sınıflandırır ve o departmanın vardiyadaki personeli talebi WhatsApp mesajı olarak alır. Vardiyada kimse yoksa önce departman telefonuna, sonra yöneticilere düşer."
+      },
+      {
+        "q": "Verimiz güvende mi ve nerede saklanıyor?",
+        "a": "Erişim otel bazında rollerle kapsamlıdır, kimlik doğrulama sunucu tarafında tutulan kısa ömürlü tokenlar kullanır ve işleme güvenilir sağlayıcılara dayanır (WhatsApp için Meta, AI için Anthropic). Ayrıntılar için Gizlilik Politikamıza bakın."
+      },
+      {
+        "q": "PMS misafir listemizi içe aktarabilir mi?",
+        "a": "Evet. Misafirleri PMS dışa aktarımınızdan toplu olarak içe aktarabilirsiniz ve konuşmalar telefon numarasına göre misafirlerle otomatik eşleşir."
+      },
+      {
+        "q": "Kendi WhatsApp numaramızı ve şablonlarımızı kullanabilir miyiz?",
+        "a": "Evet. StayLine sizin doğrulanmış WhatsApp Business numaranızı ve Meta onaylı şablonlarınızı kullanır."
+      },
+      {
+        "q": "WhatsApp grup mesajlaşması var mı?",
+        "a": "Hayır. WhatsApp Cloud API gruplara gönderimi desteklemez; bu nedenle personel bildirimleri 1:1 mesaj olarak iletilir."
+      },
+      {
+        "q": "Nasıl başlarız?",
+        "a": "Bir demo isteyin; WhatsApp numaranızı bağlamanıza, misafirleri içe aktarmanıza ve departmanlar ile vardiyaları yapılandırmanıza yardımcı olalım."
+      }
+    ]
+  },
+  "legal": {
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "lastUpdated": "Son güncelleme: 12 Haziran 2026",
+      "intro": [
+        "Bu Gizlilik Politikası, oteller platformumuzu misafirleriyle WhatsApp üzerinden iletişim kurmak için kullandığında StayLine'ın (\"StayLine\", \"biz\") kişisel verileri nasıl topladığını, kullandığını ve koruduğunu açıklar.",
+        "StayLine, İsmail Akkul (Red X Eight) tarafından işletilir. Çoğu misafir kişisel verisi için StayLine'ı kullanan otel veri sorumlusudur ve StayLine otel adına veri işleyen olarak hareket eder. Kendi web sitesi ziyaretçilerimiz ve hesap sahiplerimiz için ise veri sorumlusu StayLine'dır.",
+        "Bu politikayla ilgili sorularınız varsa veya haklarınızı kullanmak istiyorsanız info@stayline.net adresinden bize ulaşın."
+      ],
+      "sections": [
+        {
+          "heading": "Kim olduğumuz ve rolümüz",
+          "body": [
+            "StayLine bir otel misafir iletişim platformudur. Oteller WhatsApp Business numaralarını bağlar ve StayLine'ı misafir mesajlarını almak, AI yardımıyla yanıtlamak, talepleri personele yönlendirmek ve analitiği görüntülemek için kullanır.",
+            "Bir otel misafirlerinin kişisel verilerini StayLine aracılığıyla işlediğinde, otel veri sorumlusudur ve bu verilerin neden ve nasıl kullanılacağına karar verir. StayLine bunu otelin talimatları doğrultusunda veri işleyen olarak işler."
+          ]
+        },
+        {
+          "heading": "Topladığımız veriler",
+          "body": [
+            "Otelin StayLine'ı nasıl kullandığına bağlı olarak aşağıdaki kişisel veri kategorilerini işleyebiliriz:"
+          ],
+          "bullets": [
+            "Misafir profil verileri: ad ve soyad, telefon numarası, e-posta, uyruk, doğum tarihi, oda numarası, giriş ve çıkış tarihleri, rezervasyon numarası, acente veya rezervasyon kaynağı, VIP durumu ve serbest metin notları.",
+            "Konuşma verileri: WhatsApp iletişim tanımlayıcısı (telefon numarası), mesaj içeriği (orijinal ve çevrilmiş), medya referansları, mesaj durumu ve zaman damgaları ve bir mesajın AI tarafından üretilip üretilmediği.",
+            "Personel / hesap verileri: kullanıcı adı, ad, e-posta, rol, bildirimler için WhatsApp telefonu ve son giriş.",
+            "Web sitemiz için teknik veriler: siteyi sunmak ve güvende tutmak için gereken temel istek bilgileri."
+          ]
+        },
+        {
+          "heading": "Verileri nasıl kullanırız",
+          "body": [
+            "Kişisel verileri hizmeti işletmek için kullanırız: WhatsApp mesajlarını iletmek ve çevirmek, AI yanıt önerileri üretmek, talepleri sınıflandırıp doğru personele yönlendirmek, konuşmaları misafirlerle eşleştirmek ve otel için panolar ve raporlar üretmek. Hesap sahipleri için verileri erişim, güvenlik ve destek sağlamak amacıyla kullanırız."
+          ]
+        },
+        {
+          "heading": "Hukuki dayanaklar",
+          "body": [
+            "GDPR'nin uygulandığı yerlerde işleme; meşru menfaatlere (hizmeti işletmek ve güvenceye almak), bir sözleşmenin ifasına (platformu otele sağlamak) ve gerektiğinde otelin misafirlerinden aldığı açık rızaya dayanır. Türk KVKK'nın uygulandığı yerlerde, sözleşmenin ifası ve meşru menfaatlerimiz de dâhil olmak üzere ilgili hukuki sebeplere dayanarak veri işleriz.",
+            "WhatsApp mesajlaşması için yürürlükteki mevzuat ve Meta'nın WhatsApp Business politikaları uyarınca gereken misafir rızasını almaktan oteller sorumludur."
+          ]
+        },
+        {
+          "heading": "WhatsApp ve Meta",
+          "body": [
+            "Mesajlaşma, Meta WhatsApp Cloud API aracılığıyla iletilir. Mesaj içeriği ve telefon numaraları, mesajların gönderilip alınması için Meta Platforms tarafından işlenir. WhatsApp kullanımınız ayrıca Meta'nın ve WhatsApp'ın kendi şartlarına ve gizlilik politikalarına tabidir."
+          ]
+        },
+        {
+          "heading": "AI işleme",
+          "body": [
+            "Yanıt önerileri, talep sınıflandırma ve çeviri, Anthropic tarafından sağlanan bir AI hizmeti olan Claude kullanılarak gerçekleştirilir. Bu çıktıları üretmek için ilgili mesaj içeriği ve sınırlı misafir bağlamı Anthropic'e gönderilir. Misafir verilerini, kendi modellerimiz veya üçüncü taraf temel modeller dâhil hiçbir AI modelini eğitmek için kullanmayız."
+          ]
+        },
+        {
+          "heading": "Alt veri işleyenler",
+          "body": [
+            "StayLine'ı çalıştırmak için sınırlı sayıda hizmet sağlayıcıya güveniriz:"
+          ],
+          "bullets": [
+            "Meta Platforms — WhatsApp Cloud API mesaj iletimi.",
+            "Anthropic — yanıt üretimi, sınıflandırma ve çeviri için Claude AI.",
+            "Barındırma ve altyapı sağlayıcımız — Hostinger (Avrupa — Almanya) — uygulama barındırma ve veritabanları için."
+          ]
+        },
+        {
+          "heading": "Verilerin paylaşımı",
+          "body": [
+            "Kişisel verileri satmayız. Yalnızca hizmeti sağlamak için gereken ölçüde yukarıdaki alt veri işleyenlerle, verileri kontrol eden otelle ve yasaların gerektirdiği durumlarda paylaşırız."
+          ]
+        },
+        {
+          "heading": "Veri saklama",
+          "body": [
+            "Kişisel verileri, otel hesabını sürdürdüğü sürece ve hizmeti sağlamak için gerektiği kadar, yasa daha uzun bir süre gerektirmediği sürece saklarız. Oteller misafir kayıtlarını güncelleyebilir veya kaldırabilir ve silme talepleri info@stayline.net adresine gönderilebilir."
+          ]
+        },
+        {
+          "heading": "Güvenlik",
+          "body": [
+            "Otel bazında kapsamlı rol tabanlı erişim, sunucu tarafında tutulan kısa ömürlü kimlik doğrulama tokenları ve şifreli bağlantılar dâhil uygun teknik ve idari önlemleri uygularız. Hiçbir sistem tamamen güvenli değildir, ancak verileri yetkisiz erişime, kayba veya kötüye kullanıma karşı korumak için çalışırız."
+          ]
+        },
+        {
+          "heading": "Haklarınız",
+          "body": [
+            "Yürürlükteki mevzuata tabi olarak kişiler; kişisel verilerine erişim, düzeltme, silme, işlemenin kısıtlanması veya işlemeye itiraz ve veri taşınabilirliği talep edebilir. Misafir verilerinin sorumlusu genellikle otel olduğundan, misafir taleplerini ilgili otele yönlendirebilir veya otelin talimatları doğrultusunda hareket edebiliriz."
+          ],
+          "bullets": [
+            "Haklarınızı kullanmak için info@stayline.net adresine e-posta gönderin.",
+            "Misafirler ayrıca konakladıkları otelle de iletişime geçebilir."
+          ]
+        },
+        {
+          "heading": "Uluslararası aktarımlar",
+          "body": [
+            "Sağlayıcılarımız verileri kendi ülkeniz dışındaki ülkelerde işleyebilir. Gerektiğinde, uluslararası aktarımlar için standart sözleşme hükümleri gibi uygun güvencelere dayanırız."
+          ]
+        },
+        {
+          "heading": "Çerezler",
+          "body": [
+            "Bu tanıtım web sitesi bilinçli olarak sadedir ve reklam veya izleme çerezleri kullanmaz. Uygulama, oturumunuzu açık tutmak için yalnızca kesinlikle gerekli çerezleri veya tokenları kullanabilir."
+          ]
+        },
+        {
+          "heading": "Çocukların verileri",
+          "body": [
+            "StayLine otel operasyonları için bir araçtır ve çocuklara yönelik değildir. Çocuklardan bilerek kişisel veri toplamayız."
+          ]
+        },
+        {
+          "heading": "Bu politikadaki değişiklikler",
+          "body": [
+            "Bu politikayı zaman zaman güncelleyebiliriz. Yukarıdaki \"son güncelleme\" tarihini düzenler ve uygun olduğunda otellere önemli değişiklikleri bildiririz."
+          ]
+        },
+        {
+          "heading": "İletişim",
+          "body": [
+            "Her türlü gizlilik sorusu veya talebi için info@stayline.net adresine ulaşın."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Hizmet Şartları",
+      "lastUpdated": "Son güncelleme: 12 Haziran 2026",
+      "intro": [
+        "Bu Hizmet Şartları (\"Şartlar\"), İsmail Akkul (Red X Eight) tarafından işletilen StayLine platformuna ve web sitesine erişiminizi ve bunları kullanımınızı düzenler (\"StayLine\", \"biz\").",
+        "StayLine'a erişerek veya onu kullanarak bu Şartları kabul etmiş olursunuz. Kabul etmiyorsanız hizmeti kullanmayın."
+      ],
+      "sections": [
+        {
+          "heading": "Hizmet",
+          "body": [
+            "StayLine, Meta WhatsApp Cloud API'ye bağlanan ve yanıtlar, talep sınıflandırma ve yönlendirme ile misafir yönetimi ve raporlama özelliklerine AI yardımı sağlayan bir otel misafir iletişim platformudur."
+          ]
+        },
+        {
+          "heading": "Hesaplar ve uygunluk",
+          "body": [
+            "Doğru hesap bilgileri sağlamalısınız ve kimlik bilgilerinizi korumaktan ve hesabınız altındaki tüm etkinlikten sorumlusunuz. Temsil ettiğiniz oteli veya kuruluşu bağlama yetkisine sahip olmalısınız."
+          ]
+        },
+        {
+          "heading": "Kabul edilebilir kullanım",
+          "body": [
+            "Hizmeti; hukuka aykırı, aldatıcı veya istenmeyen mesajlar göndererek, başkalarının haklarını ihlal ederek, platformu bozmaya veya tersine mühendislik yapmaya çalışarak ya da Meta'nın veya WhatsApp'ın politikalarını ihlal etmek için kullanarak kötüye kullanmamayı kabul edersiniz."
+          ]
+        },
+        {
+          "heading": "Müşteri sorumlulukları",
+          "body": [
+            "WhatsApp mesajlaşmasını kullanımınızdan siz sorumlusunuz; bu, yürürlükteki mevzuatın gerektirdiği misafir rızasını almayı ve WhatsApp Business Mesajlaşma Politikası ile Meta'nın şartlarına uymayı içerir. Yüklediğiniz misafir verilerinin doğruluğundan ve hukuka uygunluğundan ve AI ile otomatik mesajlaşmayı misafirleriniz için uygun şekilde yapılandırmaktan sorumlusunuz.",
+            "Pazarlama veya tanıtım mesajları gönderirken, önce otelinizin adının açıkça belirtildiği geçerli bir onay (opt-in) almalısınız. Abonelikten çıkma (opt-out) taleplerine derhal uymalı ve çıkış yapan misafirlere mesaj göndermeyi durdurmalısınız; ayrıca pazarlama mesajlarının, WhatsApp Business Mesajlaşma Politikası ile uyumlu olarak açıkça bu nitelikte tanınabilir olmasını sağlamalısınız."
+          ]
+        },
+        {
+          "heading": "Üçüncü taraf hizmetler",
+          "body": [
+            "StayLine, Meta WhatsApp Cloud API ve Anthropic'in Claude AI'ı dâhil üçüncü taraf hizmetlere dayanır. Bu hizmetleri StayLine aracılığıyla kullanımınız ayrıca onların ilgili şart ve politikalarına tabidir. Üçüncü taraf hizmetlerin kullanılabilirliğinden veya eylemlerinden sorumlu değiliz."
+          ]
+        },
+        {
+          "heading": "Fikri mülkiyet",
+          "body": [
+            "StayLine ve yazılımı, tasarımı ve içeriği İsmail Akkul'a (Red X Eight) aittir ve yasalarla korunur. Aboneliğiniz süresince hizmeti kullanmanız için sınırlı, münhasır olmayan, devredilemez bir hak veririz. Kendi verileriniz üzerindeki haklarınız sizde kalır."
+          ]
+        },
+        {
+          "heading": "Ücretler",
+          "body": [
+            "StayLine'a erişim bir abonelik gerektirebilir. Ücretler, faturalandırma koşulları ve planlar bizimle yapılan siparişinizde veya sözleşmenizde belirtilir."
+          ]
+        },
+        {
+          "heading": "Sorumluluk reddi",
+          "body": [
+            "Hizmet, yasaların izin verdiği ölçüde herhangi bir garanti olmaksızın \"olduğu gibi\" ve \"mevcut olduğu şekilde\" sağlanır. AI tarafından üretilen öneriler hatalı olabilir; uygun olduğu durumlarda mesajları gönderilmeden önce gözden geçirmekten siz sorumlusunuz. Kesintisiz veya hatasız çalışmayı garanti etmeyiz."
+          ]
+        },
+        {
+          "heading": "Sorumluluğun sınırlandırılması",
+          "body": [
+            "Yasaların izin verdiği azami ölçüde StayLine ve tedarikçileri; dolaylı, arızi, özel, sonuç olarak ortaya çıkan veya cezai zararlardan ya da kâr veya veri kaybından sorumlu olmayacaktır. Herhangi bir talep için toplam sorumluluğumuz, talepten önceki 12 ayda hizmet için ödediğiniz tutarlarla sınırlıdır."
+          ]
+        },
+        {
+          "heading": "Tazminat",
+          "body": [
+            "Hizmeti kullanımınızdan, içeriğinizden veya bu Şartları ya da mesajlaşma ve veri koruma yasaları dâhil yürürlükteki mevzuatı ihlalinizden doğan taleplere karşı StayLine'ı tazmin etmeyi ve zarar görmemesini sağlamayı kabul edersiniz."
+          ]
+        },
+        {
+          "heading": "Fesih",
+          "body": [
+            "Hizmeti kullanmayı istediğiniz zaman bırakabilirsiniz. Bu Şartları ihlal etmeniz hâlinde ya da hizmeti korumak veya yasalara uymak için gerekli olduğunda erişimi askıya alabilir veya sonlandırabiliriz. Fesih üzerine hizmeti kullanma hakkınız sona erer."
+          ]
+        },
+        {
+          "heading": "Geçerli hukuk",
+          "body": [
+            "Bu Şartlar, kanunlar ihtilafı kurallarına bakılmaksızın Türkiye Cumhuriyeti yasalarına tabidir. Emredici hukuk aksini gerektirmedikçe Antalya (Türkiye) mahkemeleri ve icra daireleri yetkili olacaktır."
+          ]
+        },
+        {
+          "heading": "Bu Şartlardaki değişiklikler",
+          "body": [
+            "Bu Şartları zaman zaman güncelleyebiliriz. \"Son güncelleme\" tarihini düzenler ve uygun olduğunda sizi bilgilendiririz. Değişikliklerden sonra kullanmaya devam etmeniz güncellenen Şartları kabul ettiğiniz anlamına gelir."
+          ]
+        },
+        {
+          "heading": "İletişim",
+          "body": [
+            "Bu Şartlarla ilgili sorular mı var? info@stayline.net adresine ulaşın."
+          ]
+        }
+      ]
+    },
+    "dataDeletion": {
+      "title": "Veri Silme",
+      "lastUpdated": "Son güncelleme: 12 Haziran 2026",
+      "intro": [
+        "Bu sayfa, StayLine ile ilişkili kişisel verilerin silinmesinin nasıl talep edileceğini açıklar.",
+        "StayLine, oteller adına otel misafir verilerini işler. Çoğu durumda veriyi toplayan otel veri sorumlusudur ve biz onun talimatları doğrultusunda hareket ederiz."
+      ],
+      "sections": [
+        {
+          "heading": "E-posta ile silme talebi",
+          "body": [
+            "Kişisel verilerinizin silinmesini talep etmek için info@stayline.net adresine bir e-posta gönderin. Doldurulacak bir form yok — basit bir e-posta yeterli.",
+            "Lütfen talebi doğrulayabilmemiz ve verilerinizi bulabilmemiz için yeterli ayrıntıyı ekleyin."
+          ],
+          "bullets": [
+            "E-posta: info@stayline.net",
+            "Talebin hangi veriyi veya hesabı ilgilendirdiğini belirtin (örneğin adınız ve ilgili otel).",
+            "Talebi doğrulayabilmemiz için sizi tanımlamamıza yetecek bilgileri ekleyin."
+          ]
+        },
+        {
+          "heading": "Sonrasında ne olur",
+          "body": [
+            "Talebinizi alacak ve yürürlükteki mevzuata uygun şekilde işleme koyacağız. StayLine'ın veri işleyen olduğu durumlarda, talebi veriyi kontrol eden otele iletebilir veya onunla teyit edebiliriz. Yasa gereği saklamamız gerekmedikçe ilgili kişisel verileri sileriz veya anonimleştiririz.",
+            "Talebinizi genellikle 5 iş günü içinde yanıtlamayı ve silme veya anonimleştirme işlemini 30 gün içinde tamamlamayı hedefleriz. StayLine'ın veri işleyen olarak hareket ettiği durumlarda bu süre, veriyi kontrol eden otele bağlı olabilir ve yasanın gerektirdiği hâllerde daha uzun bir süre uygulanabilir."
+          ]
+        },
+        {
+          "heading": "StayLine kullanan oteller",
+          "body": [
+            "Bir StayLine müşterisiyseniz (bir otel), misafir kayıtlarını doğrudan hesabınızdan da silebilir veya güncelleyebilirsiniz. Yardım için info@stayline.net adresine ulaşın."
+          ]
+        }
+      ]
+    }
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "body": "Aradığınız sayfa mevcut değil ya da taşınmış olabilir.",
+    "cta": "Ana sayfaya dön"
+  },
+  "meta": {
+    "home": {
+      "title": "StayLine — WhatsApp üzerinden otel misafir iletişimi",
+      "description": "Misafir konuşmalarını WhatsApp'ta AI yanıtlar, vardiyadaki personele otomatik talep yönlendirme ve analitik ile yürütün. Meta WhatsApp Cloud API ve Claude AI üzerine kuruludur."
+    },
+    "features": {
+      "title": "Özellikler",
+      "description": "AI yanıtlar, akıllı talep yönlendirme, çok dilli mesajlaşma, vardiyalar, misafir yönetimi, raporlama ve WhatsApp şablonları — otel operasyonu için tasarlandı."
+    },
+    "contact": {
+      "title": "İletişim",
+      "description": "Oteliniz için size özel bir StayLine demosu isteyin ya da info@stayline.net adresine e-posta gönderin."
+    },
+    "faq": {
+      "title": "SSS",
+      "description": "StayLine hakkında yanıtlar: WhatsApp Cloud API, AI yanıtlar, diller, personel bildirimleri, veri güvenliği ve başlangıç."
+    },
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "description": "StayLine'ın WhatsApp üzerinden otel misafir iletişimi için kişisel verileri nasıl topladığı, kullandığı ve koruduğu."
+    },
+    "terms": {
+      "title": "Hizmet Şartları",
+      "description": "StayLine platformuna ve web sitesine erişimi ve kullanımı düzenleyen şartlar."
+    },
+    "dataDeletion": {
+      "title": "Veri Silme",
+      "description": "StayLine ile ilişkili kişisel verilerin silinmesi nasıl talep edilir — info@stayline.net adresine e-posta gönderin."
+    }
+  }
+}

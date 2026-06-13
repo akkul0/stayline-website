@@ -1,0 +1,238 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* next-themes uses attribute="class" → adds `light` / `dark` to <html>.
+   This custom variant makes `dark:` utilities resolve under the `.dark` class. */
+@custom-variant dark (&:is(.dark *));
+
+/* ============================================================
+   StayLine design tokens — LIGHT + DARK.
+   The dark ramp is ported verbatim from the product app
+   (guestflow-web). The light palette is the new, brand-matched
+   set designed for the marketing site.
+
+   Brand teal + status colors are SHARED across themes (defined
+   once in :root). Only surfaces / text / borders / elevation
+   change between light (:root) and dark (.dark).
+   ============================================================ */
+:root {
+  /* ---- brand: desaturated teal (SHARED) ---- */
+  --brand-300: #7fd9d2;
+  --brand-400: #46bdb4;
+  --brand-500: #2ba59c;
+  --brand-600: #1e847d;
+
+  /* ---- status (SHARED, muted) ---- */
+  --status-green: #3fb97a;
+  --status-amber: #d99a2b;
+  --status-red: #d9594c;
+  --status-blue: #4a90c2;
+  --status-violet: #9b8ccb;
+
+  /* ---- LIGHT surfaces (white / near-white, faint cool tint) ---- */
+  --surface-0: #ffffff; /* page background */
+  --surface-1: #ffffff; /* cards */
+  --surface-2: #f6f8fa; /* raised / subtle fill */
+  --surface-3: #eef2f6; /* inputs, hover */
+
+  /* ---- LIGHT text (slate-derived, AA on white) ---- */
+  --text-strong: #0f1923;
+  --text-body: #3a4859;
+  --text-dim: #5b6b7c;
+  --text-faint: #8593a1;
+
+  /* ---- LIGHT borders (dark-on-light, low alpha) ---- */
+  --border-subtle: rgba(15, 25, 35, 0.08);
+  --border-strong: rgba(15, 25, 35, 0.14);
+
+  /* brand reads better in the deeper ramp on a white background */
+  --brand: var(--brand-500);
+  --brand-strong: var(--brand-600);
+  --brand-deep: var(--brand-600);
+  --accent-soft: rgba(43, 165, 156, 0.1);
+  --accent-border: rgba(43, 165, 156, 0.22);
+  --on-accent: #ffffff; /* text on a teal button (light) */
+  --bg: var(--surface-0);
+
+  /* tinted elevation (light) — soft, cool, NO neon glow */
+  --elev-sm: 0 1px 2px rgba(15, 25, 35, 0.06);
+  --elev-md: 0 6px 20px rgba(15, 25, 35, 0.08);
+  --elev-lg: 0 16px 48px rgba(15, 25, 35, 0.12);
+}
+
+.dark {
+  /* ---- primitives: neutral slate dark ramp (tinted, not pure black) ---- */
+  --slate-950: #0b0f14;
+  --slate-900: #11161d;
+  --slate-850: #161c25;
+  --slate-800: #1c2430;
+  --slate-700: #2a3645;
+  --slate-600: #3a4859;
+  --slate-500: #566273;
+  --ink-100: #e7edf2;
+  --ink-300: #9fb1c0;
+  --ink-500: #8593a1;
+  --ink-700: #47586a;
+
+  --surface-0: var(--slate-950);
+  --surface-1: var(--slate-900);
+  --surface-2: var(--slate-850);
+  --surface-3: var(--slate-800);
+
+  --text-strong: var(--ink-100);
+  --text-body: var(--ink-300);
+  --text-dim: var(--ink-500);
+  --text-faint: var(--ink-700);
+
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-strong: rgba(255, 255, 255, 0.1);
+
+  /* brighter teal reads better on dark */
+  --brand: var(--brand-400);
+  --brand-strong: var(--brand-500);
+  --brand-deep: var(--brand-600);
+  --accent-soft: rgba(70, 189, 180, 0.12);
+  --accent-border: rgba(70, 189, 180, 0.22);
+  --on-accent: #0b0f14; /* dark text on teal button (dark) */
+  --bg: var(--surface-0);
+
+  --elev-sm: 0 1px 2px rgba(8, 12, 18, 0.45);
+  --elev-md: 0 6px 20px rgba(8, 12, 18, 0.5);
+  --elev-lg: 0 16px 48px rgba(8, 12, 18, 0.6);
+}
+
+/* ============================================================
+   @theme inline — bind CSS vars to Tailwind utilities ONCE.
+   Because each --color-* points at a semantic var that is
+   redefined inside .dark, utilities (bg-surface-1, text-text-strong,
+   text-brand, shadow-md, rounded-lg ...) flip with the theme
+   automatically — no `dark:` variants needed for tokens.
+   ============================================================ */
+@theme inline {
+  --font-sans: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+
+  --color-bg: var(--bg);
+  --color-surface-0: var(--surface-0);
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+
+  --color-text-strong: var(--text-strong);
+  --color-text-body: var(--text-body);
+  --color-text-dim: var(--text-dim);
+  --color-text-faint: var(--text-faint);
+
+  --color-brand: var(--brand);
+  --color-brand-300: var(--brand-300);
+  --color-brand-400: var(--brand-400);
+  --color-brand-500: var(--brand-500);
+  --color-brand-600: var(--brand-600);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-deep: var(--brand-deep);
+  --color-on-accent: var(--on-accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-border: var(--accent-border);
+  --color-border-subtle: var(--border-subtle);
+  --color-border-strong: var(--border-strong);
+
+  --color-ok: var(--status-green);
+  --color-warn: var(--status-amber);
+  --color-err: var(--status-red);
+  --color-info: var(--status-blue);
+  --color-violet: var(--status-violet);
+
+  /* radius scale 6/8/10/12/16/20 */
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+
+  /* theme-aware elevation (overrides Tailwind defaults) */
+  --shadow-sm: var(--elev-sm);
+  --shadow-md: var(--elev-md);
+  --shadow-lg: var(--elev-lg);
+}
+
+@layer base {
+  * {
+    border-color: var(--border-subtle);
+  }
+  html,
+  body {
+    height: 100%;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--bg);
+    color: var(--text-body);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* scrollbar (subtle, theme-aware) */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--border-strong);
+    border-radius: 10px;
+    border: 3px solid transparent;
+    background-clip: padding-box;
+  }
+  ::selection {
+    background: var(--accent-soft);
+    color: var(--text-strong);
+  }
+}
+
+/* Soft moving aurora used in the hero. Frozen under reduced-motion. */
+@keyframes sl-aurora {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(2%, -3%, 0) scale(1.08);
+  }
+}
+
+/* Radix accordion open/close height transitions. */
+@keyframes sl-acc-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+@keyframes sl-acc-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

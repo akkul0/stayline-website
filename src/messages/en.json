@@ -1,0 +1,566 @@
+{
+  "nav": {
+    "features": "Features",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "dataDeletion": "Data Deletion",
+    "cta": "Request a demo",
+    "toggleTheme": "Toggle theme",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "footer": {
+    "tagline": "Hotel guest communication on WhatsApp — AI replies, automatic request routing and analytics in one platform.",
+    "product": "Product",
+    "legal": "Legal",
+    "rights": "StayLine. All rights reserved.",
+    "builtOn": "Built on the Meta WhatsApp Cloud API and Claude AI."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Hotel guest communication on WhatsApp",
+      "title": "Every guest conversation on WhatsApp, with AI doing the heavy lifting",
+      "subtitle": "StayLine connects your hotel to guests over WhatsApp, drafts smart replies with AI, and routes every request to the right on-shift staff — automatically.",
+      "ctaPrimary": "Request a demo",
+      "ctaSecondary": "Explore features",
+      "trust": "Built on the official Meta WhatsApp Cloud API and Claude AI."
+    },
+    "preview": {
+      "online": "Online now",
+      "guestMsg": "Hi, the air conditioning in room 412 isn't working and it's quite warm.",
+      "aiLabel": "AI suggested reply",
+      "aiReply": "So sorry about that! I've alerted our technical team — someone will be at room 412 within 15 minutes.",
+      "orderTitle": "New request",
+      "orderDept": "Technical · Room 412",
+      "orderUrgency": "High",
+      "orderMeta": "Air conditioning not working — guest reports a warm room.",
+      "orderSent": "Sent to on-shift technical staff"
+    },
+    "pillars": {
+      "eyebrow": "Why StayLine",
+      "title": "Everything your front office needs on one channel",
+      "subtitle": "Guests already use WhatsApp. StayLine turns it into a fast, organized, AI-assisted operation.",
+      "aiReplies": {
+        "title": "AI-powered replies",
+        "body": "Claude reads the recent conversation and guest context to suggest — or auto-send — accurate replies. Toggle AI per hotel and per conversation."
+      },
+      "routing": {
+        "title": "Automatic request routing",
+        "body": "Every message is classified and the matching on-shift staff member is notified on WhatsApp, so requests reach the right department without manual triage."
+      },
+      "multilingual": {
+        "title": "Multilingual by default",
+        "body": "Guests write in their own language. StayLine detects it and translates both ways, keeping the original and the translation."
+      },
+      "analytics": {
+        "title": "Analytics that matter",
+        "body": "Live dashboards and reports for coverage, response, AI usage, departments and complaints — so managers see the full picture."
+      }
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "From a guest message to a resolved request",
+      "subtitle": "Four steps, fully automatic — your staff only steps in where it counts.",
+      "steps": [
+        {
+          "title": "Guest messages on WhatsApp",
+          "body": "A guest writes to your hotel number in any language — no app to install."
+        },
+        {
+          "title": "AI understands & classifies",
+          "body": "Claude detects the language, drafts a reply, and tags the category, urgency and department."
+        },
+        {
+          "title": "The right staff is notified",
+          "body": "On-shift staff for that department get the request on WhatsApp instantly, with smart fallbacks."
+        },
+        {
+          "title": "Resolved & reported",
+          "body": "The team handles it, and every interaction flows into your dashboards and daily reports."
+        }
+      ]
+    },
+    "featuresOverview": {
+      "eyebrow": "Features",
+      "title": "A complete toolkit for guest messaging",
+      "subtitle": "From AI replies to shift-aware routing, reporting and PMS import — built for hotel operations.",
+      "cta": "See all features"
+    },
+    "builtOn": {
+      "eyebrow": "A trusted foundation",
+      "title": "Official APIs, enterprise-grade AI",
+      "subtitle": "StayLine doesn't reinvent the wheel — it builds on platforms you can rely on.",
+      "whatsapp": {
+        "title": "Meta WhatsApp Cloud API",
+        "body": "The official WhatsApp Business platform. Use your own verified number and Meta-approved message templates."
+      },
+      "claude": {
+        "title": "Claude AI by Anthropic",
+        "body": "Reply drafting, request classification and translation are powered by Claude — configurable per hotel."
+      }
+    },
+    "cta": {
+      "title": "See StayLine on your hotel's WhatsApp",
+      "subtitle": "Book a short demo and we'll show you AI replies and request routing with your own use cases.",
+      "button": "Request a demo"
+    }
+  },
+  "features": {
+    "hero": {
+      "eyebrow": "Features",
+      "title": "Run guest communication like a fully-staffed front desk — at any hour",
+      "subtitle": "Every StayLine feature is grounded in real hotel operations: WhatsApp, AI, shifts, guests and reporting working together."
+    },
+    "items": {
+      "aiReplies": {
+        "title": "AI replies & suggestions",
+        "body": "Claude uses the last messages plus guest context (name, room, stay dates, nationality, language) to draft replies. Send with one tap, or let AI auto-reply.",
+        "bullets": [
+          "Suggest or auto-send — your choice",
+          "Toggle per hotel and per conversation",
+          "Custom system prompt and model per hotel",
+          "Replies stay short and on-brand"
+        ]
+      },
+      "routing": {
+        "title": "Smart request routing",
+        "body": "Each inbound message is classified and routed to the on-shift staff of the right department over WhatsApp — automatically.",
+        "bullets": [
+          "Category, urgency and department detected automatically",
+          "Notifies on-shift staff first, then department phone, then managers",
+          "Configurable minimum urgency to notify",
+          "Repeat notifications de-duplicated within 10 minutes"
+        ]
+      },
+      "multilingual": {
+        "title": "Multilingual messaging",
+        "body": "Guests write in their language; staff work in theirs. StayLine detects the language and translates in both directions.",
+        "bullets": [
+          "Automatic language detection",
+          "Two-way translation",
+          "Original and translated text both stored",
+          "Per-guest language preference"
+        ]
+      },
+      "shifts": {
+        "title": "Shifts & departments",
+        "body": "Model your real rota. Departments, shift windows and per-staff assignments decide who gets notified, right now.",
+        "bullets": [
+          "Departments: front desk, housekeeping, technical, F&B, management",
+          "Overnight- and timezone-aware shift windows",
+          "Staff-per-shift assignment matrix",
+          "Only on-shift staff are notified"
+        ]
+      },
+      "guests": {
+        "title": "Guest management & PMS import",
+        "body": "Keep rich guest profiles and match conversations to the right guest automatically by phone number.",
+        "bullets": [
+          "Profiles: name, phone, email, nationality, room, stay dates, VIP, notes",
+          "Bulk import from your PMS export",
+          "Conversations auto-matched to guests by phone",
+          "Booking source and agency tracking"
+        ]
+      },
+      "reports": {
+        "title": "Dashboards & reports",
+        "body": "From a live operations dashboard to nightly reports, managers get coverage, response and AI metrics at a glance.",
+        "bullets": [
+          "Live dashboard: coverage, reach rate, delivery, AI usage",
+          "CRM, daily, agent-performance and management reports",
+          "Department breakdown, top rooms and complaints",
+          "Phone-coverage and interaction summaries"
+        ]
+      },
+      "templates": {
+        "title": "WhatsApp templates",
+        "body": "Send pre-approved WhatsApp templates for welcome, info, surveys and more — with variables and buttons.",
+        "bullets": [
+          "Categories: welcome, housekeeping, F&B, technical, survey, info, checkout",
+          "Variable substitution",
+          "Quick-reply and list buttons",
+          "Your own Meta-approved templates"
+        ]
+      },
+      "security": {
+        "title": "Roles & security",
+        "body": "Granular roles keep data scoped, and tokens never reach the browser thanks to a back-end-for-front-end proxy.",
+        "bullets": [
+          "Roles: super admin, hotel admin, manager, agent",
+          "Multi-hotel, fully tenant-scoped",
+          "JWT auth with refresh-token rotation",
+          "Tokens kept server-side via a BFF proxy"
+        ]
+      }
+    },
+    "note": "A note on honesty: StayLine sends staff notifications as 1:1 WhatsApp messages (the Cloud API does not support group sending), and chat and dashboards currently refresh by polling. We'd rather tell you exactly what it does than over-promise."
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's bring StayLine to your hotel",
+      "subtitle": "Tell us a little about your property and we'll set up a personalized demo."
+    },
+    "emailHeading": "Email us",
+    "emailBody": "Prefer email? Reach us directly and we'll get back to you within one business day.",
+    "demoHeading": "Request a demo",
+    "demoBody": "We'll walk you through AI replies and request routing using examples from your own hotel.",
+    "form": {
+      "name": "Your name",
+      "hotel": "Hotel name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send message",
+      "note": "This opens your email app with the message pre-filled — sent to info@stayline.net.",
+      "successTitle": "Almost there",
+      "successBody": "Your email app should have opened with the message ready to send. If not, write to info@stayline.net.",
+      "mailSubject": "StayLine demo request — {hotel}"
+    }
+  },
+  "faq": {
+    "hero": {
+      "eyebrow": "FAQ",
+      "title": "Questions, answered",
+      "subtitle": "Everything you might want to know before getting started with StayLine."
+    },
+    "items": [
+      {
+        "q": "What is StayLine?",
+        "a": "StayLine is a platform that runs your hotel's guest communication over WhatsApp. It drafts AI replies, classifies each request and notifies the right on-shift staff, with dashboards and reports on top."
+      },
+      {
+        "q": "Do guests need to install an app?",
+        "a": "No. Guests use the WhatsApp they already have and message your hotel's number — nothing to download."
+      },
+      {
+        "q": "Which WhatsApp API do you use?",
+        "a": "The official Meta WhatsApp Cloud API. You connect your own verified WhatsApp Business number and Meta-approved message templates."
+      },
+      {
+        "q": "Does the AI reply automatically or just suggest?",
+        "a": "Both — it's your choice. AI can draft replies for staff to send with one tap, or auto-reply. You can toggle it per hotel and per conversation."
+      },
+      {
+        "q": "Which languages are supported?",
+        "a": "Guests can write in their own language. StayLine detects the language and translates messages in both directions, storing both the original and the translation."
+      },
+      {
+        "q": "How does staff get notified of requests?",
+        "a": "When a message arrives, AI classifies it and the on-shift staff for that department receive it as a WhatsApp message. If no one is on shift, it falls back to the department phone, then to managers."
+      },
+      {
+        "q": "Is our data secure and where is it stored?",
+        "a": "Access is role-scoped per hotel, authentication uses short-lived tokens kept server-side, and processing relies on trusted providers (Meta for WhatsApp, Anthropic for AI). See our Privacy Policy for details."
+      },
+      {
+        "q": "Can it import our PMS guest list?",
+        "a": "Yes. You can bulk-import guests from your PMS export, and conversations are matched to guests automatically by phone number."
+      },
+      {
+        "q": "Can we use our own WhatsApp number and templates?",
+        "a": "Yes. StayLine uses your verified WhatsApp Business number and your Meta-approved templates."
+      },
+      {
+        "q": "Is there WhatsApp group messaging?",
+        "a": "No. The WhatsApp Cloud API doesn't support sending to groups, so staff notifications are delivered as 1:1 messages."
+      },
+      {
+        "q": "How do we get started?",
+        "a": "Request a demo and we'll help you connect your WhatsApp number, import guests, and configure departments and shifts."
+      }
+    ]
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: 12 June 2026",
+      "intro": [
+        "This Privacy Policy explains how StayLine (\"StayLine\", \"we\", \"us\") collects, uses and protects personal data when hotels use our platform to communicate with their guests over WhatsApp.",
+        "StayLine is operated by İsmail Akkul (Red X Eight). For most guest personal data, the hotel using StayLine is the data controller and StayLine acts as a data processor on the hotel's behalf. For our own website visitors and account holders, StayLine is the controller.",
+        "If you have questions about this policy or want to exercise your rights, contact us at info@stayline.net."
+      ],
+      "sections": [
+        {
+          "heading": "Who we are and our role",
+          "body": [
+            "StayLine is a hotel guest-communication platform. Hotels connect their WhatsApp Business number and use StayLine to receive guest messages, reply with AI assistance, route requests to staff, and view analytics.",
+            "When a hotel processes its guests' personal data through StayLine, the hotel is the controller and decides why and how that data is used. StayLine processes it under the hotel's instructions as a processor."
+          ]
+        },
+        {
+          "heading": "Data we collect",
+          "body": [
+            "Depending on how the hotel uses StayLine, we may process the following categories of personal data:"
+          ],
+          "bullets": [
+            "Guest profile data: first and last name, phone number, email, nationality, date of birth, room number, check-in and check-out dates, reservation number, agency or booking source, VIP status and free-text notes.",
+            "Conversation data: WhatsApp contact identifier (phone number), message content (original and translated), media references, message status and timestamps, and whether a message was AI-generated.",
+            "Staff / account data: username, name, email, role, WhatsApp phone for notifications, and last login.",
+            "Technical data for our website: basic request information needed to serve and secure the site."
+          ]
+        },
+        {
+          "heading": "How we use data",
+          "body": [
+            "We use personal data to operate the service: to deliver and translate WhatsApp messages, generate AI reply suggestions, classify and route requests to the right staff, match conversations to guests, and produce dashboards and reports for the hotel. For account holders, we use data to provide access, security and support."
+          ]
+        },
+        {
+          "heading": "Legal bases",
+          "body": [
+            "Where the GDPR applies, processing relies on legitimate interests (operating and securing the service), the performance of a contract (providing the platform to the hotel), and, where required, consent obtained by the hotel from its guests. Where Turkish KVKK applies, we process data on the corresponding legal grounds, including the performance of a contract and our legitimate interests.",
+            "Hotels are responsible for obtaining any guest consent required for WhatsApp messaging under applicable law and Meta's WhatsApp Business policies."
+          ]
+        },
+        {
+          "heading": "WhatsApp and Meta",
+          "body": [
+            "Messaging is delivered through the Meta WhatsApp Cloud API. Message content and phone numbers are processed by Meta Platforms in order to send and receive messages. Your use of WhatsApp is also subject to Meta's and WhatsApp's own terms and privacy policies."
+          ]
+        },
+        {
+          "heading": "AI processing",
+          "body": [
+            "Reply suggestions, request classification and translation are performed using Claude, an AI service provided by Anthropic. Relevant message content and limited guest context are sent to Anthropic to generate these outputs. We do not use guest data to train any AI models, including our own or third-party foundation models."
+          ]
+        },
+        {
+          "heading": "Sub-processors",
+          "body": [
+            "We rely on a limited set of service providers to run StayLine:"
+          ],
+          "bullets": [
+            "Meta Platforms — WhatsApp Cloud API message delivery.",
+            "Anthropic — Claude AI for reply generation, classification and translation.",
+            "Our hosting and infrastructure provider — Hostinger (Europe — Germany) — for application hosting and databases."
+          ]
+        },
+        {
+          "heading": "Sharing data",
+          "body": [
+            "We do not sell personal data. We share it only with the sub-processors above as needed to provide the service, with the hotel that controls the data, and where required by law."
+          ]
+        },
+        {
+          "heading": "Data retention",
+          "body": [
+            "We retain personal data for as long as the hotel maintains its account and as needed to provide the service, unless a longer period is required by law. Hotels can update or remove guest records, and deletion requests can be sent to info@stayline.net."
+          ]
+        },
+        {
+          "heading": "Security",
+          "body": [
+            "We apply appropriate technical and organizational measures, including role-based access scoped per hotel, short-lived authentication tokens kept server-side, and encrypted connections. No system is perfectly secure, but we work to protect data against unauthorized access, loss or misuse."
+          ]
+        },
+        {
+          "heading": "Your rights",
+          "body": [
+            "Subject to applicable law, individuals may request access to their personal data, correction, deletion, restriction or objection to processing, and data portability. Because the hotel is usually the controller of guest data, we may direct guest requests to the relevant hotel, or act on the hotel's instructions."
+          ],
+          "bullets": [
+            "To exercise your rights, email info@stayline.net.",
+            "Guests can also contact the hotel they stayed at."
+          ]
+        },
+        {
+          "heading": "International transfers",
+          "body": [
+            "Our providers may process data in countries other than your own. Where required, we rely on appropriate safeguards, such as standard contractual clauses, for international transfers."
+          ]
+        },
+        {
+          "heading": "Cookies",
+          "body": [
+            "This marketing website is intentionally minimal and does not use advertising or tracking cookies. The application may use strictly necessary cookies or tokens to keep you signed in."
+          ]
+        },
+        {
+          "heading": "Children's data",
+          "body": [
+            "StayLine is a tool for hotel operations and is not directed at children. We do not knowingly collect personal data from children."
+          ]
+        },
+        {
+          "heading": "Changes to this policy",
+          "body": [
+            "We may update this policy from time to time. We will revise the \"last updated\" date above and, where appropriate, notify hotels of material changes."
+          ]
+        },
+        {
+          "heading": "Contact",
+          "body": [
+            "For any privacy question or request, contact info@stayline.net."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last updated: 12 June 2026",
+      "intro": [
+        "These Terms of Service (\"Terms\") govern your access to and use of the StayLine platform and website operated by İsmail Akkul (Red X Eight) (\"StayLine\", \"we\", \"us\").",
+        "By accessing or using StayLine, you agree to these Terms. If you do not agree, do not use the service."
+      ],
+      "sections": [
+        {
+          "heading": "The service",
+          "body": [
+            "StayLine is a hotel guest-communication platform that connects to the Meta WhatsApp Cloud API and uses AI to assist with replies, request classification and routing, along with guest management and reporting features."
+          ]
+        },
+        {
+          "heading": "Accounts & eligibility",
+          "body": [
+            "You must provide accurate account information and are responsible for safeguarding your credentials and for all activity under your account. You must have the authority to bind the hotel or organization you represent."
+          ]
+        },
+        {
+          "heading": "Acceptable use",
+          "body": [
+            "You agree not to misuse the service, including by sending unlawful, deceptive or unsolicited messages, infringing others' rights, attempting to disrupt or reverse-engineer the platform, or using it to violate Meta's or WhatsApp's policies."
+          ]
+        },
+        {
+          "heading": "Customer responsibilities",
+          "body": [
+            "You are responsible for your use of WhatsApp messaging, including obtaining any guest consent required by applicable law and complying with the WhatsApp Business Messaging Policy and Meta's terms. You are responsible for the accuracy and lawfulness of guest data you upload, and for configuring AI and automated messaging appropriately for your guests.",
+            "When sending marketing or promotional messages, you must first obtain valid opt-in consent in which your hotel is clearly identified by name. You must honor opt-out requests promptly and stop messaging guests who have opted out, and you must ensure marketing messages are clearly identifiable as such, consistent with the WhatsApp Business Messaging Policy."
+          ]
+        },
+        {
+          "heading": "Third-party services",
+          "body": [
+            "StayLine relies on third-party services, including the Meta WhatsApp Cloud API and Anthropic's Claude AI. Your use of those services through StayLine is also subject to their respective terms and policies. We are not responsible for third-party services' availability or actions."
+          ]
+        },
+        {
+          "heading": "Intellectual property",
+          "body": [
+            "StayLine and its software, design and content are owned by İsmail Akkul (Red X Eight) and protected by law. We grant you a limited, non-exclusive, non-transferable right to use the service during your subscription. You retain rights to your own data."
+          ]
+        },
+        {
+          "heading": "Fees",
+          "body": [
+            "Access to StayLine may require a subscription. Fees, billing terms and plans are set out in your order or agreement with us."
+          ]
+        },
+        {
+          "heading": "Disclaimers",
+          "body": [
+            "The service is provided \"as is\" and \"as available\" without warranties of any kind to the extent permitted by law. AI-generated suggestions may be inaccurate; you are responsible for reviewing messages before they are sent where applicable. We do not warrant uninterrupted or error-free operation."
+          ]
+        },
+        {
+          "heading": "Limitation of liability",
+          "body": [
+            "To the maximum extent permitted by law, StayLine and its suppliers will not be liable for indirect, incidental, special, consequential or punitive damages, or for lost profits or data. Our total liability for any claim is limited to the amounts you paid for the service in the 12 months before the claim."
+          ]
+        },
+        {
+          "heading": "Indemnification",
+          "body": [
+            "You agree to indemnify and hold StayLine harmless from claims arising out of your use of the service, your content, or your violation of these Terms or applicable law, including messaging and data-protection laws."
+          ]
+        },
+        {
+          "heading": "Termination",
+          "body": [
+            "You may stop using the service at any time. We may suspend or terminate access if you breach these Terms or if required to protect the service or comply with law. Upon termination, your right to use the service ends."
+          ]
+        },
+        {
+          "heading": "Governing law",
+          "body": [
+            "These Terms are governed by the laws of the Republic of Türkiye, without regard to conflict-of-laws rules. The courts of Antalya, Türkiye will have jurisdiction, unless otherwise required by mandatory law."
+          ]
+        },
+        {
+          "heading": "Changes to these Terms",
+          "body": [
+            "We may update these Terms from time to time. We will revise the \"last updated\" date and, where appropriate, notify you. Continued use after changes means you accept the updated Terms."
+          ]
+        },
+        {
+          "heading": "Contact",
+          "body": [
+            "Questions about these Terms? Contact info@stayline.net."
+          ]
+        }
+      ]
+    },
+    "dataDeletion": {
+      "title": "Data Deletion",
+      "lastUpdated": "Last updated: 12 June 2026",
+      "intro": [
+        "This page explains how to request deletion of personal data associated with StayLine.",
+        "StayLine processes hotel guest data on behalf of hotels. In most cases the hotel that collected the data is the controller, and we act on its instructions."
+      ],
+      "sections": [
+        {
+          "heading": "Request deletion by email",
+          "body": [
+            "To request deletion of your personal data, send an email to info@stayline.net. There is no form to fill out — a simple email is enough.",
+            "Please include enough detail for us to verify the request and locate your data."
+          ],
+          "bullets": [
+            "Email: info@stayline.net",
+            "Tell us which data or account the request concerns (for example, your name and the hotel involved).",
+            "Include enough information for us to identify you, so we can verify the request."
+          ]
+        },
+        {
+          "heading": "What happens next",
+          "body": [
+            "We will acknowledge your request and act on it in line with applicable law. Where StayLine is a processor, we may forward the request to, or confirm it with, the hotel that controls the data. We will delete or anonymize the relevant personal data unless we are required to keep it by law.",
+            "We aim to acknowledge your request within 5 business days and to complete deletion or anonymization within 30 days. Where StayLine acts as a processor, this timing may depend on the hotel that controls the data, and a longer period may apply where required by law."
+          ]
+        },
+        {
+          "heading": "Hotels using StayLine",
+          "body": [
+            "If you are a StayLine customer (a hotel), you can also delete or update guest records directly from your account. For help, contact info@stayline.net."
+          ]
+        }
+      ]
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you're looking for doesn't exist or has moved.",
+    "cta": "Back to home"
+  },
+  "meta": {
+    "home": {
+      "title": "StayLine — Hotel guest communication on WhatsApp",
+      "description": "Run guest conversations on WhatsApp with AI replies, automatic request routing to on-shift staff, and analytics. Built on the Meta WhatsApp Cloud API and Claude AI."
+    },
+    "features": {
+      "title": "Features",
+      "description": "AI replies, smart request routing, multilingual messaging, shifts, guest management, reporting and WhatsApp templates — built for hotel operations."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Request a personalized StayLine demo for your hotel, or email info@stayline.net."
+    },
+    "faq": {
+      "title": "FAQ",
+      "description": "Answers about StayLine: WhatsApp Cloud API, AI replies, languages, staff notifications, data security and getting started."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "How StayLine collects, uses and protects personal data for hotel guest communication over WhatsApp."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "description": "The terms that govern access to and use of the StayLine platform and website."
+    },
+    "dataDeletion": {
+      "title": "Data Deletion",
+      "description": "How to request deletion of personal data associated with StayLine — email info@stayline.net."
+    }
+  }
+}
