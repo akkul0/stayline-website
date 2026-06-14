@@ -34,6 +34,10 @@ const securityHeaders = [
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  // No runtime image optimizer (sharp is intentionally disabled in pnpm-workspace.yaml).
+  // The only raster is the pre-sized logo + static OG images, so optimization buys
+  // nothing and would otherwise hang/fail in dev and on managed Node.js hosting.
+  images: { unoptimized: true },
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
   },
