@@ -13,6 +13,8 @@ export const NAV_LINKS = [
 export const LEGAL_LINKS = [
   { key: "privacy", href: "/privacy" },
   { key: "terms", href: "/terms" },
+  { key: "kvkk", href: "/kvkk" },
+  { key: "cookies", href: "/cookies" },
   { key: "dataDeletion", href: "/data-deletion" },
 ] as const;
 

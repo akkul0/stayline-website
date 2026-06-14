@@ -5,6 +5,8 @@
     "contact": "İletişim",
     "privacy": "Gizlilik",
     "terms": "Şartlar",
+    "kvkk": "KVKK",
+    "cookies": "Çerezler",
     "dataDeletion": "Veri Silme",
     "cta": "Demo isteyin",
     "toggleTheme": "Temayı değiştir",
@@ -275,219 +277,501 @@
   "legal": {
     "privacy": {
       "title": "Gizlilik Politikası",
-      "lastUpdated": "Son güncelleme: 12 Haziran 2026",
-      "intro": [
-        "Bu Gizlilik Politikası, oteller platformumuzu misafirleriyle WhatsApp üzerinden iletişim kurmak için kullandığında StayLine'ın (\"StayLine\", \"biz\") kişisel verileri nasıl topladığını, kullandığını ve koruduğunu açıklar.",
-        "StayLine, İsmail Akkul (Red X Eight) tarafından işletilir. Çoğu misafir kişisel verisi için StayLine'ı kullanan otel veri sorumlusudur ve StayLine otel adına veri işleyen olarak hareket eder. Kendi web sitesi ziyaretçilerimiz ve hesap sahiplerimiz için ise veri sorumlusu StayLine'dır.",
-        "Bu politikayla ilgili sorularınız varsa veya haklarınızı kullanmak istiyorsanız info@stayline.net adresinden bize ulaşın."
-      ],
+      "lastUpdated": "Son güncelleme: 14 Haziran 2026",
+      "intro": [],
       "sections": [
         {
-          "heading": "Kim olduğumuz ve rolümüz",
+          "heading": "1. Amaç ve Kapsam",
           "body": [
-            "StayLine bir otel misafir iletişim platformudur. Oteller WhatsApp Business numaralarını bağlar ve StayLine'ı misafir mesajlarını almak, AI yardımıyla yanıtlamak, talepleri personele yönlendirmek ve analitiği görüntülemek için kullanır.",
-            "Bir otel misafirlerinin kişisel verilerini StayLine aracılığıyla işlediğinde, otel veri sorumlusudur ve bu verilerin neden ve nasıl kullanılacağına karar verir. StayLine bunu otelin talimatları doğrultusunda veri işleyen olarak işler."
+            "İşbu Gizlilik Politikası (\"Politika\"), StayLine tarafından sunulan misafir iletişimi, operasyon yönetimi ve yapay zekâ destekli dijital hizmetler kapsamında elde edilen kişisel verilerin hangi esaslar çerçevesinde toplandığını, işlendiğini, saklandığını, aktarıldığını ve korunduğunu açıklamak amacıyla hazırlanmıştır. Bu Politika, StayLine platformunu kullanan otelleri, platform kullanıcılarını, misafirleri, internet sitesi ziyaretçilerini ve kişisel verileri StayLine tarafından işlenen diğer ilgili kişileri kapsamaktadır.",
+            "StayLine; konaklama işletmelerinin misafirleriyle WhatsApp başta olmak üzere dijital iletişim kanalları üzerinden etkili, hızlı ve çok dilli iletişim kurabilmelerini sağlayan, yapay zekâ destekli yanıt sistemleri, talep yönetimi, görev yönlendirme, raporlama ve operasyonel analiz araçları sunan bulut tabanlı bir teknoloji platformudur. Platform, konaklama sektöründeki işletmelerin misafir deneyimini geliştirmelerine, operasyonel süreçlerini optimize etmelerine ve iletişim süreçlerini merkezi bir yapı altında yönetmelerine yardımcı olmak amacıyla geliştirilmiştir.",
+            "StayLine markası ve platformu, İsmail Akkul tarafından işletilmekte olup, işbu Politika kapsamında aksi açıkça belirtilmedikçe \"StayLine\" ibaresi platformu işleten gerçek veya tüzel kişiyi ifade eder.",
+            "Platform aracılığıyla işlenen misafir verileri bakımından, StayLine hizmetlerinden yararlanan ilgili otel veya konaklama işletmesi veri sorumlusu sıfatını haiz olup, kişisel verilerin işlenme amaç ve vasıtalarını belirleme yetkisine sahiptir. StayLine ise söz konusu kişisel verileri yalnızca ilgili veri sorumlusunun talimatları doğrultusunda işleyen veri işleyen sıfatıyla hareket etmektedir. Bu nedenle misafirlere ilişkin kişisel verilerin işlenmesine yönelik temel karar ve sorumluluk ilgili otel veya konaklama işletmesine aittir.",
+            "Bununla birlikte StayLine'ın internet sitesini ziyaret eden kişiler, demo talebinde bulunan kullanıcılar, platform hesap sahipleri, iş ortakları, tedarikçiler, potansiyel müşteriler ve doğrudan StayLine ile iletişim kuran kişiler bakımından veri sorumlusu doğrudan StayLine'dır. Bu kapsamda gerçekleştirilen veri işleme faaliyetleri, yürürlükte bulunan kişisel verilerin korunmasına ilişkin ulusal ve uluslararası mevzuata uygun şekilde yürütülmektedir.",
+            "StayLine, kişisel verilerin gizliliğinin ve güvenliğinin korunmasını temel bir ilke olarak benimsemekte olup, kişisel verilerin hukuka uygun, dürüstlük kurallarına uygun, belirli, açık ve meşru amaçlarla işlenmesi için gerekli teknik ve idari tedbirleri almaktadır. İşbu Politika, kişisel verilerin işlenmesine ilişkin genel esasları ortaya koymakta olup, ilgili kişilerin hakları ile StayLine'ın veri koruma konusundaki yükümlülükleri hakkında bilgilendirme amacı taşımaktadır."
           ]
         },
         {
-          "heading": "Topladığımız veriler",
+          "heading": "2. İşlenen Kişisel Veriler",
           "body": [
-            "Otelin StayLine'ı nasıl kullandığına bağlı olarak aşağıdaki kişisel veri kategorilerini işleyebiliriz:"
-          ],
-          "bullets": [
-            "Misafir profil verileri: ad ve soyad, telefon numarası, e-posta, uyruk, doğum tarihi, oda numarası, giriş ve çıkış tarihleri, rezervasyon numarası, acente veya rezervasyon kaynağı, VIP durumu ve serbest metin notları.",
-            "Konuşma verileri: WhatsApp iletişim tanımlayıcısı (telefon numarası), mesaj içeriği (orijinal ve çevrilmiş), medya referansları, mesaj durumu ve zaman damgaları ve bir mesajın AI tarafından üretilip üretilmediği.",
-            "Personel / hesap verileri: kullanıcı adı, ad, e-posta, rol, bildirimler için WhatsApp telefonu ve son giriş.",
-            "Web sitemiz için teknik veriler: siteyi sunmak ve güvende tutmak için gereken temel istek bilgileri."
+            "StayLine tarafından sunulan hizmetlerin niteliği gereği, platformun kullanımı sırasında çeşitli kategorilerde kişisel veriler işlenebilmektedir. İşlenen kişisel verilerin kapsamı; ilgili otelin platformu kullanım şekline, etkinleştirilen hizmet modüllerine, kullanıcı tercihlerine ve misafirlerle gerçekleştirilen iletişimin içeriğine bağlı olarak değişiklik gösterebilmektedir.",
+            "Platform kapsamında, misafirlerin kimlik, iletişim ve rezervasyon süreçlerinin yönetilebilmesi amacıyla ad ve soyad, telefon numarası, elektronik posta adresi, uyruk bilgisi, doğum tarihi, oda numarası, rezervasyon numarası, giriş ve çıkış tarihleri, rezervasyon kaynağı, acente bilgileri, VIP statüsü bilgileri ile otel tarafından sisteme kaydedilen açıklama, not ve benzeri bilgiler işlenebilmektedir.",
+            "StayLine üzerinden yürütülen dijital iletişim faaliyetleri kapsamında, WhatsApp telefon numarası, mesaj içerikleri, mesajların gönderim ve teslim bilgileri, tarih ve saat kayıtları, medya dosyalarına ilişkin referanslar, çok dilli iletişim hizmetleri kapsamında oluşturulan çeviri kayıtları, yapay zekâ tarafından oluşturulan yanıt önerileri ve mesajlaşma süreçlerine ilişkin diğer operasyonel veriler işlenebilmektedir.",
+            "Platformun otel personeli ve yetkili kullanıcılar tarafından kullanılması kapsamında ise kullanıcı adı, ad ve soyad, elektronik posta adresi, görev ve yetki bilgileri, bildirim amacıyla kullanılan iletişim bilgileri, son giriş kayıtları, oturum bilgileri ve sistem kullanım kayıtları işlenebilmektedir.",
+            "Ayrıca platformun güvenliğinin sağlanması, performansının izlenmesi, hata ve güvenlik ihlallerinin tespit edilmesi, sistem sürekliliğinin korunması ve hizmet kalitesinin artırılması amacıyla IP adresi, cihaz bilgileri, tarayıcı bilgileri, erişim kayıtları, işlem logları, hata kayıtları ve benzeri teknik veriler de işlenebilmektedir.",
+            "StayLine tarafından işlenen kişisel veriler, hizmetin sunulması için gerekli olan verilerle sınırlı olup veri minimizasyonu ilkesi doğrultusunda hareket edilmektedir. Kişisel veriler, işlenme amaçlarıyla bağlantılı, sınırlı ve ölçülü olacak şekilde işlenmekte; gereksiz veya amaç dışı veri işleme faaliyetlerinden kaçınılmaktadır.",
+            "StayLine kural olarak sağlık verileri, biyometrik veriler, genetik veriler veya benzeri özel nitelikli kişisel verilerin işlenmesini amaçlamamaktadır. Bununla birlikte, misafirlerin veya kullanıcıların kendi iradeleriyle mesaj içeriklerinde bu nitelikte bilgiler paylaşmaları ya da ilgili otel tarafından hizmetin gereği olarak sisteme aktarılması halinde, söz konusu veriler yalnızca hizmetin sunulabilmesi amacıyla, ilgili veri sorumlusunun talimatları doğrultusunda ve yürürlükteki mevzuatın öngördüğü güvenlik tedbirleri uygulanarak işlenebilecektir."
           ]
         },
         {
-          "heading": "Verileri nasıl kullanırız",
+          "heading": "3. Kişisel Verilerin İşlenme Amaçları",
           "body": [
-            "Kişisel verileri hizmeti işletmek için kullanırız: WhatsApp mesajlarını iletmek ve çevirmek, AI yanıt önerileri üretmek, talepleri sınıflandırıp doğru personele yönlendirmek, konuşmaları misafirlerle eşleştirmek ve otel için panolar ve raporlar üretmek. Hesap sahipleri için verileri erişim, güvenlik ve destek sağlamak amacıyla kullanırız."
+            "StayLine tarafından işlenen kişisel veriler, platformun güvenli, kesintisiz ve etkin şekilde sunulabilmesi amacıyla işlenmektedir. Bu kapsamda kişisel veriler; kullanıcı hesaplarının oluşturulması ve yönetilmesi, kullanıcı kimlik doğrulama süreçlerinin yürütülmesi, platform erişiminin sağlanması, hizmetlerin kişiselleştirilmesi ve kullanıcı deneyiminin iyileştirilmesi amaçlarıyla işlenebilmektedir.",
+            "Misafir iletişim süreçlerinin yönetilebilmesi amacıyla kişisel veriler; WhatsApp ve diğer entegre iletişim kanalları üzerinden mesajların iletilmesi, alınması, saklanması ve yönetilmesi, misafir taleplerinin kayıt altına alınması, sınıflandırılması, ilgili departmanlara yönlendirilmesi ve sonuçlandırılması amacıyla işlenebilmektedir. Ayrıca çok dilli iletişim hizmetlerinin sunulması, mesaj içeriklerinin çevrilmesi ve misafirlerle daha etkin iletişim kurulabilmesi amacıyla da veri işleme faaliyetleri gerçekleştirilebilmektedir.",
+            "Platform bünyesinde sunulan yapay zekâ destekli hizmetler kapsamında kişisel veriler; yanıt önerilerinin oluşturulması, taleplerin analiz edilmesi, içeriklerin sınıflandırılması, operasyonel süreçlerin hızlandırılması ve kullanıcılara daha verimli hizmet sunulabilmesi amaçlarıyla işlenebilmektedir. Yapay zekâ destekli işlemler, yalnızca hizmetin sunulması için gerekli olduğu ölçüde ve ilgili mevzuata uygun şekilde gerçekleştirilmektedir.",
+            "Kişisel veriler ayrıca otel işletmelerine sunulan raporlama, analiz ve performans ölçümleme hizmetlerinin sağlanması amacıyla da işlenebilmektedir. Bu kapsamda platform kullanım istatistikleri oluşturulabilmekte, hizmet performansı değerlendirilebilmekte ve operasyonel süreçlerin geliştirilmesine yönelik analizler yapılabilmektedir.",
+            "StayLine tarafından işlenen kişisel veriler; teknik destek hizmetlerinin sunulması, kullanıcı taleplerinin karşılanması, hata ve sistem sorunlarının tespit edilmesi, bilgi güvenliğinin sağlanması, yetkisiz erişimlerin önlenmesi, platformun bakım ve güncelleme süreçlerinin yürütülmesi ile sistem performansının izlenmesi amaçlarıyla da kullanılabilmektedir.",
+            "Bunun yanı sıra kişisel veriler; yürürlükte bulunan mevzuattan kaynaklanan yükümlülüklerin yerine getirilmesi, yetkili kamu kurum ve kuruluşlarının taleplerinin karşılanması, hukuki süreçlerin yürütülmesi, uyuşmazlıkların çözümü, hakların tesisi, kullanılması ve korunması ile denetim faaliyetlerinin gerçekleştirilmesi amaçlarıyla işlenebilmektedir.",
+            "StayLine, kişisel verileri hiçbir surette yürürlükteki mevzuata aykırı şekilde kullanmaz; kişisel verilerin işlenmesinde hukuka uygunluk, dürüstlük, şeffaflık, amaçla bağlantılılık, veri minimizasyonu ve ölçülülük ilkelerine uygun hareket eder."
           ]
         },
         {
-          "heading": "Hukuki dayanaklar",
+          "heading": "4. Kişisel Verilerin İşlenmesinin Hukuki Sebepleri",
           "body": [
-            "GDPR'nin uygulandığı yerlerde işleme; meşru menfaatlere (hizmeti işletmek ve güvenceye almak), bir sözleşmenin ifasına (platformu otele sağlamak) ve gerektiğinde otelin misafirlerinden aldığı açık rızaya dayanır. Türk KVKK'nın uygulandığı yerlerde, sözleşmenin ifası ve meşru menfaatlerimiz de dâhil olmak üzere ilgili hukuki sebeplere dayanarak veri işleriz.",
-            "WhatsApp mesajlaşması için yürürlükteki mevzuat ve Meta'nın WhatsApp Business politikaları uyarınca gereken misafir rızasını almaktan oteller sorumludur."
+            "StayLine, kişisel verileri faaliyet gösterdiği ülkelerde yürürlükte bulunan kişisel verilerin korunmasına ilişkin mevzuata uygun olarak işlemektedir. Kişisel verilerin işlenmesi sırasında hukuka uygunluk, dürüstlük, şeffaflık, amaçla sınırlılık, veri minimizasyonu ve ölçülülük ilkeleri esas alınmakta; veri işleme faaliyetleri yalnızca belirli, açık ve meşru amaçlar doğrultusunda gerçekleştirilmektedir.",
+            "Avrupa Birliği Genel Veri Koruma Tüzüğü (General Data Protection Regulation – GDPR) kapsamında gerçekleştirilen veri işleme faaliyetleri; ilgili kişi ile kurulan veya kurulacak sözleşmenin ifası, StayLine'ın veya hizmetten yararlanan işletmelerin hukuki yükümlülüklerini yerine getirmesi, veri sorumlusu veya üçüncü kişilerin meşru menfaatlerinin korunması ve mevzuatın gerekli kıldığı durumlarda ilgili kişinin açık rızasının alınması hukuki sebeplerine dayanmaktadır. İşleme faaliyetinin niteliğine göre GDPR'ın 6. maddesinde düzenlenen diğer hukuki sebeplerden de yararlanılabilmektedir.",
+            "Türkiye Cumhuriyeti mevzuatı bakımından kişisel veriler, 6698 sayılı Kişisel Verilerin Korunması Kanunu'nun 5. ve 6. maddelerinde düzenlenen kişisel veri işleme şartları kapsamında işlenmektedir. Bu kapsamda veriler; kanunlarda açıkça öngörülmesi, bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması, veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması, bir hakkın tesisi, kullanılması veya korunması için veri işlemenin gerekli olması, ilgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla veri sorumlusunun meşru menfaatlerinin bulunması ve gerekli hâllerde ilgili kişinin açık rızasının alınması hukuki sebeplerine dayanılarak işlenebilmektedir.",
+            "StayLine tarafından işlenen kişisel verilerin önemli bir bölümü, platform hizmetlerinin sunulabilmesi ve ilgili oteller ile kullanıcılar arasındaki hizmet ilişkisinin yürütülebilmesi amacıyla sözleşmenin ifası hukuki sebebine dayanmaktadır. Bunun yanı sıra sistem güvenliğinin sağlanması, hizmet kalitesinin artırılması, teknik sorunların giderilmesi, dolandırıcılık ve yetkisiz kullanım risklerinin önlenmesi gibi faaliyetler veri sorumlusunun meşru menfaatleri kapsamında gerçekleştirilebilmektedir.",
+            "StayLine aracılığıyla işlenen misafir verileri bakımından veri sorumlusu ilgili otel veya konaklama işletmesidir. Bu nedenle misafirlere yönelik aydınlatma yükümlülüğünün yerine getirilmesi, gerekli durumlarda açık rızaların alınması, elektronik haberleşme ve ticari iletişim mevzuatına uyulması ile veri işleme faaliyetlerinin hukuki dayanaklarının belirlenmesinden öncelikle ilgili otel sorumludur. StayLine ise veri işleyen sıfatıyla yalnızca veri sorumlusunun talimatları doğrultusunda hareket etmektedir.",
+            "WhatsApp Business Platformu üzerinden gerçekleştirilen iletişim faaliyetleri bakımından, yürürlükteki mevzuat ve Meta Platforms tarafından yayımlanan politika ve kurallar çerçevesinde gerekli izinlerin, onayların ve aydınlatmaların alınmasından ilgili otel sorumludur. StayLine, bu kapsamda veri işleyen sıfatıyla teknik altyapıyı sağlamakta olup, veri sorumlusunun yükümlülüklerini üstlenmez.",
+            "Özel nitelikli kişisel verilerin işlenmesinin gerekli olduğu istisnai durumlarda ise StayLine, ilgili mevzuatta öngörülen ek güvenlik tedbirlerini uygulamakta ve söz konusu verileri yalnızca hukuki işleme şartlarının mevcut olduğu ölçüde işlemektedir."
           ]
         },
         {
-          "heading": "WhatsApp ve Meta",
+          "heading": "5. WhatsApp Business Hizmetleri",
           "body": [
-            "Mesajlaşma, Meta WhatsApp Cloud API aracılığıyla iletilir. Mesaj içeriği ve telefon numaraları, mesajların gönderilip alınması için Meta Platforms tarafından işlenir. WhatsApp kullanımınız ayrıca Meta'nın ve WhatsApp'ın kendi şartlarına ve gizlilik politikalarına tabidir."
+            "StayLine, misafir iletişim hizmetlerinin sunulabilmesi amacıyla Meta Platforms tarafından sağlanan WhatsApp Business Platformu ve WhatsApp Cloud API altyapısından yararlanmaktadır. Platform üzerinden gerçekleştirilen mesajlaşma faaliyetleri, ilgili otelin WhatsApp Business hesabı aracılığıyla yürütülmekte olup StayLine, bu süreçte teknik altyapı ve yönetim hizmetleri sunmaktadır.",
+            "StayLine üzerinden gönderilen veya alınan mesajların iletilebilmesi, görüntülenebilmesi ve yönetilebilmesi amacıyla telefon numaraları, mesaj içerikleri, mesajlaşma kayıtları, tarih ve saat bilgileri, medya içerikleri ve ilgili iletişim verileri Meta Platforms tarafından işlenebilmektedir. Bu kapsamda gerçekleştirilen veri işleme faaliyetleri üzerinde StayLine'ın doğrudan kontrol sahibi olmadığı durumlar bulunabilmekte olup, Meta Platforms kendi hizmet şartları ve gizlilik politikaları çerçevesinde bağımsız veri işleme faaliyetleri gerçekleştirebilmektedir.",
+            "WhatsApp Business Platformu kullanımı sırasında işlenen kişisel veriler, Meta Platforms tarafından farklı ülkelerde bulunan sunucularda saklanabilir, işlenebilir veya aktarılabilir. Bu tür veri işleme faaliyetleri bakımından Meta Platforms'un kendi veri koruma politikaları, kullanım şartları ve uluslararası veri aktarım mekanizmaları uygulanmaktadır.",
+            "StayLine, WhatsApp Business Platformu üzerinden sunulan hizmetlerin sürekliliği için gerekli teknik entegrasyonu sağlamakla birlikte, Meta Platforms tarafından gerçekleştirilen veri işleme faaliyetleri, hizmet kesintileri, politika değişiklikleri veya üçüncü taraf sistemlerden kaynaklanan teknik sorunlar üzerinde doğrudan kontrol sahibi değildir. Bu nedenle Meta Platforms'un kendi sistemlerinden kaynaklanan veri işleme faaliyetleri bakımından ilgili mevzuat kapsamında sahip olduğu sorumluluklar saklıdır.",
+            "Platform kullanıcıları ve misafirler, StayLine aracılığıyla sunulan WhatsApp hizmetlerinden yararlanmaları halinde aynı zamanda Meta Platforms ve WhatsApp tarafından yayımlanan güncel kullanım şartları, veri işleme politikaları ve gizlilik kurallarına da tabi olduklarını kabul ederler. Kullanıcılara, WhatsApp ve Meta Platforms tarafından yayımlanan güncel politika ve şartları ayrıca incelemeleri tavsiye edilmektedir.",
+            "StayLine, WhatsApp Business Platformu üzerinden yürütülen iletişim faaliyetlerinde yalnızca hizmetin sunulması için gerekli olan ölçüde veri işlemekte olup, ilgili verileri kendi ticari amaçları doğrultusunda kullanmamakta, satmamakta veya yetkisiz üçüncü kişilerle paylaşmamaktadır."
           ]
         },
         {
-          "heading": "AI işleme",
+          "heading": "6. Yapay Zekâ Teknolojilerinin Kullanımı",
           "body": [
-            "Yanıt önerileri, talep sınıflandırma ve çeviri, Anthropic tarafından sağlanan bir AI hizmeti olan Claude kullanılarak gerçekleştirilir. Bu çıktıları üretmek için ilgili mesaj içeriği ve sınırlı misafir bağlamı Anthropic'e gönderilir. Misafir verilerini, kendi modellerimiz veya üçüncü taraf temel modeller dâhil hiçbir AI modelini eğitmek için kullanmayız."
+            "StayLine, misafir iletişim süreçlerinin daha etkin yönetilebilmesi, hizmet kalitesinin artırılması ve operasyonel süreçlerin optimize edilmesi amacıyla yapay zekâ destekli teknolojilerden yararlanmaktadır. Yapay zekâ sistemleri, kullanıcı deneyimini geliştirmek ve otel operasyonlarının daha verimli şekilde yürütülmesine katkı sağlamak amacıyla platformun belirli özelliklerinde kullanılabilmektedir.",
+            "Bu kapsamda yapay zekâ teknolojileri; misafir mesajlarının analiz edilmesi, çok dilli iletişim süreçlerinde otomatik çeviri yapılması, taleplerin içeriklerine göre sınıflandırılması, ilgili departmanlara yönlendirilmesi, yanıt önerilerinin oluşturulması, operasyonel raporlamaların desteklenmesi ve kullanıcıların hizmetlerden daha etkin şekilde yararlanabilmesi amacıyla kullanılabilmektedir.",
+            "Yapay zekâ destekli hizmetlerin sunulabilmesi amacıyla gerekli olduğu ölçüde mesaj içerikleri, iletişim kayıtları ve hizmetin sunulması bakımından zorunlu olan sınırlı bağlamsal bilgiler, üçüncü taraf yapay zekâ hizmet sağlayıcıları tarafından işlenebilmektedir. Hâlihazırda StayLine, yapay zekâ hizmetlerinin bir kısmında Anthropic tarafından sunulan Claude teknolojisinden yararlanmaktadır. Ancak StayLine, hizmet kalitesinin geliştirilmesi veya teknik gereklilikler doğrultusunda farklı yapay zekâ hizmet sağlayıcılarıyla da çalışabilir.",
+            "Yapay zekâ sistemleri tarafından oluşturulan yanıtlar, çeviriler, sınıflandırmalar veya öneriler otomatik süreçler sonucunda üretilmekte olup her zaman hatasız, eksiksiz veya belirli bir sonucun garantisi niteliğinde değildir. Bu nedenle yapay zekâ tarafından oluşturulan içeriklerin doğruluğunun değerlendirilmesi ve gerekli görülen durumlarda insan kontrolünden geçirilmesi ilgili kullanıcıların ve otel işletmelerinin sorumluluğundadır.",
+            "StayLine tarafından işlenen kişisel veriler, yapay zekâ hizmetlerinin sunulması dışında herhangi bir amaçla kullanılmamakta olup, ilgili veriler StayLine'ın kendi yapay zekâ modellerinin geliştirilmesi veya eğitilmesi amacıyla işlenmemektedir. Aynı şekilde, StayLine tarafından işlenen kişisel verilerin üçüncü taraf yapay zekâ sistemlerinin eğitimi amacıyla kullanılmaması yönünde gerekli teknik ve sözleşmesel tedbirler alınmaktadır.",
+            "StayLine, yapay zekâ teknolojilerinin kullanımında veri minimizasyonu ilkesine uygun hareket etmeyi, yalnızca hizmetin sunulması için gerekli olan verileri işlemeyi ve kişisel verilerin gizliliğini korumaya yönelik makul teknik ve idari güvenlik tedbirlerini uygulamayı taahhüt etmektedir.",
+            "Yapay zekâ teknolojilerinin kullanımına ilişkin süreçler, yürürlükte bulunan kişisel verilerin korunmasına ilişkin mevzuat, uluslararası veri koruma standartları ve ilgili hizmet sağlayıcıların güvenlik politikaları çerçevesinde yürütülmektedir."
           ]
         },
         {
-          "heading": "Alt veri işleyenler",
+          "heading": "7. Üçüncü Taraf Hizmet Sağlayıcılar",
           "body": [
-            "StayLine'ı çalıştırmak için sınırlı sayıda hizmet sağlayıcıya güveniriz:"
-          ],
-          "bullets": [
-            "Meta Platforms — WhatsApp Cloud API mesaj iletimi.",
-            "Anthropic — yanıt üretimi, sınıflandırma ve çeviri için Claude AI.",
-            "Barındırma ve altyapı sağlayıcımız — Hostinger (Avrupa — Almanya) — uygulama barındırma ve veritabanları için."
+            "StayLine, platformun güvenli, kesintisiz ve verimli şekilde işletilebilmesi amacıyla belirli üçüncü taraf hizmet sağlayıcılarından, teknoloji iş ortaklarından ve altyapı sağlayıcılarından yararlanmaktadır. Bu hizmet sağlayıcılar; mesajlaşma altyapısının işletilmesi, yapay zekâ destekli hizmetlerin sunulması, veri barındırma hizmetlerinin sağlanması, sistem güvenliğinin temin edilmesi, teknik bakım faaliyetlerinin yürütülmesi ve platformun genel işleyişinin sürdürülebilmesi amacıyla kullanılabilmektedir.",
+            "Bu kapsamda StayLine, WhatsApp Business Platformu ve WhatsApp Cloud API entegrasyonunun sağlanabilmesi amacıyla Meta Platforms tarafından sunulan hizmetlerden yararlanmaktadır. Yapay zekâ destekli çeviri, içerik analizi, sınıflandırma ve yanıt önerisi hizmetlerinin sunulabilmesi amacıyla Anthropic tarafından sağlanan yapay zekâ teknolojilerinden faydalanılabilmektedir. Ayrıca platformun barındırılması, veri tabanı yönetimi, sistem sürekliliğinin sağlanması ve teknik altyapının işletilmesi amacıyla Hostinger ve benzeri altyapı hizmet sağlayıcılarından yararlanılabilmektedir.",
+            "StayLine, hizmetlerin geliştirilmesi, teknik ihtiyaçların karşılanması veya operasyonel gerekliliklerin ortaya çıkması halinde farklı hizmet sağlayıcılarla çalışabilir, mevcut hizmet sağlayıcılarını değiştirebilir veya yeni hizmet sağlayıcılar ekleyebilir. Bu tür değişiklikler, yürürlükteki mevzuata ve veri güvenliği yükümlülüklerine uygun şekilde gerçekleştirilmektedir.",
+            "Üçüncü taraf hizmet sağlayıcılar, yalnızca hizmetlerin sunulması için gerekli olduğu ölçüde ve yetki sınırları dâhilinde kişisel verilere erişebilmektedir. Bu hizmet sağlayıcıların kişisel verileri kendi amaçları doğrultusunda kullanmalarına izin verilmemekte olup, söz konusu veriler yalnızca StayLine tarafından belirlenen amaçlar doğrultusunda ve ilgili sözleşmesel yükümlülükler çerçevesinde işlenebilmektedir.",
+            "StayLine, üçüncü taraf hizmet sağlayıcılarının veri güvenliği ve gizlilik yükümlülüklerine uygun hareket etmelerini sağlamak amacıyla makul teknik, idari ve sözleşmesel tedbirleri uygulamaktadır. Bununla birlikte, üçüncü taraf hizmet sağlayıcıların kendi sistemleri içerisinde gerçekleştirdikleri bağımsız veri işleme faaliyetleri bakımından ilgili sağlayıcıların kendi gizlilik politikaları ve kullanım şartları geçerli olacaktır.",
+            "Kişisel veriler, hizmetin niteliği gereği yurt içinde veya yurt dışında bulunan üçüncü taraf hizmet sağlayıcıların sistemlerinde işlenebilecek olup, bu tür veri aktarımları yürürlükteki veri koruma mevzuatı kapsamında gerekli güvenlik önlemleri alınarak gerçekleştirilmektedir."
           ]
         },
         {
-          "heading": "Verilerin paylaşımı",
+          "heading": "8. Kişisel Verilerin Aktarılması",
           "body": [
-            "Kişisel verileri satmayız. Yalnızca hizmeti sağlamak için gereken ölçüde yukarıdaki alt veri işleyenlerle, verileri kontrol eden otelle ve yasaların gerektirdiği durumlarda paylaşırız."
+            "StayLine tarafından işlenen kişisel veriler, işbu Gizlilik Politikası'nda belirtilen amaçların gerçekleştirilebilmesi, platform hizmetlerinin sunulabilmesi, hukuki yükümlülüklerin yerine getirilebilmesi ve sistemin güvenli şekilde işletilebilmesi amacıyla yürürlükte bulunan mevzuata uygun olarak üçüncü kişilere aktarılabilmektedir.",
+            "Bu kapsamda kişisel veriler; platform hizmetlerinden yararlanan ilgili otel veya konaklama işletmelerine, mesajlaşma altyapısının sağlanması amacıyla kullanılan teknoloji sağlayıcılarına, yapay zekâ hizmetlerinin sunulması amacıyla yararlanılan hizmet sağlayıcılarına, veri barındırma ve teknik altyapı hizmeti sunan iş ortaklarına, hukuken yetkili kamu kurum ve kuruluşlarına, mahkemelere, icra dairelerine, düzenleyici ve denetleyici otoritelere ve mevzuat gereği bilgi talep etmeye yetkili diğer kişi veya kurumlara aktarılabilmektedir.",
+            "StayLine tarafından gerçekleştirilen veri aktarımları, veri minimizasyonu ilkesi gözetilerek ve yalnızca ilgili hizmetin sunulması için gerekli olan ölçüde gerçekleştirilmektedir. Aktarılan kişisel verilerin kapsamı, aktarımın amacıyla sınırlı tutulmakta olup gereksiz veya ölçüsüz veri paylaşımından kaçınılmaktadır.",
+            "StayLine, kişisel verilerin aktarılması süreçlerinde uygun teknik ve idari güvenlik tedbirlerini uygulamakta, kişisel verilerin gizliliğinin korunmasına yönelik gerekli sözleşmesel ve organizasyonel önlemleri almaktadır. Kişisel verilere erişim yalnızca görevleri gereği erişim yetkisine sahip kişilerle sınırlandırılmaktadır.",
+            "Platformun yapısı ve kullanılan teknolojik altyapılar gereği, kişisel veriler yurt içinde veya yurt dışında bulunan hizmet sağlayıcılara aktarılabilir ya da bu sağlayıcıların sistemlerinde işlenebilir. Bu tür aktarımlar, yürürlükteki veri koruma mevzuatında öngörülen güvenlik mekanizmaları ve koruma tedbirleri çerçevesinde gerçekleştirilmektedir.",
+            "StayLine, kişisel verileri hiçbir şekilde satmaz, kiralamaz, ticari kazanç elde etmek amacıyla üçüncü kişilere devretmez veya kullanıcıların ya da misafirlerin profillenmesine yönelik reklam ve pazarlama faaliyetlerinde kullanmaz. Kişisel veriler yalnızca işbu Politika'da belirtilen amaçlarla ve ilgili mevzuatın izin verdiği ölçüde işlenmekte ve aktarılmaktadır."
           ]
         },
         {
-          "heading": "Veri saklama",
+          "heading": "9. Veri Saklama Süreleri",
           "body": [
-            "Kişisel verileri, otel hesabını sürdürdüğü sürece ve hizmeti sağlamak için gerektiği kadar, yasa daha uzun bir süre gerektirmediği sürece saklarız. Oteller misafir kayıtlarını güncelleyebilir veya kaldırabilir ve silme talepleri info@stayline.net adresine gönderilebilir."
+            "StayLine tarafından işlenen kişisel veriler, işlenme amaçlarının gerektirdiği süre boyunca ve yürürlükte bulunan mevzuatta öngörülen saklama yükümlülükleri dikkate alınarak muhafaza edilmektedir. Kişisel verilerin saklama süresi belirlenirken; verinin niteliği, işlenme amacı, hizmet ilişkisinin devam edip etmediği, taraflar arasındaki sözleşmesel yükümlülükler, olası hukuki uyuşmazlıklar ile ilgili mevzuatta öngörülen zamanaşımı ve saklama süreleri göz önünde bulundurulmaktadır.",
+            "Platform kapsamında işlenen misafir verileri, kural olarak ilgili otelin StayLine hizmetlerinden yararlanmaya devam ettiği süre boyunca saklanabilmektedir. Veri sorumlusu sıfatını haiz olan ilgili otelin talebi üzerine veya mevzuatın gerektirdiği durumlarda söz konusu veriler silinebilir, anonim hale getirilebilir veya erişime kapatılabilir.",
+            "Kullanıcı hesaplarına ilişkin bilgiler, teknik kayıtlar, işlem logları ve güvenlik kayıtları; sistem güvenliğinin sağlanması, olası uyuşmazlıkların çözümlenmesi, denetim faaliyetlerinin yürütülmesi ve hukuki yükümlülüklerin yerine getirilebilmesi amacıyla gerekli görülen süre boyunca saklanabilmektedir.",
+            "Kişisel verilerin işlenmesini gerektiren amacın ortadan kalkması, ilgili saklama süresinin sona ermesi veya ilgili kişinin talebinin mevzuat kapsamında kabul edilmesi hâllerinde, kişisel veriler yürürlükteki mevzuata uygun olarak silinmekte, yok edilmekte veya anonim hale getirilmektedir. Ancak yürürlükteki mevzuatın kişisel verilerin belirli bir süre daha muhafaza edilmesini zorunlu kıldığı durumlarda, söz konusu veriler yalnızca ilgili yükümlülüğün yerine getirilebilmesi amacıyla saklanmaya devam edilebilecektir.",
+            "Silme, yok etme ve anonimleştirme işlemleri sırasında kişisel verilerin yetkisiz kişiler tarafından erişilemeyecek, geri getirilemeyecek veya tekrar kullanılamayacak hale getirilmesi için makul teknik ve idari tedbirler uygulanmaktadır.",
+            "StayLine, kişisel verileri gerekli olandan daha uzun süre muhafaza etmemeyi ve veri minimizasyonu ilkesi doğrultusunda hareket etmeyi taahhüt etmektedir."
           ]
         },
         {
-          "heading": "Güvenlik",
+          "heading": "10. Veri Güvenliği",
           "body": [
-            "Otel bazında kapsamlı rol tabanlı erişim, sunucu tarafında tutulan kısa ömürlü kimlik doğrulama tokenları ve şifreli bağlantılar dâhil uygun teknik ve idari önlemleri uygularız. Hiçbir sistem tamamen güvenli değildir, ancak verileri yetkisiz erişime, kayba veya kötüye kullanıma karşı korumak için çalışırız."
+            "StayLine, işlediği kişisel verilerin gizliliğinin, bütünlüğünün ve erişilebilirliğinin korunmasını temel bir yükümlülük olarak kabul etmekte olup, kişisel verilerin hukuka aykırı olarak işlenmesini, yetkisiz kişiler tarafından erişilmesini, ifşa edilmesini, değiştirilmesini, kaybolmasını veya zarar görmesini önlemek amacıyla makul, uygun ve güncel teknik ve idari güvenlik tedbirlerini uygulamaktadır.",
+            "Bu kapsamda StayLine tarafından; rol bazlı erişim kontrol mekanizmaları, yetkilendirme sistemleri, güvenli sunucu altyapıları, şifreli veri iletişim protokolleri, kimlik doğrulama yöntemleri, erişim ve işlem kayıtlarının tutulması, düzenli güvenlik güncellemelerinin uygulanması, sistem izleme faaliyetleri, yedekleme süreçleri ve benzeri güvenlik önlemleri kullanılabilmektedir. Kişisel verilere erişim yalnızca görevlerinin gerektirdiği ölçüde yetkilendirilmiş kişilerle sınırlandırılmakta olup, erişim yetkileri düzenli olarak gözden geçirilmektedir.",
+            "StayLine ayrıca, hizmet aldığı üçüncü taraf teknoloji sağlayıcılarının ve altyapı hizmet sunucularının veri güvenliği konusunda makul güvenlik standartlarını karşılamasına özen göstermekte ve gerekli durumlarda sözleşmesel güvenlik yükümlülükleri öngörmektedir.",
+            "Bununla birlikte, internet üzerinden gerçekleştirilen veri aktarım yöntemlerinin ve elektronik saklama sistemlerinin doğası gereği hiçbir teknolojik altyapının mutlak güvenlik sağlayamayacağı kabul edilmektedir. Her ne kadar StayLine kişisel verilerin korunması amacıyla gerekli tüm makul tedbirleri almaya özen gösterse de, üçüncü kişilerin hukuka aykırı fiilleri, siber saldırılar, teknik arızalar, iletişim altyapılarında meydana gelen kesintiler, mücbir sebepler veya StayLine'ın kontrolü dışında gerçekleşen diğer olaylar nedeniyle ortaya çıkabilecek risklerin tamamen ortadan kaldırılacağı garanti edilememektedir.",
+            "StayLine, olası bir güvenlik ihlalinin tespit edilmesi hâlinde yürürlükteki mevzuatın gerektirdiği ölçüde gerekli teknik ve idari müdahaleleri gerçekleştirmeyi, ihlalin etkilerini azaltmak için makul tedbirleri almayı ve gerekli olduğu durumlarda yetkili merciler ile ilgili kişileri mevzuata uygun şekilde bilgilendirmeyi hedeflemektedir.",
+            "Kullanıcılar ve platformdan yararlanan işletmeler de kendi hesap bilgilerinin, kullanıcı şifrelerinin ve erişim yetkilerinin güvenliğini sağlamaktan sorumludur. Yetkisiz erişim şüphesi doğuran durumların gecikmeksizin StayLine'a bildirilmesi gerekmektedir."
           ]
         },
         {
-          "heading": "Haklarınız",
+          "heading": "11. İlgili Kişilerin Hakları",
           "body": [
-            "Yürürlükteki mevzuata tabi olarak kişiler; kişisel verilerine erişim, düzeltme, silme, işlemenin kısıtlanması veya işlemeye itiraz ve veri taşınabilirliği talep edebilir. Misafir verilerinin sorumlusu genellikle otel olduğundan, misafir taleplerini ilgili otele yönlendirebilir veya otelin talimatları doğrultusunda hareket edebiliriz."
-          ],
-          "bullets": [
-            "Haklarınızı kullanmak için info@stayline.net adresine e-posta gönderin.",
-            "Misafirler ayrıca konakladıkları otelle de iletişime geçebilir."
+            "Kişisel verileri işlenen kişiler, yürürlükte bulunan veri koruma mevzuatı kapsamında çeşitli haklara sahiptir. Bu kapsamda ilgili kişiler; kendileriyle ilgili kişisel veri işlenip işlenmediğini öğrenme, işlenmişse buna ilişkin bilgi talep etme, kişisel verilerinin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme, kişisel verilerinin aktarıldığı üçüncü kişileri öğrenme, eksik veya yanlış işlenen kişisel verilerinin düzeltilmesini isteme, kişisel verilerinin silinmesini veya yok edilmesini talep etme, veri işleme faaliyetlerinin sınırlandırılmasını isteme, veri işleme faaliyetlerine itiraz etme ve ilgili mevzuatın öngördüğü diğer hakları kullanma imkanına sahiptir.",
+            "Uygulanabilir mevzuatın izin verdiği ölçüde ilgili kişiler ayrıca, kişisel verilerinin yapılandırılmış, yaygın olarak kullanılan ve makine tarafından okunabilir bir formatta kendilerine verilmesini veya başka bir veri sorumlusuna aktarılmasını talep edebilirler. Bunun yanı sıra, kişisel verilerin münhasıran otomatik sistemler aracılığıyla analiz edilmesi sonucunda ortaya çıkan sonuçlara itiraz etme hakları da saklıdır.",
+            "StayLine tarafından veri sorumlusu sıfatıyla işlenen kişisel veriler bakımından ilgili kişiler, haklarına ilişkin taleplerini işbu Politika'da belirtilen iletişim kanalları aracılığıyla StayLine'a iletebilirler. Başvurular, yürürlükte bulunan mevzuatta öngörülen süreler içerisinde değerlendirilerek sonuçlandırılacaktır.",
+            "Bununla birlikte, StayLine platformu üzerinden işlenen misafir verileri bakımından veri sorumlusu ilgili otel veya konaklama işletmesidir. Bu nedenle misafirlere ait kişisel verilere ilişkin bazı taleplerin doğrudan ilgili veri sorumlusuna yöneltilmesi gerekebilir. StayLine, veri işleyen sıfatıyla hareket ettiği durumlarda, ilgili kişilerin taleplerini veri sorumlusuna iletebilir veya veri sorumlusunun talimatları doğrultusunda gerekli teknik ve idari desteği sağlayabilir.",
+            "StayLine, ilgili kişilerin haklarını etkin şekilde kullanabilmelerini sağlamak amacıyla gerekli iş birliğini göstermeyi ve yürürlükteki mevzuattan kaynaklanan yükümlülüklerini yerine getirmeyi taahhüt etmektedir. Ancak başvurunun değerlendirilmesi sırasında başvuru sahibinin kimliğinin doğrulanması ve talebin ilgili mevzuat kapsamında değerlendirilmesi gerekebilecektir.",
+            "İlgili kişiler, kişisel verilerinin işlenmesine ilişkin taleplerini veya sorularını aşağıda belirtilen iletişim adresleri aracılığıyla StayLine'a iletebilirler:",
+            "E-posta: info@stayline.net"
           ]
         },
         {
-          "heading": "Uluslararası aktarımlar",
+          "heading": "12. Uluslararası Veri Aktarımları",
           "body": [
-            "Sağlayıcılarımız verileri kendi ülkeniz dışındaki ülkelerde işleyebilir. Gerektiğinde, uluslararası aktarımlar için standart sözleşme hükümleri gibi uygun güvencelere dayanırız."
+            "StayLine tarafından sunulan hizmetlerin niteliği gereği, platformun işletilmesinde yararlanılan bazı teknoloji sağlayıcıları, bulut hizmetleri sağlayıcıları, yapay zekâ hizmet sağlayıcıları ve iletişim altyapısı sağlayıcıları farklı ülkelerde faaliyet gösterebilmekte veya verileri farklı ülkelerde bulunan sunucularda işleyebilmektedir. Bu nedenle kişisel veriler, hizmetlerin sunulabilmesi, teknik altyapının işletilebilmesi, veri depolama faaliyetlerinin yürütülebilmesi, yapay zekâ destekli hizmetlerin sağlanabilmesi ve iletişim süreçlerinin gerçekleştirilebilmesi amacıyla yurt dışına aktarılabilir veya yurt dışında bulunan sistemlerde işlenebilir.",
+            "Uluslararası veri aktarımları; yürürlükte bulunan kişisel verilerin korunmasına ilişkin mevzuat, uluslararası veri koruma standartları ve ilgili veri koruma otoritelerinin düzenlemeleri dikkate alınarak gerçekleştirilmektedir. StayLine, kişisel verilerin yurt dışına aktarılması sırasında ilgili kişilerin hak ve özgürlüklerinin korunmasına yönelik makul teknik, idari ve sözleşmesel tedbirleri uygulamaya özen göstermektedir.",
+            "Kişisel verilerin yurt dışına aktarılması gereken durumlarda, aktarımın gerçekleştirileceği ülkenin veri koruma seviyesi, ilgili hizmet sağlayıcının güvenlik standartları ve yürürlükteki mevzuat kapsamında öngörülen koruma mekanizmaları dikkate alınmaktadır. Gerektiğinde standart sözleşme hükümleri, veri işleme sözleşmeleri, gizlilik taahhütleri ve benzeri hukuki güvence mekanizmalarından yararlanılabilmektedir.",
+            "StayLine tarafından kullanılan üçüncü taraf hizmet sağlayıcılarının sistemleri aracılığıyla gerçekleştirilen veri işleme faaliyetleri bakımından, ilgili hizmet sağlayıcıların kendi veri koruma politikaları ve uluslararası veri aktarım mekanizmaları da uygulanabilmektedir. Bu kapsamda Meta Platforms, Anthropic, bulut hizmet sağlayıcıları veya diğer teknoloji iş ortakları tarafından gerçekleştirilen veri işleme faaliyetleri, ilgili sağlayıcıların yürürlükte bulunan veri koruma yükümlülüklerine tabidir.",
+            "StayLine, uluslararası veri aktarımı süreçlerinde kişisel verilerin yalnızca hizmetin sunulması için gerekli olduğu ölçüde aktarılmasını esas almakta olup, veri minimizasyonu ve ölçülülük ilkelerine uygun hareket etmektedir. Kişisel veriler, işleme amacıyla bağlantılı olmayan veya gerekli olmayan durumlarda yurt dışına aktarılmamaktadır.",
+            "Platformu kullanan kişiler, hizmetlerin teknik niteliği gereği kişisel verilerinin farklı ülkelerde bulunan sistemlerde işlenebileceğini ve saklanabileceğini kabul etmektedir. StayLine, bu süreçlerde kişisel verilerin güvenliğinin sağlanması amacıyla makul düzeyde koruma tedbirleri uygulamaya devam etmektedir."
           ]
         },
         {
-          "heading": "Çerezler",
+          "heading": "13. Çerezler ve Benzeri Teknolojiler",
           "body": [
-            "Bu tanıtım web sitesi bilinçli olarak sadedir ve reklam veya izleme çerezleri kullanmaz. Uygulama, oturumunuzu açık tutmak için yalnızca kesinlikle gerekli çerezleri veya tokenları kullanabilir."
+            "StayLine internet sitesi ve platformu, hizmetlerin güvenli ve kesintisiz şekilde sunulabilmesi amacıyla çerezler (cookies), oturum belirteçleri (session tokens) ve benzeri teknolojiler kullanabilmektedir. Bu teknolojiler, kullanıcıların oturumlarının yönetilmesi, güvenlik kontrollerinin gerçekleştirilmesi, sistem performansının korunması ve platformun temel işlevlerinin yerine getirilebilmesi amacıyla kullanılmaktadır.",
+            "Çerezler, kullanıcıların cihazlarında depolanan ve internet sitesinin veya uygulamanın daha verimli çalışmasına yardımcı olan küçük veri dosyalarıdır. StayLine tarafından kullanılan çerezler ve benzeri teknolojiler, kural olarak platformun çalışması için gerekli olan teknik işlevlerin yerine getirilmesine yöneliktir.",
+            "StayLine, kullanıcıların kimlik doğrulama işlemlerinin gerçekleştirilmesi, oturum bilgilerinin korunması, yetkisiz erişimlerin önlenmesi, güvenlik risklerinin tespit edilmesi ve hizmetlerin teknik olarak sürdürülebilmesi amacıyla zorunlu teknik çerezlerden yararlanabilmektedir. Bu çerezler, platformun çalışabilmesi için gerekli olduğundan devre dışı bırakılmaları halinde bazı hizmetler düzgün şekilde çalışmayabilir.",
+            "StayLine tarafından kullanılan çerezler aracılığıyla elde edilen bilgiler, işbu Gizlilik Politikası'nda belirtilen amaçlar dışında kullanılmamakta olup, kullanıcıların özel hayatının gizliliğine saygı gösterilmektedir.",
+            "StayLine, reklam faaliyetleri yürütmek, üçüncü taraf reklam ağları oluşturmak veya kullanıcıların internet üzerindeki davranışlarını pazarlama amaçlı olarak takip etmek amacıyla çerez kullanmamaktadır. Ancak ilerleyen dönemlerde internet sitesi veya platform üzerinde yeni hizmetlerin devreye alınması halinde kullanılan çerez türlerinde değişiklik yapılabilir. Bu durumda ilgili bilgilendirmeler güncellenerek kullanıcıların erişimine sunulacaktır.",
+            "Kullanıcılar, internet tarayıcılarının ayarları aracılığıyla çerezleri sınırlandırabilir, silebilir veya tamamen devre dışı bırakabilirler. Bununla birlikte bazı çerezlerin devre dışı bırakılması halinde internet sitesi veya platformun belirli özelliklerinin beklenen şekilde çalışmayabileceği göz önünde bulundurulmalıdır."
           ]
         },
         {
-          "heading": "Çocukların verileri",
+          "heading": "14. Çocuklara İlişkin Veriler",
           "body": [
-            "StayLine otel operasyonları için bir araçtır ve çocuklara yönelik değildir. Çocuklardan bilerek kişisel veri toplamayız."
+            "StayLine, doğrudan çocuklara yönelik olarak tasarlanmış veya çocukların kullanımına sunulmuş bir hizmet değildir. Platform, oteller, konaklama işletmeleri ve bu işletmelerin yetkilendirdiği kullanıcılar tarafından kullanılmak üzere geliştirilmiş profesyonel bir işletme çözümüdür.",
+            "StayLine, çocuklardan doğrudan kişisel veri toplamayı hedeflememekte ve çocukların platform üzerinden bağımsız kullanıcı olarak kayıt oluşturmalarına yönelik herhangi bir hizmet sunmamaktadır. Bu nedenle StayLine tarafından çocuklara yönelik bilinçli bir veri toplama faaliyeti yürütülmemektedir.",
+            "Bununla birlikte, konaklama hizmetlerinin doğası gereği çocuklara ilişkin bazı kişisel veriler ilgili oteller tarafından rezervasyon, konaklama, güvenlik veya müşteri hizmetleri süreçlerinin yürütülmesi amacıyla StayLine sistemlerine aktarılabilmektedir. Bu tür veriler bakımından veri sorumlusu ilgili otel veya konaklama işletmesi olup, söz konusu verilerin hukuka uygun şekilde işlenmesinden, gerekli aydınlatmaların yapılmasından ve mevzuatın gerektirdiği hâllerde gerekli izinlerin alınmasından ilgili veri sorumlusu sorumludur.",
+            "StayLine, çocuklara ilişkin kişisel verileri yalnızca ilgili veri sorumlusunun talimatları doğrultusunda ve hizmetin sunulabilmesi için gerekli olduğu ölçüde işlemektedir. Bu kapsamda işlenen veriler, işbu Gizlilik Politikası'nda belirtilen güvenlik ve gizlilik tedbirlerine tabi olarak korunmaktadır.",
+            "Bir ebeveyn, vasi veya yasal temsilci, kendisine ait olmayan şekilde bir çocuğa ilişkin kişisel verilerin hukuka aykırı olarak işlendiğini düşünmesi halinde StayLine ile iletişime geçebilir. Böyle bir durumda StayLine, talebin niteliğine göre ilgili veri sorumlusu ile iş birliği içerisinde gerekli değerlendirmeleri yapacak ve yürürlükteki mevzuat kapsamında gerekli işlemleri gerçekleştirecektir."
           ]
         },
         {
-          "heading": "Bu politikadaki değişiklikler",
+          "heading": "15. Politikada Yapılacak Değişiklikler",
           "body": [
-            "Bu politikayı zaman zaman güncelleyebiliriz. Yukarıdaki \"son güncelleme\" tarihini düzenler ve uygun olduğunda otellere önemli değişiklikleri bildiririz."
+            "StayLine, işbu Gizlilik Politikasını yürürlükte bulunan mevzuatta meydana gelen değişiklikler, veri koruma uygulamalarındaki güncellemeler, teknolojik gelişmeler, hizmet kapsamının genişlemesi veya değişmesi, yeni ürün ve hizmetlerin sunulması ya da operasyonel gereklilikler doğrultusunda her zaman gözden geçirme ve güncelleme hakkını saklı tutmaktadır.",
+            "Gizlilik Politikasında yapılacak değişiklikler, güncellenmiş metnin StayLine internet sitesinde yayımlanmasıyla birlikte yürürlüğe girer. Aksi açıkça belirtilmediği sürece, güncellenen Politika yayımlandığı tarihten itibaren geçerli kabul edilir ve platformun kullanılmaya devam edilmesi, güncel Politika hükümlerinin kabul edildiği anlamına gelir.",
+            "StayLine, ilgili kişilerin haklarını etkileyebilecek nitelikte önemli değişiklikler yapılması hâlinde, uygun gördüğü iletişim yöntemleri aracılığıyla kullanıcıları bilgilendirebilir. Ancak kullanıcıların güncel Gizlilik Politikasını belirli aralıklarla incelemeleri kendi sorumluluklarındadır.",
+            "Politikanın en güncel versiyonu her zaman StayLine internet sitesi üzerinden erişilebilir olup, Politikanın başında yer alan \"Son Güncelleme Tarihi\" bölümü ilgili metnin en son ne zaman revize edildiğini göstermektedir.",
+            "İşbu Politika'nın herhangi bir hükmünün geçersiz veya uygulanamaz hale gelmesi, Politika'nın diğer hükümlerinin geçerliliğini etkilemez. Böyle bir durumda ilgili hüküm, yürürlükteki mevzuata ve Politika'nın amacına en uygun şekilde yorumlanacaktır."
           ]
         },
         {
-          "heading": "İletişim",
+          "heading": "16. İletişim",
           "body": [
-            "Her türlü gizlilik sorusu veya talebi için info@stayline.net adresine ulaşın."
+            "İşbu Gizlilik Politikası, kişisel verilerin işlenmesi, veri güvenliği uygulamaları, ilgili kişi hakları veya StayLine tarafından gerçekleştirilen veri işleme faaliyetleri hakkında her türlü soru, görüş, talep ve başvurularınız için bizimle aşağıda yer alan iletişim kanalları aracılığıyla iletişime geçebilirsiniz.",
+            "Kişisel verilerinize ilişkin talepleriniz, yürürlükte bulunan veri koruma mevzuatı çerçevesinde değerlendirilmekte olup, başvurular mümkün olan en kısa süre içerisinde ve ilgili mevzuatta öngörülen süreler içerisinde sonuçlandırılacaktır. Talebin niteliğine göre kimlik doğrulaması yapılması veya ek bilgi ve belge talep edilmesi gerekebilir.",
+            "StayLine, ilgili kişilerin haklarını etkin şekilde kullanabilmelerini sağlamak amacıyla makul düzeyde teknik ve idari destek sunmayı taahhüt etmektedir. Ancak StayLine'ın veri işleyen sıfatıyla hareket ettiği durumlarda, başvuruların sonuçlandırılabilmesi için ilgili veri sorumlusu olan otel veya konaklama işletmesinin değerlendirmesi ve talimatı gerekebilir.",
+            "Gizlilik, veri koruma ve kişisel verilerin işlenmesine ilişkin tüm talepler aşağıdaki iletişim bilgileri üzerinden iletilebilir:",
+            "StayLine",
+            "E-posta: info@stayline.net",
+            "Web Sitesi: www.stayline.net",
+            "StayLine, işbu Gizlilik Politikası kapsamında yapılacak başvuruların daha hızlı ve sağlıklı şekilde değerlendirilebilmesi amacıyla başvuruların mümkün olduğunca ayrıntılı şekilde iletilmesini tavsiye etmektedir."
           ]
         }
       ]
     },
     "terms": {
-      "title": "Hizmet Şartları",
-      "lastUpdated": "Son güncelleme: 12 Haziran 2026",
-      "intro": [
-        "Bu Hizmet Şartları (\"Şartlar\"), İsmail Akkul (Red X Eight) tarafından işletilen StayLine platformuna ve web sitesine erişiminizi ve bunları kullanımınızı düzenler (\"StayLine\", \"biz\").",
-        "StayLine'a erişerek veya onu kullanarak bu Şartları kabul etmiş olursunuz. Kabul etmiyorsanız hizmeti kullanmayın."
-      ],
+      "title": "Kullanım Şartları",
+      "lastUpdated": "Son güncelleme: 14 Haziran 2026",
+      "intro": [],
       "sections": [
         {
-          "heading": "Hizmet",
+          "heading": "1. Taraflar ve Konu",
           "body": [
-            "StayLine, Meta WhatsApp Cloud API'ye bağlanan ve yanıtlar, talep sınıflandırma ve yönlendirme ile misafir yönetimi ve raporlama özelliklerine AI yardımı sağlayan bir otel misafir iletişim platformudur."
+            "İşbu Kullanım Şartları (\"Şartlar\"), StayLine tarafından sunulan internet sitesi, yazılım, mobil uygulamalar, API hizmetleri, yapay zekâ destekli çözümler ve bunlarla bağlantılı tüm hizmetlerin kullanımına ilişkin hüküm ve koşulları düzenlemektedir.",
+            "StayLine; oteller, konaklama işletmeleri ve diğer ticari işletmelerin misafir iletişim süreçlerini yönetmelerine, talepleri takip etmelerine, yapay zekâ destekli hizmetlerden yararlanmalarına ve operasyonel süreçlerini dijital ortamda yürütmelerine imkân sağlayan bir teknoloji platformudur.",
+            "Platformu ziyaret eden, hesap oluşturan, hizmetlerden yararlanan veya herhangi bir şekilde platforma erişen tüm kişiler işbu Kullanım Şartları'nı okuduklarını, anladıklarını ve kabul ettiklerini beyan ederler."
           ]
         },
         {
-          "heading": "Hesaplar ve uygunluk",
+          "heading": "2. Hizmetlerin Kapsamı",
           "body": [
-            "Doğru hesap bilgileri sağlamalısınız ve kimlik bilgilerinizi korumaktan ve hesabınız altındaki tüm etkinlikten sorumlusunuz. Temsil ettiğiniz oteli veya kuruluşu bağlama yetkisine sahip olmalısınız."
+            "StayLine tarafından sunulan hizmetler; misafir iletişimi, WhatsApp Business entegrasyonu, yapay zekâ destekli mesaj yönetimi, talep yönlendirme sistemleri, çeviri hizmetleri, raporlama araçları, analiz sistemleri ve platform tarafından sunulan diğer dijital çözümleri kapsayabilir.",
+            "StayLine, hizmetlerin kapsamını geliştirme, değiştirme, genişletme, daraltma veya belirli özellikleri kaldırma hakkını saklı tutmaktadır.",
+            "Platform üzerinden sunulan hizmetlerin tamamının her kullanıcıya veya her abonelik paketine dahil olacağı garanti edilmemektedir."
           ]
         },
         {
-          "heading": "Kabul edilebilir kullanım",
+          "heading": "3. Hesap Oluşturma ve Kullanıcı Sorumlulukları",
           "body": [
-            "Hizmeti; hukuka aykırı, aldatıcı veya istenmeyen mesajlar göndererek, başkalarının haklarını ihlal ederek, platformu bozmaya veya tersine mühendislik yapmaya çalışarak ya da Meta'nın veya WhatsApp'ın politikalarını ihlal etmek için kullanarak kötüye kullanmamayı kabul edersiniz."
+            "Platformun belirli özelliklerinden yararlanabilmek için kullanıcı hesabı oluşturulması gerekebilir.",
+            "Kullanıcılar, hesap oluştururken verdikleri bilgilerin doğru, güncel ve eksiksiz olduğunu kabul ederler. Yanlış veya eksik bilgilerden kaynaklanan sonuçlardan StayLine sorumlu değildir.",
+            "Kullanıcılar, hesap bilgilerinin ve şifrelerinin güvenliğini sağlamakla yükümlüdür. Hesap üzerinden gerçekleştirilen işlemlerin kullanıcı tarafından gerçekleştirildiği kabul edilir.",
+            "Kullanıcılar, hesaplarının yetkisiz kişiler tarafından kullanıldığını fark etmeleri halinde durumu derhal StayLine'a bildirmekle yükümlüdür."
           ]
         },
         {
-          "heading": "Müşteri sorumlulukları",
+          "heading": "4. Yasal ve Uygun Kullanım",
           "body": [
-            "WhatsApp mesajlaşmasını kullanımınızdan siz sorumlusunuz; bu, yürürlükteki mevzuatın gerektirdiği misafir rızasını almayı ve WhatsApp Business Mesajlaşma Politikası ile Meta'nın şartlarına uymayı içerir. Yüklediğiniz misafir verilerinin doğruluğundan ve hukuka uygunluğundan ve AI ile otomatik mesajlaşmayı misafirleriniz için uygun şekilde yapılandırmaktan sorumlusunuz.",
-            "Pazarlama veya tanıtım mesajları gönderirken, önce otelinizin adının açıkça belirtildiği geçerli bir onay (opt-in) almalısınız. Abonelikten çıkma (opt-out) taleplerine derhal uymalı ve çıkış yapan misafirlere mesaj göndermeyi durdurmalısınız; ayrıca pazarlama mesajlarının, WhatsApp Business Mesajlaşma Politikası ile uyumlu olarak açıkça bu nitelikte tanınabilir olmasını sağlamalısınız."
+            "Kullanıcılar, platformu yürürlükte bulunan mevzuata, genel ahlak kurallarına ve üçüncü kişilerin haklarına uygun şekilde kullanmayı kabul ederler.",
+            "Platformun aşağıdaki amaçlarla kullanılması yasaktır:"
+          ],
+          "bullets": [
+            "Hukuka aykırı faaliyetlerde bulunulması",
+            "Spam veya toplu istenmeyen mesaj gönderilmesi",
+            "Üçüncü kişilerin haklarının ihlal edilmesi",
+            "Zararlı yazılım yayılması",
+            "Sistemin güvenliğinin ihlal edilmeye çalışılması",
+            "Yetkisiz erişim girişimlerinde bulunulması",
+            "Meta Platforms veya WhatsApp Business politikalarının ihlal edilmesi",
+            "Kişisel verilerin hukuka aykırı şekilde işlenmesi veya paylaşılması"
+          ],
+          "note": [
+            "StayLine, bu hükümlerin ihlal edildiğini tespit etmesi halinde kullanıcı hesabını askıya alma veya sonlandırma hakkına sahiptir."
           ]
         },
         {
-          "heading": "Üçüncü taraf hizmetler",
+          "heading": "5. WhatsApp Business Hizmetleri",
           "body": [
-            "StayLine, Meta WhatsApp Cloud API ve Anthropic'in Claude AI'ı dâhil üçüncü taraf hizmetlere dayanır. Bu hizmetleri StayLine aracılığıyla kullanımınız ayrıca onların ilgili şart ve politikalarına tabidir. Üçüncü taraf hizmetlerin kullanılabilirliğinden veya eylemlerinden sorumlu değiliz."
+            "StayLine, hizmetlerini Meta Platforms tarafından sunulan WhatsApp Business Platformu ve WhatsApp Cloud API altyapısı üzerinden sağlamaktadır.",
+            "Kullanıcılar, WhatsApp hizmetlerinden yararlanırken Meta Platforms tarafından yayımlanan güncel kullanım şartlarına, ticaret politikalarına ve diğer kurallara uymakla yükümlüdür.",
+            "Meta Platforms tarafından uygulanan kısıtlamalar, hesap kapatmaları, erişim engelleri veya politika ihlalleri nedeniyle ortaya çıkabilecek sonuçlardan StayLine sorumlu değildir."
           ]
         },
         {
-          "heading": "Fikri mülkiyet",
+          "heading": "6. Yapay Zekâ Hizmetleri",
           "body": [
-            "StayLine ve yazılımı, tasarımı ve içeriği İsmail Akkul'a (Red X Eight) aittir ve yasalarla korunur. Aboneliğiniz süresince hizmeti kullanmanız için sınırlı, münhasır olmayan, devredilemez bir hak veririz. Kendi verileriniz üzerindeki haklarınız sizde kalır."
+            "StayLine tarafından sunulan bazı özellikler yapay zekâ teknolojileri kullanılarak çalıştırılabilmektedir.",
+            "Yapay zekâ sistemleri tarafından oluşturulan yanıtlar, çeviriler, öneriler, analizler veya sınıflandırmalar yalnızca yardımcı niteliktedir. Bu çıktılar kesin bilgi, profesyonel tavsiye veya garanti niteliğinde değildir.",
+            "Kullanıcılar, yapay zekâ tarafından oluşturulan içerikleri kullanmadan önce gerekli kontrolleri yapmakla yükümlüdür.",
+            "StayLine, yapay zekâ sistemleri tarafından oluşturulan içeriklerde meydana gelebilecek hata, eksiklik veya yanlışlıklardan sorumlu tutulamaz."
           ]
         },
         {
-          "heading": "Ücretler",
+          "heading": "7. Fikri Mülkiyet Hakları",
           "body": [
-            "StayLine'a erişim bir abonelik gerektirebilir. Ücretler, faturalandırma koşulları ve planlar bizimle yapılan siparişinizde veya sözleşmenizde belirtilir."
+            "StayLine platformu, yazılımları, kullanıcı arayüzleri, tasarımları, veri tabanı yapıları, logoları, ticari markaları, görselleri, algoritmaları, yapay zekâ entegrasyonları ve diğer tüm içerikler üzerindeki fikri ve sınai mülkiyet hakları StayLine'a veya ilgili hak sahiplerine aittir.",
+            "Kullanıcılara yalnızca hizmetlerden yararlanabilmeleri amacıyla sınırlı, geri alınabilir ve devredilemez bir kullanım hakkı tanınmaktadır.",
+            "Kullanıcılar, StayLine'ın yazılı izni olmaksızın platformu kopyalayamaz, çoğaltamaz, tersine mühendislik işlemine tabi tutamaz, kaynak kodunu elde etmeye çalışamaz veya ticari amaçlarla kullanamaz."
           ]
         },
         {
-          "heading": "Sorumluluk reddi",
+          "heading": "8. Kişisel Verilerin Korunması",
           "body": [
-            "Hizmet, yasaların izin verdiği ölçüde herhangi bir garanti olmaksızın \"olduğu gibi\" ve \"mevcut olduğu şekilde\" sağlanır. AI tarafından üretilen öneriler hatalı olabilir; uygun olduğu durumlarda mesajları gönderilmeden önce gözden geçirmekten siz sorumlusunuz. Kesintisiz veya hatasız çalışmayı garanti etmeyiz."
+            "StayLine, kişisel verilerin işlenmesine ilişkin faaliyetlerini yürürlükte bulunan veri koruma mevzuatına uygun şekilde yürütmektedir.",
+            "Kişisel verilerin işlenmesine ilişkin detaylı bilgiler Gizlilik Politikası ve KVKK Aydınlatma Metni içerisinde yer almaktadır.",
+            "Platform aracılığıyla işlenen misafir verileri bakımından veri sorumlusu ilgili otel veya konaklama işletmesidir. StayLine bu veriler bakımından veri işleyen sıfatıyla hareket etmektedir."
           ]
         },
         {
-          "heading": "Sorumluluğun sınırlandırılması",
+          "heading": "9. Hizmet Sürekliliği ve Kesintiler",
           "body": [
-            "Yasaların izin verdiği azami ölçüde StayLine ve tedarikçileri; dolaylı, arızi, özel, sonuç olarak ortaya çıkan veya cezai zararlardan ya da kâr veya veri kaybından sorumlu olmayacaktır. Herhangi bir talep için toplam sorumluluğumuz, talepten önceki 12 ayda hizmet için ödediğiniz tutarlarla sınırlıdır."
+            "StayLine, hizmetlerini mümkün olan en yüksek erişilebilirlik seviyesinde sunmayı hedeflemektedir.",
+            "Bununla birlikte bakım çalışmaları, güncellemeler, üçüncü taraf hizmet sağlayıcılarından kaynaklanan sorunlar, internet altyapısı problemleri, siber saldırılar, mücbir sebepler veya teknik arızalar nedeniyle hizmetlerde geçici kesintiler meydana gelebilir.",
+            "StayLine, hizmetlerin kesintisiz, hatasız veya sürekli erişilebilir olacağını garanti etmemektedir."
           ]
         },
         {
-          "heading": "Tazminat",
+          "heading": "10. Sorumluluğun Sınırlandırılması",
           "body": [
-            "Hizmeti kullanımınızdan, içeriğinizden veya bu Şartları ya da mesajlaşma ve veri koruma yasaları dâhil yürürlükteki mevzuatı ihlalinizden doğan taleplere karşı StayLine'ı tazmin etmeyi ve zarar görmemesini sağlamayı kabul edersiniz."
+            "StayLine, yürürlükteki mevzuatın izin verdiği ölçüde, platformun kullanımından veya kullanılamamasından kaynaklanan doğrudan veya dolaylı zararlar, veri kayıpları, iş kayıpları, gelir kayıpları, itibar kayıpları veya üçüncü kişilerle yaşanan uyuşmazlıklardan sorumlu tutulamaz.",
+            "StayLine'ın herhangi bir nedenle sorumlu tutulması halinde sorumluluğu, ilgili kullanıcı tarafından son on iki ay içerisinde StayLine'a ödenmiş olan hizmet bedeli ile sınırlı olacaktır.",
+            "Bu sınırlama, ağır kusur veya kast halleri bakımından uygulanmaz."
           ]
         },
         {
-          "heading": "Fesih",
+          "heading": "11. Askıya Alma ve Fesih",
           "body": [
-            "Hizmeti kullanmayı istediğiniz zaman bırakabilirsiniz. Bu Şartları ihlal etmeniz hâlinde ya da hizmeti korumak veya yasalara uymak için gerekli olduğunda erişimi askıya alabilir veya sonlandırabiliriz. Fesih üzerine hizmeti kullanma hakkınız sona erer."
+            "StayLine, işbu Kullanım Şartları'nın ihlal edilmesi, hukuka aykırı kullanım tespiti, güvenlik riski oluşması veya üçüncü taraf sağlayıcıların kurallarının ihlal edilmesi durumlarında kullanıcı hesabını geçici olarak askıya alabilir veya tamamen sonlandırabilir.",
+            "Kullanıcılar da hesaplarını ve hizmet kullanımını istedikleri zaman sonlandırabilirler.",
+            "Fesih, tarafların fesih tarihine kadar doğmuş olan hak ve yükümlülüklerini ortadan kaldırmaz."
           ]
         },
         {
-          "heading": "Geçerli hukuk",
+          "heading": "12. Değişiklikler",
           "body": [
-            "Bu Şartlar, kanunlar ihtilafı kurallarına bakılmaksızın Türkiye Cumhuriyeti yasalarına tabidir. Emredici hukuk aksini gerektirmedikçe Antalya (Türkiye) mahkemeleri ve icra daireleri yetkili olacaktır."
+            "StayLine, işbu Kullanım Şartları'nı herhangi bir zamanda güncelleme, değiştirme veya yeniden düzenleme hakkını saklı tutmaktadır.",
+            "Güncellenen metin internet sitesinde yayımlandığı tarihte yürürlüğe girer. Platformun kullanılmaya devam edilmesi, güncel şartların kabul edildiği anlamına gelir."
           ]
         },
         {
-          "heading": "Bu Şartlardaki değişiklikler",
+          "heading": "13. Uygulanacak Hukuk ve Yetki",
           "body": [
-            "Bu Şartları zaman zaman güncelleyebiliriz. \"Son güncelleme\" tarihini düzenler ve uygun olduğunda sizi bilgilendiririz. Değişikliklerden sonra kullanmaya devam etmeniz güncellenen Şartları kabul ettiğiniz anlamına gelir."
+            "İşbu Kullanım Şartları'nın yorumlanmasında ve uygulanmasında Türkiye Cumhuriyeti hukuku uygulanacaktır.",
+            "İşbu Kullanım Şartları'ndan kaynaklanan veya bunlarla bağlantılı her türlü uyuşmazlığın çözümünde Antalya Mahkemeleri ve Antalya İcra Daireleri münhasıran yetkilidir."
           ]
         },
         {
-          "heading": "İletişim",
+          "heading": "14. İletişim",
           "body": [
-            "Bu Şartlarla ilgili sorular mı var? info@stayline.net adresine ulaşın."
+            "İşbu Kullanım Şartları hakkında her türlü soru, görüş veya talebiniz için aşağıdaki iletişim bilgileri üzerinden bizimle iletişime geçebilirsiniz:",
+            "StayLine",
+            "E-posta: info@stayline.net",
+            "Web Sitesi: www.stayline.net"
+          ]
+        }
+      ]
+    },
+    "kvkk": {
+      "title": "KVKK Aydınlatma Metni",
+      "lastUpdated": "Son güncelleme: 14 Haziran 2026",
+      "intro": [],
+      "sections": [
+        {
+          "heading": "1. Veri Sorumlusunun Kimliği",
+          "body": [
+            "İşbu Aydınlatma Metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu'nun (\"KVKK\") 10. maddesi uyarınca, veri sorumlusu sıfatıyla hareket eden StayLine tarafından hazırlanmıştır.",
+            "StayLine; oteller ve konaklama işletmeleri için geliştirilen misafir iletişimi, operasyon yönetimi ve yapay zekâ destekli hizmetler sunan bir teknoloji platformudur.",
+            "KVKK kapsamındaki her türlü soru, talep ve başvurularınız için aşağıdaki iletişim kanalları üzerinden bizimle iletişime geçebilirsiniz:"
+          ],
+          "bullets": [
+            "E-posta: info@stayline.net",
+            "Web Sitesi: www.stayline.net"
+          ]
+        },
+        {
+          "heading": "2. İşlenen Kişisel Veriler",
+          "body": [
+            "StayLine tarafından işlenen kişisel veriler, hizmetlerden yararlanma şeklinize göre değişiklik gösterebilmektedir.",
+            "İnternet sitesini ziyaret etmeniz, demo talebinde bulunmanız, bizimle iletişime geçmeniz veya platform kullanıcısı olmanız halinde ad ve soyad bilgileriniz, iletişim bilgileriniz, kullanıcı hesap bilgileriniz, IP adresiniz, cihaz ve tarayıcı bilgileriniz, oturum kayıtlarınız, teknik log kayıtlarınız ve tarafınızca bizimle paylaşılan diğer bilgiler işlenebilmektedir.",
+            "Platform kullanıcıları bakımından ayrıca kullanıcı hesap bilgileri, yetki ve rol bilgileri, giriş kayıtları ve sistem kullanım kayıtları da işlenebilmektedir."
+          ]
+        },
+        {
+          "heading": "3. Kişisel Verilerin İşlenme Amaçları",
+          "body": [
+            "Kişisel verileriniz;",
+            "platform hizmetlerinin sunulması, kullanıcı hesaplarının oluşturulması ve yönetilmesi, teknik destek hizmetlerinin sağlanması, sistem güvenliğinin temin edilmesi, iletişim faaliyetlerinin yürütülmesi, taleplerinizin değerlendirilmesi, hizmet kalitesinin geliştirilmesi, kullanıcı deneyiminin iyileştirilmesi, hukuki yükümlülüklerin yerine getirilmesi, bilgi güvenliği süreçlerinin yürütülmesi ve olası uyuşmazlıkların çözülmesi amaçlarıyla işlenebilmektedir."
+          ]
+        },
+        {
+          "heading": "4. Kişisel Verilerin Hukuki Sebepleri",
+          "body": [
+            "Kişisel verileriniz;",
+            "KVKK'nın 5. maddesinde düzenlenen;"
+          ],
+          "bullets": [
+            "Kanunlarda açıkça öngörülmesi",
+            "Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması",
+            "Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması",
+            "Bir hakkın tesisi, kullanılması veya korunması için veri işlemenin zorunlu olması",
+            "İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla veri sorumlusunun meşru menfaatlerinin bulunması"
+          ],
+          "note": [
+            "hukuki sebeplerine dayanılarak işlenmektedir.",
+            "Açık rıza gerektiren durumlarda ise ilgili kişinin açık rızası alınmaktadır."
+          ]
+        },
+        {
+          "heading": "5. Kişisel Verilerin Aktarılması",
+          "body": [
+            "Kişisel verileriniz; hizmetlerin sunulabilmesi amacıyla teknik altyapı sağlayıcılarına, iş ortaklarına, bulut hizmet sağlayıcılarına, yetkili kamu kurum ve kuruluşlarına ve mevzuatın izin verdiği diğer kişi veya kuruluşlara aktarılabilmektedir.",
+            "Platformun işletilmesi kapsamında Meta Platforms, Anthropic ve veri barındırma hizmeti sağlayıcıları gibi üçüncü taraf hizmet sağlayıcılardan yararlanılabilmektedir."
+          ]
+        },
+        {
+          "heading": "6. Yurt Dışına Veri Aktarımı",
+          "body": [
+            "Kullanılan teknoloji altyapıları ve üçüncü taraf hizmet sağlayıcılar nedeniyle kişisel verileriniz yurt dışında bulunan sunucularda işlenebilir veya saklanabilir.",
+            "Bu tür veri aktarımları, KVKK'nın ilgili hükümleri ve yürürlükteki mevzuat çerçevesinde gerekli güvenlik tedbirleri alınarak gerçekleştirilmektedir."
+          ]
+        },
+        {
+          "heading": "7. Misafir Verilerine İlişkin Özel Açıklama",
+          "body": [
+            "StayLine platformunu kullanan oteller tarafından sisteme aktarılan misafir verileri bakımından veri sorumlusu ilgili otel veya konaklama işletmesidir.",
+            "StayLine, bu veriler bakımından veri işleyen sıfatıyla hareket etmekte olup, kişisel verileri yalnızca ilgili veri sorumlusunun talimatları doğrultusunda işlemektedir.",
+            "Misafir verilerine ilişkin erişim, düzeltme, silme ve benzeri talepler öncelikle ilgili otel veya konaklama işletmesine yöneltilmelidir."
+          ]
+        },
+        {
+          "heading": "8. İlgili Kişinin Hakları",
+          "body": [
+            "KVKK'nın 11. maddesi uyarınca ilgili kişiler;",
+            "kişisel veri işlenip işlenmediğini öğrenme, işlenmişse buna ilişkin bilgi talep etme, işlenme amacını öğrenme, eksik veya yanlış işlenen verilerin düzeltilmesini isteme, silinmesini veya yok edilmesini talep etme ve kanunda öngörülen diğer haklarını kullanma hakkına sahiptir.",
+            "Bu haklara ilişkin taleplerinizi info@stayline.net adresine iletebilirsiniz.",
+            "StayLine, başvuruları yürürlükteki mevzuatta öngörülen süreler içerisinde değerlendirecek ve sonuçlandıracaktır."
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Çerez Politikası",
+      "lastUpdated": "Son güncelleme: 14 Haziran 2026",
+      "intro": [],
+      "sections": [
+        {
+          "heading": "1. Amaç",
+          "body": [
+            "İşbu Çerez Politikası (“Politika”), StayLine internet sitesi ve platformu ziyaret edildiğinde kullanılan çerezler (cookies), benzeri teknolojiler ve bunların kullanım amaçları hakkında kullanıcıları bilgilendirmek amacıyla hazırlanmıştır.",
+            "StayLine, kullanıcı deneyiminin iyileştirilmesi, internet sitesinin ve platformun güvenli şekilde çalışmasının sağlanması ve temel hizmetlerin sunulabilmesi amacıyla çerezler ve benzeri teknolojiler kullanabilmektedir.",
+            "Bu Politika, StayLine internet sitesini ziyaret eden ve platform hizmetlerinden yararlanan tüm kullanıcılar için geçerlidir."
+          ]
+        },
+        {
+          "heading": "2. Çerez Nedir?",
+          "body": [
+            "Çerezler, bir internet sitesini ziyaret ettiğinizde tarayıcınız veya cihazınız üzerinde depolanan küçük metin dosyalarıdır. Çerezler sayesinde internet sitesi tercihlerinizi hatırlayabilir, oturum yönetimini sağlayabilir ve hizmetlerin daha verimli şekilde sunulmasına yardımcı olabilir.",
+            "Çerezler cihazınıza zarar vermez ve kişisel verilerinize doğrudan erişim sağlamaz. Ancak bazı durumlarda kullanıcı deneyiminin geliştirilmesi amacıyla belirli bilgilerin saklanmasına yardımcı olabilir."
+          ]
+        },
+        {
+          "heading": "3. Kullanılan Çerez Türleri",
+          "body": [
+            "StayLine tarafından kullanılan çerezler temel olarak internet sitesinin ve platformun çalışması için gerekli olan teknik çerezlerden oluşmaktadır."
+          ],
+          "subsections": [
+            {
+              "heading": "Zorunlu Çerezler",
+              "body": [
+                "Bu çerezler, internet sitesinin ve platformun düzgün şekilde çalışabilmesi için gereklidir. Kullanıcı oturumlarının yönetilmesi, güvenlik kontrollerinin gerçekleştirilmesi, giriş işlemlerinin yürütülmesi ve sistem güvenliğinin sağlanması amacıyla kullanılabilir.",
+                "Bu çerezlerin devre dışı bırakılması halinde internet sitesinin veya platformun bazı bölümleri düzgün şekilde çalışmayabilir."
+              ]
+            },
+            {
+              "heading": "İşlevsellik Çerezleri",
+              "body": [
+                "Kullanıcı tercihlerini hatırlamak ve hizmetlerin daha verimli şekilde sunulmasını sağlamak amacıyla belirli işlevsellik çerezleri kullanılabilir. Bu çerezler sayesinde dil tercihleri veya oturum tercihleri gibi bilgiler saklanabilir."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "4. Çerezlerin Kullanım Amaçları",
+          "body": [
+            "StayLine tarafından kullanılan çerezler aşağıdaki amaçlarla kullanılabilmektedir:"
+          ],
+          "bullets": [
+            "Kullanıcı oturumlarının yönetilmesi",
+            "Platform erişiminin sağlanması",
+            "Bilgi güvenliğinin korunması",
+            "Yetkisiz erişimlerin önlenmesi",
+            "Teknik hataların tespit edilmesi",
+            "Hizmetlerin güvenli ve kesintisiz şekilde sunulması",
+            "Kullanıcı tercihlerinin hatırlanması",
+            "Platform performansının korunması"
+          ]
+        },
+        {
+          "heading": "5. Reklam ve Takip Amaçlı Çerezler",
+          "body": [
+            "StayLine, kullanıcıların internet üzerindeki davranışlarını takip etmek amacıyla reklam ağları oluşturan üçüncü taraf çerezleri kullanmamaktadır.",
+            "StayLine tarafından kullanıcıların reklam profillerinin oluşturulmasına, davranışsal reklamcılık faaliyetlerine veya üçüncü taraf reklam ağlarına veri aktarılmasına yönelik çerez kullanımı yapılmamaktadır.",
+            "Ancak ilerleyen dönemlerde internet sitesi veya platforma yeni hizmetlerin eklenmesi halinde kullanılan çerez türlerinde değişiklik yapılabilir. Böyle bir durumda işbu Politika güncellenerek kullanıcıların bilgisine sunulacaktır."
+          ]
+        },
+        {
+          "heading": "6. Üçüncü Taraf Hizmetler",
+          "body": [
+            "StayLine, internet sitesi veya platformun teknik olarak işletilmesi amacıyla belirli üçüncü taraf hizmet sağlayıcılardan yararlanabilir. Bu hizmet sağlayıcılar tarafından kullanılan teknik araçlar kendi çerezlerini veya benzeri teknolojilerini kullanabilir.",
+            "Bu tür hizmetlerin kullanılması halinde ilgili üçüncü tarafların kendi gizlilik ve çerez politikaları da uygulanabilecektir."
+          ]
+        },
+        {
+          "heading": "7. Çerezlerin Yönetilmesi",
+          "body": [
+            "Kullanıcılar, internet tarayıcılarının ayarları üzerinden çerezleri kabul edebilir, reddedebilir, silebilir veya sınırlandırabilirler.",
+            "Çerez tercihleri her tarayıcı için farklı şekilde yönetilebilmekte olup, kullanıcılar kullandıkları tarayıcının yardım menüsünden gerekli bilgilere ulaşabilirler.",
+            "Bununla birlikte, bazı çerezlerin devre dışı bırakılması halinde internet sitesinin veya platformun belirli özellikleri beklenen şekilde çalışmayabilir."
+          ]
+        },
+        {
+          "heading": "8. Politikada Yapılacak Değişiklikler",
+          "body": [
+            "StayLine, işbu Çerez Politikası’nı mevzuat değişiklikleri, teknik gereklilikler veya hizmet kapsamındaki değişiklikler doğrultusunda güncelleme hakkını saklı tutmaktadır.",
+            "Güncellenen Politika, internet sitesinde yayımlandığı tarihte yürürlüğe girer."
+          ]
+        },
+        {
+          "heading": "9. İletişim",
+          "body": [
+            "Çerez kullanımı ve kişisel verilerin korunmasına ilişkin sorularınız için aşağıdaki iletişim bilgilerinden bizimle iletişime geçebilirsiniz:",
+            "StayLine",
+            "E-posta: info@stayline.net",
+            "Web Sitesi: www.stayline.net"
           ]
         }
       ]
@@ -555,8 +839,16 @@
       "description": "StayLine'ın WhatsApp üzerinden otel misafir iletişimi için kişisel verileri nasıl topladığı, kullandığı ve koruduğu."
     },
     "terms": {
-      "title": "Hizmet Şartları",
-      "description": "StayLine platformuna ve web sitesine erişimi ve kullanımı düzenleyen şartlar."
+      "title": "Kullanım Şartları",
+      "description": "StayLine platformuna ve web sitesine erişimi ve kullanımı düzenleyen hüküm ve koşullar."
+    },
+    "kvkk": {
+      "title": "KVKK Aydınlatma Metni",
+      "description": "6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında StayLine tarafından kişisel verilerin işlenmesine ilişkin aydınlatma metni."
+    },
+    "cookies": {
+      "title": "Çerez Politikası",
+      "description": "StayLine internet sitesi ve platformunda kullanılan çerezler, çerez türleri ve çerez tercihlerinizi nasıl yönetebileceğiniz."
     },
     "dataDeletion": {
       "title": "Veri Silme",

@@ -10,6 +10,8 @@ const ROUTES = [
   "/faq",
   "/privacy",
   "/terms",
+  "/kvkk",
+  "/cookies",
   "/data-deletion",
 ] as const;
 

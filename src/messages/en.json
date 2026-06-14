@@ -5,6 +5,8 @@
     "contact": "Contact",
     "privacy": "Privacy",
     "terms": "Terms",
+    "kvkk": "KVKK",
+    "cookies": "Cookies",
     "dataDeletion": "Data Deletion",
     "cta": "Request a demo",
     "toggleTheme": "Toggle theme",
@@ -275,219 +277,501 @@
   "legal": {
     "privacy": {
       "title": "Privacy Policy",
-      "lastUpdated": "Last updated: 12 June 2026",
-      "intro": [
-        "This Privacy Policy explains how StayLine (\"StayLine\", \"we\", \"us\") collects, uses and protects personal data when hotels use our platform to communicate with their guests over WhatsApp.",
-        "StayLine is operated by İsmail Akkul (Red X Eight). For most guest personal data, the hotel using StayLine is the data controller and StayLine acts as a data processor on the hotel's behalf. For our own website visitors and account holders, StayLine is the controller.",
-        "If you have questions about this policy or want to exercise your rights, contact us at info@stayline.net."
-      ],
+      "lastUpdated": "Last updated: 14 June 2026",
+      "intro": [],
       "sections": [
         {
-          "heading": "Who we are and our role",
+          "heading": "1. Purpose and Scope",
           "body": [
-            "StayLine is a hotel guest-communication platform. Hotels connect their WhatsApp Business number and use StayLine to receive guest messages, reply with AI assistance, route requests to staff, and view analytics.",
-            "When a hotel processes its guests' personal data through StayLine, the hotel is the controller and decides why and how that data is used. StayLine processes it under the hotel's instructions as a processor."
+            "This Privacy Policy (the \"Policy\") has been prepared to explain the principles under which personal data obtained in connection with the guest communication, operations management, and artificial intelligence-supported digital services provided by StayLine is collected, processed, stored, transferred, and protected. This Policy covers the hotels using the StayLine platform, platform users, guests, website visitors, and other data subjects whose personal data is processed by StayLine.",
+            "StayLine is a cloud-based technology platform that enables accommodation businesses to communicate effectively, rapidly, and multilingually with their guests through digital communication channels, primarily WhatsApp, and that offers artificial intelligence-supported response systems, request management, task routing, reporting, and operational analysis tools. The platform has been developed to help businesses in the accommodation sector improve their guest experience, optimize their operational processes, and manage their communication processes under a centralized structure.",
+            "The StayLine brand and platform are operated by İsmail Akkul, and unless otherwise expressly stated within the scope of this Policy, the term \"StayLine\" refers to the natural or legal person operating the platform.",
+            "With respect to guest data processed through the platform, the relevant hotel or accommodation business benefiting from StayLine's services holds the status of data controller and has the authority to determine the purposes and means of processing personal data. StayLine, on the other hand, acts as a data processor processing the personal data in question solely in accordance with the instructions of the relevant data controller. For this reason, the fundamental decision and responsibility regarding the processing of guests' personal data rest with the relevant hotel or accommodation business.",
+            "However, with respect to persons who visit StayLine's website, users who request a demo, platform account holders, business partners, suppliers, potential customers, and persons who communicate directly with StayLine, the data controller is StayLine directly. The data processing activities carried out in this scope are conducted in compliance with the national and international legislation in force on the protection of personal data.",
+            "StayLine adopts the protection of the confidentiality and security of personal data as a fundamental principle and takes the necessary technical and administrative measures to ensure that personal data is processed lawfully, in accordance with the rules of honesty, and for specific, explicit, and legitimate purposes. This Policy sets out the general principles regarding the processing of personal data and is intended to provide information about the rights of data subjects and StayLine's obligations concerning data protection."
           ]
         },
         {
-          "heading": "Data we collect",
+          "heading": "2. Personal Data Processed",
           "body": [
-            "Depending on how the hotel uses StayLine, we may process the following categories of personal data:"
-          ],
-          "bullets": [
-            "Guest profile data: first and last name, phone number, email, nationality, date of birth, room number, check-in and check-out dates, reservation number, agency or booking source, VIP status and free-text notes.",
-            "Conversation data: WhatsApp contact identifier (phone number), message content (original and translated), media references, message status and timestamps, and whether a message was AI-generated.",
-            "Staff / account data: username, name, email, role, WhatsApp phone for notifications, and last login.",
-            "Technical data for our website: basic request information needed to serve and secure the site."
+            "Due to the nature of the services provided by StayLine, personal data in various categories may be processed during the use of the platform. The scope of the personal data processed may vary depending on the manner in which the relevant hotel uses the platform, the service modules activated, user preferences, and the content of communication conducted with guests.",
+            "Within the scope of the platform, in order to manage guests' identity, communication, and reservation processes, data such as name and surname, telephone number, electronic mail address, nationality information, date of birth, room number, reservation number, check-in and check-out dates, reservation source, agency information, VIP status information, and the descriptions, notes, and similar information recorded into the system by the hotel may be processed.",
+            "Within the scope of digital communication activities conducted via StayLine, the WhatsApp telephone number, message contents, message sending and delivery information, date and time records, references relating to media files, translation records created within the scope of multilingual communication services, response suggestions generated by artificial intelligence, and other operational data relating to messaging processes may be processed.",
+            "Within the scope of the use of the platform by hotel staff and authorized users, data such as username, name and surname, electronic mail address, role and authorization information, contact information used for notification purposes, last login records, session information, and system usage records may be processed.",
+            "In addition, in order to ensure the security of the platform, monitor its performance, detect errors and security breaches, maintain system continuity, and improve service quality, technical data such as IP address, device information, browser information, access records, transaction logs, error logs, and similar data may also be processed.",
+            "The personal data processed by StayLine is limited to the data necessary for the provision of the service, and the data minimization principle is observed. Personal data is processed in a manner connected with, limited to, and proportionate to the purposes of processing; unnecessary or purpose-exceeding data processing activities are avoided.",
+            "As a rule, StayLine does not intend to process health data, biometric data, genetic data, or similar special-category personal data. However, should guests or users of their own volition share such information in message contents, or should it be transferred to the system by the relevant hotel as a requirement of the service, the data in question may be processed solely for the purpose of providing the service, in accordance with the instructions of the relevant data controller, and by applying the security measures stipulated by the legislation in force."
           ]
         },
         {
-          "heading": "How we use data",
+          "heading": "3. Purposes of Processing Personal Data",
           "body": [
-            "We use personal data to operate the service: to deliver and translate WhatsApp messages, generate AI reply suggestions, classify and route requests to the right staff, match conversations to guests, and produce dashboards and reports for the hotel. For account holders, we use data to provide access, security and support."
+            "The personal data processed by StayLine is processed for the purpose of providing the platform in a secure, uninterrupted, and effective manner. In this scope, personal data may be processed for the purposes of creating and managing user accounts, carrying out user authentication processes, providing platform access, personalizing services, and improving the user experience.",
+            "In order to manage guest communication processes, personal data may be processed for the purposes of transmitting, receiving, storing, and managing messages via WhatsApp and other integrated communication channels, and recording, classifying, routing to the relevant departments, and concluding guest requests. In addition, data processing activities may also be carried out for the purpose of providing multilingual communication services, translating message contents, and communicating more effectively with guests.",
+            "Within the scope of the artificial intelligence-supported services offered within the platform, personal data may be processed for the purposes of generating response suggestions, analyzing requests, classifying content, accelerating operational processes, and providing more efficient service to users. Artificial intelligence-supported operations are carried out only to the extent necessary for the provision of the service and in compliance with the relevant legislation.",
+            "Personal data may also be processed for the purpose of providing the reporting, analysis, and performance measurement services offered to hotel businesses. In this scope, platform usage statistics may be generated, service performance may be evaluated, and analyses aimed at improving operational processes may be carried out.",
+            "The personal data processed by StayLine may also be used for the purposes of providing technical support services, meeting user requests, detecting errors and system problems, ensuring information security, preventing unauthorized access, carrying out the maintenance and update processes of the platform, and monitoring system performance.",
+            "In addition, personal data may be processed for the purposes of fulfilling obligations arising from the legislation in force, responding to the requests of authorized public institutions and organizations, conducting legal processes, resolving disputes, establishing, exercising, and protecting rights, and carrying out audit activities.",
+            "StayLine shall in no way use personal data in a manner contrary to the legislation in force; in processing personal data, it acts in accordance with the principles of lawfulness, honesty, transparency, purpose connection, data minimization, and proportionality."
           ]
         },
         {
-          "heading": "Legal bases",
+          "heading": "4. Legal Grounds for Processing Personal Data",
           "body": [
-            "Where the GDPR applies, processing relies on legitimate interests (operating and securing the service), the performance of a contract (providing the platform to the hotel), and, where required, consent obtained by the hotel from its guests. Where Turkish KVKK applies, we process data on the corresponding legal grounds, including the performance of a contract and our legitimate interests.",
-            "Hotels are responsible for obtaining any guest consent required for WhatsApp messaging under applicable law and Meta's WhatsApp Business policies."
+            "StayLine processes personal data in compliance with the legislation on the protection of personal data in force in the countries where it operates. During the processing of personal data, the principles of lawfulness, honesty, transparency, purpose limitation, data minimization, and proportionality are taken as a basis; data processing activities are carried out only for specific, explicit, and legitimate purposes.",
+            "Data processing activities carried out within the scope of the European Union General Data Protection Regulation (GDPR) are based on the legal grounds of the performance of a contract concluded or to be concluded with the data subject, the fulfillment of the legal obligations of StayLine or the businesses benefiting from the service, the protection of the legitimate interests of the data controller or third parties, and, where required by legislation, obtaining the explicit consent of the data subject. Depending on the nature of the processing activity, the other legal grounds regulated under Article 6 of the GDPR may also be relied upon.",
+            "With respect to the legislation of the Republic of Türkiye, personal data is processed within the scope of the conditions for processing personal data regulated under Articles 5 and 6 of the Personal Data Protection Law No. 6698. In this scope, data may be processed on the basis of the legal grounds of being expressly stipulated in the laws, being directly related to the establishment or performance of a contract, being mandatory for the data controller to fulfill its legal obligation, processing being necessary for the establishment, exercise, or protection of a right, the existence of the legitimate interests of the data controller provided that no harm is caused to the fundamental rights and freedoms of the data subject, and, where necessary, obtaining the explicit consent of the data subject.",
+            "A significant portion of the personal data processed by StayLine is based on the legal ground of the performance of a contract, for the purpose of providing the platform services and conducting the service relationship between the relevant hotels and users. In addition, activities such as ensuring system security, improving service quality, resolving technical problems, and preventing the risks of fraud and unauthorized use may be carried out within the scope of the legitimate interests of the data controller.",
+            "With respect to guest data processed through StayLine, the data controller is the relevant hotel or accommodation business. For this reason, the relevant hotel is primarily responsible for fulfilling the information obligation toward guests, obtaining explicit consent where necessary, complying with electronic communication and commercial communication legislation, and determining the legal grounds for data processing activities. StayLine, on the other hand, acts as a data processor solely in accordance with the instructions of the data controller.",
+            "With respect to communication activities carried out via the WhatsApp Business Platform, the relevant hotel is responsible for obtaining the necessary permissions, approvals, and disclosures within the framework of the legislation in force and the policies and rules published by Meta Platforms. In this scope, StayLine provides the technical infrastructure as a data processor and does not assume the obligations of the data controller.",
+            "In exceptional cases where the processing of special-category personal data is necessary, StayLine applies the additional security measures stipulated in the relevant legislation and processes the data in question only to the extent that the legal conditions for processing exist."
           ]
         },
         {
-          "heading": "WhatsApp and Meta",
+          "heading": "5. WhatsApp Business Services",
           "body": [
-            "Messaging is delivered through the Meta WhatsApp Cloud API. Message content and phone numbers are processed by Meta Platforms in order to send and receive messages. Your use of WhatsApp is also subject to Meta's and WhatsApp's own terms and privacy policies."
+            "StayLine makes use of the WhatsApp Business Platform and WhatsApp Cloud API infrastructure provided by Meta Platforms for the purpose of providing guest communication services. Messaging activities carried out via the platform are conducted through the relevant hotel's WhatsApp Business account, and StayLine provides technical infrastructure and management services in this process.",
+            "In order to transmit, display, and manage messages sent or received via StayLine, telephone numbers, message contents, messaging records, date and time information, media content, and related communication data may be processed by Meta Platforms. There may be cases in which StayLine does not have direct control over the data processing activities carried out in this scope, and Meta Platforms may carry out independent data processing activities within the framework of its own terms of service and privacy policies.",
+            "Personal data processed during the use of the WhatsApp Business Platform may be stored, processed, or transferred by Meta Platforms on servers located in different countries. With respect to such data processing activities, Meta Platforms' own data protection policies, terms of use, and international data transfer mechanisms apply.",
+            "Although StayLine provides the technical integration necessary for the continuity of the services offered via the WhatsApp Business Platform, it does not have direct control over the data processing activities carried out by Meta Platforms, service interruptions, policy changes, or technical problems arising from third-party systems. For this reason, the responsibilities that Meta Platforms has under the relevant legislation with respect to the data processing activities arising from its own systems are reserved.",
+            "Platform users and guests, if they benefit from the WhatsApp services provided through StayLine, also accept that they are at the same time subject to the current terms of use, data processing policies, and privacy rules published by Meta Platforms and WhatsApp. Users are advised to also review the current policies and terms published by WhatsApp and Meta Platforms.",
+            "In the communication activities conducted via the WhatsApp Business Platform, StayLine processes data only to the extent necessary for the provision of the service and does not use the data in question for its own commercial purposes, sell it, or share it with unauthorized third parties."
           ]
         },
         {
-          "heading": "AI processing",
+          "heading": "6. Use of Artificial Intelligence Technologies",
           "body": [
-            "Reply suggestions, request classification and translation are performed using Claude, an AI service provided by Anthropic. Relevant message content and limited guest context are sent to Anthropic to generate these outputs. We do not use guest data to train any AI models, including our own or third-party foundation models."
+            "StayLine makes use of artificial intelligence-supported technologies for the purpose of managing guest communication processes more effectively, improving service quality, and optimizing operational processes. Artificial intelligence systems may be used in certain features of the platform for the purpose of improving the user experience and contributing to the more efficient conduct of hotel operations.",
+            "In this scope, artificial intelligence technologies may be used for the purposes of analyzing guest messages, performing automatic translation in multilingual communication processes, classifying requests according to their content, routing to the relevant departments, generating response suggestions, supporting operational reporting, and enabling users to benefit from the services more effectively.",
+            "To the extent necessary for the provision of artificial intelligence-supported services, message contents, communication records, and limited contextual information that is mandatory for the provision of the service may be processed by third-party artificial intelligence service providers. StayLine currently makes use of the Claude technology provided by Anthropic in some of its artificial intelligence services. However, StayLine may also work with different artificial intelligence service providers in line with the improvement of service quality or technical requirements.",
+            "The responses, translations, classifications, or suggestions generated by artificial intelligence systems are produced as a result of automatic processes and are not always error-free, complete, or a guarantee of a particular outcome. For this reason, evaluating the accuracy of the content generated by artificial intelligence and, where deemed necessary, subjecting it to human review is the responsibility of the relevant users and hotel businesses.",
+            "The personal data processed by StayLine is not used for any purpose other than the provision of artificial intelligence services, and the data in question is not processed for the purpose of developing or training StayLine's own artificial intelligence models. Likewise, the necessary technical and contractual measures are taken to ensure that the personal data processed by StayLine is not used for the purpose of training third-party artificial intelligence systems.",
+            "StayLine undertakes to act in accordance with the data minimization principle in the use of artificial intelligence technologies, to process only the data necessary for the provision of the service, and to apply reasonable technical and administrative security measures aimed at protecting the confidentiality of personal data.",
+            "The processes relating to the use of artificial intelligence technologies are carried out within the framework of the legislation on the protection of personal data in force, international data protection standards, and the security policies of the relevant service providers."
           ]
         },
         {
-          "heading": "Sub-processors",
+          "heading": "7. Third-Party Service Providers",
           "body": [
-            "We rely on a limited set of service providers to run StayLine:"
-          ],
-          "bullets": [
-            "Meta Platforms — WhatsApp Cloud API message delivery.",
-            "Anthropic — Claude AI for reply generation, classification and translation.",
-            "Our hosting and infrastructure provider — Hostinger (Europe — Germany) — for application hosting and databases."
+            "StayLine makes use of certain third-party service providers, technology business partners, and infrastructure providers for the purpose of operating the platform in a secure, uninterrupted, and efficient manner. These service providers may be used for the purposes of operating the messaging infrastructure, providing artificial intelligence-supported services, providing data hosting services, ensuring system security, carrying out technical maintenance activities, and sustaining the general operation of the platform.",
+            "In this scope, StayLine makes use of the services provided by Meta Platforms for the purpose of providing the WhatsApp Business Platform and WhatsApp Cloud API integration. The artificial intelligence technologies provided by Anthropic may be utilized for the purpose of providing artificial intelligence-supported translation, content analysis, classification, and response suggestion services. In addition, Hostinger and similar infrastructure service providers may be used for the purpose of hosting the platform, managing the database, ensuring system continuity, and operating the technical infrastructure.",
+            "StayLine may work with different service providers, change its existing service providers, or add new service providers in the event of the development of services, the meeting of technical needs, or the emergence of operational requirements. Such changes are carried out in compliance with the legislation in force and data security obligations.",
+            "Third-party service providers may access personal data only to the extent necessary for the provision of the services and within the limits of their authorization. These service providers are not permitted to use personal data for their own purposes, and the data in question may be processed only for the purposes determined by StayLine and within the framework of the relevant contractual obligations.",
+            "StayLine applies reasonable technical, administrative, and contractual measures in order to ensure that third-party service providers act in compliance with data security and confidentiality obligations. However, with respect to the independent data processing activities that third-party service providers carry out within their own systems, the privacy policies and terms of use of the relevant providers shall apply.",
+            "Personal data, due to the nature of the service, may be processed in the systems of third-party service providers located domestically or abroad, and such data transfers are carried out by taking the necessary security measures within the scope of the data protection legislation in force."
           ]
         },
         {
-          "heading": "Sharing data",
+          "heading": "8. Transfer of Personal Data",
           "body": [
-            "We do not sell personal data. We share it only with the sub-processors above as needed to provide the service, with the hotel that controls the data, and where required by law."
+            "The personal data processed by StayLine may be transferred to third parties in compliance with the legislation in force, for the purposes of achieving the purposes set out in this Privacy Policy, providing the platform services, fulfilling legal obligations, and operating the system securely.",
+            "In this scope, personal data may be transferred to the relevant hotels or accommodation businesses benefiting from the platform services, to the technology providers used for the purpose of providing the messaging infrastructure, to the service providers used for the purpose of providing artificial intelligence services, to the business partners providing data hosting and technical infrastructure services, to legally authorized public institutions and organizations, to courts, to enforcement offices, to regulatory and supervisory authorities, and to other persons or institutions authorized by legislation to request information.",
+            "The data transfers carried out by StayLine are conducted by observing the data minimization principle and only to the extent necessary for the provision of the relevant service. The scope of the personal data transferred is kept limited to the purpose of the transfer, and unnecessary or disproportionate data sharing is avoided.",
+            "StayLine applies appropriate technical and administrative security measures in the processes of transferring personal data and takes the necessary contractual and organizational measures aimed at protecting the confidentiality of personal data. Access to personal data is limited solely to persons who have access authorization as required by their duties.",
+            "Due to the structure of the platform and the technological infrastructures used, personal data may be transferred to service providers located domestically or abroad, or may be processed in the systems of these providers. Such transfers are carried out within the framework of the security mechanisms and protective measures stipulated in the data protection legislation in force.",
+            "StayLine does not in any way sell, rent, transfer to third parties for the purpose of obtaining commercial gain, or use personal data in advertising and marketing activities aimed at profiling users or guests. Personal data is processed and transferred only for the purposes set out in this Policy and to the extent permitted by the relevant legislation."
           ]
         },
         {
-          "heading": "Data retention",
+          "heading": "9. Data Retention Periods",
           "body": [
-            "We retain personal data for as long as the hotel maintains its account and as needed to provide the service, unless a longer period is required by law. Hotels can update or remove guest records, and deletion requests can be sent to info@stayline.net."
+            "The personal data processed by StayLine is retained for the period required by the purposes of processing and by taking into account the retention obligations stipulated in the legislation in force. In determining the retention period of personal data, the nature of the data, the purpose of processing, whether the service relationship continues, the contractual obligations between the parties, possible legal disputes, and the statutes of limitation and retention periods stipulated in the relevant legislation are taken into consideration.",
+            "Guest data processed within the scope of the platform may, as a rule, be retained for the period during which the relevant hotel continues to benefit from StayLine's services. Upon the request of the relevant hotel holding the status of data controller or in cases required by legislation, the data in question may be deleted, anonymized, or closed to access.",
+            "Information relating to user accounts, technical records, transaction logs, and security records may be retained for the period deemed necessary for the purposes of ensuring system security, resolving possible disputes, carrying out audit activities, and fulfilling legal obligations.",
+            "In the event that the purpose requiring the processing of personal data ceases to exist, the relevant retention period expires, or the data subject's request is accepted within the scope of the legislation, personal data is deleted, destroyed, or anonymized in compliance with the legislation in force. However, in cases where the legislation in force requires personal data to be retained for a further specified period, the data in question may continue to be retained solely for the purpose of fulfilling the relevant obligation.",
+            "During deletion, destruction, and anonymization operations, reasonable technical and administrative measures are applied to render personal data inaccessible, irretrievable, or incapable of being reused by unauthorized persons.",
+            "StayLine undertakes not to retain personal data for longer than necessary and to act in accordance with the data minimization principle."
           ]
         },
         {
-          "heading": "Security",
+          "heading": "10. Data Security",
           "body": [
-            "We apply appropriate technical and organizational measures, including role-based access scoped per hotel, short-lived authentication tokens kept server-side, and encrypted connections. No system is perfectly secure, but we work to protect data against unauthorized access, loss or misuse."
+            "StayLine accepts the protection of the confidentiality, integrity, and accessibility of the personal data it processes as a fundamental obligation and applies reasonable, appropriate, and up-to-date technical and administrative security measures in order to prevent the unlawful processing of personal data and its access, disclosure, alteration, loss, or damage by unauthorized persons.",
+            "In this scope, StayLine may use security measures such as role-based access control mechanisms, authorization systems, secure server infrastructures, encrypted data communication protocols, authentication methods, keeping access and transaction records, applying regular security updates, system monitoring activities, backup processes, and similar measures. Access to personal data is limited solely to persons authorized to the extent required by their duties, and access authorizations are reviewed regularly.",
+            "StayLine also takes care to ensure that the third-party technology providers and infrastructure service servers from which it receives services meet reasonable security standards regarding data security and, where necessary, stipulates contractual security obligations.",
+            "However, due to the nature of data transfer methods carried out over the internet and electronic storage systems, it is accepted that no technological infrastructure can provide absolute security. Although StayLine takes care to take all necessary reasonable measures for the purpose of protecting personal data, it cannot be guaranteed that the risks that may arise due to the unlawful acts of third parties, cyberattacks, technical malfunctions, interruptions occurring in communication infrastructures, force majeure, or other events occurring beyond StayLine's control will be completely eliminated.",
+            "In the event that a possible security breach is detected, StayLine aims to carry out the necessary technical and administrative interventions to the extent required by the legislation in force, to take reasonable measures to mitigate the effects of the breach, and, where necessary, to inform the authorized authorities and the relevant data subjects in compliance with the legislation.",
+            "Users and the businesses benefiting from the platform are also responsible for ensuring the security of their own account information, user passwords, and access authorizations. Situations giving rise to suspicion of unauthorized access must be reported to StayLine without delay."
           ]
         },
         {
-          "heading": "Your rights",
+          "heading": "11. Rights of Data Subjects",
           "body": [
-            "Subject to applicable law, individuals may request access to their personal data, correction, deletion, restriction or objection to processing, and data portability. Because the hotel is usually the controller of guest data, we may direct guest requests to the relevant hotel, or act on the hotel's instructions."
-          ],
-          "bullets": [
-            "To exercise your rights, email info@stayline.net.",
-            "Guests can also contact the hotel they stayed at."
+            "Persons whose personal data is processed have various rights within the scope of the data protection legislation in force. In this scope, data subjects have the opportunity to learn whether their personal data is being processed, to request information thereon if it has been processed, to learn the purpose of processing their personal data and whether it is used in accordance with its purpose, to learn the third parties to whom their personal data is transferred, to request the correction of their personal data that has been processed incompletely or incorrectly, to request the deletion or destruction of their personal data, to request the restriction of data processing activities, to object to data processing activities, and to exercise the other rights stipulated by the relevant legislation.",
+            "To the extent permitted by the applicable legislation, data subjects may also request that their personal data be provided to them in a structured, commonly used, and machine-readable format or transferred to another data controller. In addition, their rights to object to the results arising as a consequence of the analysis of personal data exclusively through automated systems are also reserved.",
+            "With respect to the personal data processed by StayLine in the capacity of data controller, data subjects may submit their requests relating to their rights to StayLine through the communication channels set out in this Policy. Applications will be evaluated and concluded within the periods stipulated in the legislation in force.",
+            "However, with respect to guest data processed through the StayLine platform, the data controller is the relevant hotel or accommodation business. For this reason, some requests relating to guests' personal data may need to be directed directly to the relevant data controller. In cases where StayLine acts as a data processor, it may forward the requests of data subjects to the data controller or provide the necessary technical and administrative support in accordance with the instructions of the data controller.",
+            "StayLine undertakes to demonstrate the necessary cooperation in order to ensure that data subjects can effectively exercise their rights and to fulfill its obligations arising from the legislation in force. However, during the evaluation of the application, it may be necessary to verify the identity of the applicant and to evaluate the request within the scope of the relevant legislation.",
+            "Data subjects may submit their requests or questions relating to the processing of their personal data to StayLine through the contact addresses specified below:",
+            "Email: info@stayline.net"
           ]
         },
         {
-          "heading": "International transfers",
+          "heading": "12. International Data Transfers",
           "body": [
-            "Our providers may process data in countries other than your own. Where required, we rely on appropriate safeguards, such as standard contractual clauses, for international transfers."
+            "Due to the nature of the services provided by StayLine, some of the technology providers, cloud service providers, artificial intelligence service providers, and communication infrastructure providers used in the operation of the platform may operate in different countries or may process data on servers located in different countries. For this reason, personal data may be transferred abroad or processed in systems located abroad for the purposes of providing the services, operating the technical infrastructure, carrying out data storage activities, providing artificial intelligence-supported services, and conducting communication processes.",
+            "International data transfers are carried out by taking into account the legislation on the protection of personal data in force, international data protection standards, and the regulations of the relevant data protection authorities. StayLine takes care to apply reasonable technical, administrative, and contractual measures aimed at protecting the rights and freedoms of data subjects during the transfer of personal data abroad.",
+            "In cases where personal data needs to be transferred abroad, the level of data protection of the country to which the transfer will be carried out, the security standards of the relevant service provider, and the protection mechanisms stipulated within the scope of the legislation in force are taken into account. Where necessary, standard contractual clauses, data processing agreements, confidentiality undertakings, and similar legal assurance mechanisms may be utilized.",
+            "With respect to data processing activities carried out through the systems of the third-party service providers used by StayLine, the data protection policies and international data transfer mechanisms of the relevant service providers may also apply. In this scope, the data processing activities carried out by Meta Platforms, Anthropic, cloud service providers, or other technology business partners are subject to the data protection obligations of the relevant providers in force.",
+            "In international data transfer processes, StayLine takes as a basis the transfer of personal data only to the extent necessary for the provision of the service and acts in accordance with the principles of data minimization and proportionality. Personal data is not transferred abroad in cases where it is not connected with or not necessary for the purpose of processing.",
+            "Persons using the platform accept that, due to the technical nature of the services, their personal data may be processed and stored in systems located in different countries. StayLine continues to apply a reasonable level of protective measures for the purpose of ensuring the security of personal data in these processes."
           ]
         },
         {
-          "heading": "Cookies",
+          "heading": "13. Cookies and Similar Technologies",
           "body": [
-            "This marketing website is intentionally minimal and does not use advertising or tracking cookies. The application may use strictly necessary cookies or tokens to keep you signed in."
+            "The StayLine website and platform may use cookies, session tokens, and similar technologies for the purpose of providing the services in a secure and uninterrupted manner. These technologies are used for the purposes of managing users' sessions, carrying out security controls, maintaining system performance, and fulfilling the core functions of the platform.",
+            "Cookies are small data files stored on users' devices that help the website or application to operate more efficiently. The cookies and similar technologies used by StayLine are, as a rule, aimed at fulfilling the technical functions necessary for the operation of the platform.",
+            "StayLine may make use of mandatory technical cookies for the purposes of carrying out users' authentication operations, protecting session information, preventing unauthorized access, detecting security risks, and technically maintaining the services. Since these cookies are necessary for the platform to operate, some services may not function properly if they are disabled.",
+            "The information obtained through the cookies used by StayLine is not used for purposes other than those set out in this Privacy Policy, and the privacy of users' private lives is respected.",
+            "StayLine does not use cookies for the purpose of conducting advertising activities, creating third-party advertising networks, or tracking users' behavior on the internet for marketing purposes. However, in the event that new services are put into operation on the website or platform in the future, changes may be made to the types of cookies used. In this case, the relevant information will be updated and made available to users.",
+            "Users may restrict, delete, or completely disable cookies through the settings of their internet browsers. However, it should be taken into consideration that, in the event that some cookies are disabled, certain features of the website or platform may not function as expected."
           ]
         },
         {
-          "heading": "Children's data",
+          "heading": "14. Data Relating to Children",
           "body": [
-            "StayLine is a tool for hotel operations and is not directed at children. We do not knowingly collect personal data from children."
+            "StayLine is not a service designed directly for children or made available for the use of children. The platform is a professional business solution developed to be used by hotels, accommodation businesses, and the users authorized by these businesses.",
+            "StayLine does not aim to collect personal data directly from children and does not provide any service aimed at enabling children to register as independent users via the platform. For this reason, no deliberate data collection activity aimed at children is carried out by StayLine.",
+            "However, due to the nature of accommodation services, some personal data relating to children may be transferred to StayLine's systems by the relevant hotels for the purpose of carrying out reservation, accommodation, security, or customer service processes. With respect to such data, the data controller is the relevant hotel or accommodation business, and the relevant data controller is responsible for processing the data in question lawfully, providing the necessary disclosures, and, where required by legislation, obtaining the necessary permissions.",
+            "StayLine processes personal data relating to children solely in accordance with the instructions of the relevant data controller and to the extent necessary for the provision of the service. The data processed in this scope is protected subject to the security and confidentiality measures set out in this Privacy Policy.",
+            "A parent, guardian, or legal representative may contact StayLine if they believe that personal data relating to a child not belonging to them is being processed unlawfully. In such a case, StayLine, depending on the nature of the request, will carry out the necessary evaluations in cooperation with the relevant data controller and will carry out the necessary procedures within the scope of the legislation in force."
           ]
         },
         {
-          "heading": "Changes to this policy",
+          "heading": "15. Changes to the Policy",
           "body": [
-            "We may update this policy from time to time. We will revise the \"last updated\" date above and, where appropriate, notify hotels of material changes."
+            "StayLine reserves the right to review and update this Privacy Policy at any time in line with changes occurring in the legislation in force, updates in data protection practices, technological developments, the expansion or change of the scope of services, the provision of new products and services, or operational requirements.",
+            "Changes to be made to the Privacy Policy enter into force upon the publication of the updated text on the StayLine website. Unless otherwise expressly stated, the updated Policy is deemed valid as of the date it is published, and continued use of the platform means that the provisions of the current Policy have been accepted.",
+            "In the event that significant changes that may affect the rights of data subjects are made, StayLine may inform users through the communication methods it deems appropriate. However, it is the users' own responsibility to review the current Privacy Policy at regular intervals.",
+            "The most current version of the Policy is always accessible via the StayLine website, and the \"Last Update Date\" section at the beginning of the Policy indicates when the relevant text was last revised.",
+            "Should any provision of this Policy become invalid or unenforceable, this shall not affect the validity of the other provisions of the Policy. In such a case, the relevant provision shall be interpreted in the manner most consistent with the legislation in force and the purpose of the Policy."
           ]
         },
         {
-          "heading": "Contact",
+          "heading": "16. Contact",
           "body": [
-            "For any privacy question or request, contact info@stayline.net."
+            "For any questions, opinions, requests, and applications regarding the processing of personal data, data security practices, data subject rights, or the data processing activities carried out by StayLine, you may contact us through the communication channels set out below within the scope of this Privacy Policy.",
+            "Your requests relating to your personal data are evaluated within the framework of the data protection legislation in force, and applications will be concluded within the shortest possible time and within the periods stipulated in the relevant legislation. Depending on the nature of the request, it may be necessary to carry out identity verification or to request additional information and documents.",
+            "StayLine undertakes to provide a reasonable level of technical and administrative support in order to ensure that data subjects can effectively exercise their rights. However, in cases where StayLine acts as a data processor, the evaluation and instruction of the relevant data controller, namely the hotel or accommodation business, may be required in order for applications to be concluded.",
+            "All requests relating to privacy, data protection, and the processing of personal data may be submitted through the contact information below:",
+            "StayLine",
+            "Email: info@stayline.net",
+            "Website: www.stayline.net",
+            "StayLine recommends that applications be submitted in as much detail as possible in order for the applications to be made under this Privacy Policy to be evaluated more quickly and soundly."
           ]
         }
       ]
     },
     "terms": {
-      "title": "Terms of Service",
-      "lastUpdated": "Last updated: 12 June 2026",
-      "intro": [
-        "These Terms of Service (\"Terms\") govern your access to and use of the StayLine platform and website operated by İsmail Akkul (Red X Eight) (\"StayLine\", \"we\", \"us\").",
-        "By accessing or using StayLine, you agree to these Terms. If you do not agree, do not use the service."
-      ],
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: 14 June 2026",
+      "intro": [],
       "sections": [
         {
-          "heading": "The service",
+          "heading": "1. Parties and Subject Matter",
           "body": [
-            "StayLine is a hotel guest-communication platform that connects to the Meta WhatsApp Cloud API and uses AI to assist with replies, request classification and routing, along with guest management and reporting features."
+            "These Terms of Use (\"Terms\") govern the terms and conditions relating to the use of the website, software, mobile applications, API services, artificial intelligence-supported solutions and all related services offered by StayLine.",
+            "StayLine is a technology platform that enables hotels, accommodation businesses and other commercial enterprises to manage their guest communication processes, track requests, benefit from artificial intelligence-supported services and carry out their operational processes in a digital environment.",
+            "All persons who visit the platform, create an account, benefit from the services or access the platform in any way declare that they have read, understood and accepted these Terms of Use."
           ]
         },
         {
-          "heading": "Accounts & eligibility",
+          "heading": "2. Scope of Services",
           "body": [
-            "You must provide accurate account information and are responsible for safeguarding your credentials and for all activity under your account. You must have the authority to bind the hotel or organization you represent."
+            "The services offered by StayLine may include guest communication, WhatsApp Business integration, artificial intelligence-supported message management, request routing systems, translation services, reporting tools, analytics systems and other digital solutions offered by the platform.",
+            "StayLine reserves the right to develop, change, expand, narrow or remove certain features of the scope of the services.",
+            "It is not guaranteed that all of the services offered through the platform will be included for every user or every subscription package."
           ]
         },
         {
-          "heading": "Acceptable use",
+          "heading": "3. Account Creation and User Responsibilities",
           "body": [
-            "You agree not to misuse the service, including by sending unlawful, deceptive or unsolicited messages, infringing others' rights, attempting to disrupt or reverse-engineer the platform, or using it to violate Meta's or WhatsApp's policies."
+            "In order to benefit from certain features of the platform, the creation of a user account may be required.",
+            "Users accept that the information they provide when creating an account is accurate, current and complete. StayLine is not responsible for consequences arising from incorrect or incomplete information.",
+            "Users are obliged to ensure the security of their account information and passwords. Transactions carried out through the account are deemed to have been carried out by the user.",
+            "Users are obliged to immediately notify StayLine if they notice that their accounts are being used by unauthorized persons."
           ]
         },
         {
-          "heading": "Customer responsibilities",
+          "heading": "4. Lawful and Appropriate Use",
           "body": [
-            "You are responsible for your use of WhatsApp messaging, including obtaining any guest consent required by applicable law and complying with the WhatsApp Business Messaging Policy and Meta's terms. You are responsible for the accuracy and lawfulness of guest data you upload, and for configuring AI and automated messaging appropriately for your guests.",
-            "When sending marketing or promotional messages, you must first obtain valid opt-in consent in which your hotel is clearly identified by name. You must honor opt-out requests promptly and stop messaging guests who have opted out, and you must ensure marketing messages are clearly identifiable as such, consistent with the WhatsApp Business Messaging Policy."
+            "Users agree to use the platform in accordance with the applicable legislation, general moral rules and the rights of third parties.",
+            "Use of the platform for the following purposes is prohibited:"
+          ],
+          "bullets": [
+            "Engaging in unlawful activities",
+            "Sending spam or bulk unsolicited messages",
+            "Infringing the rights of third parties",
+            "Spreading malicious software",
+            "Attempting to breach the security of the system",
+            "Making unauthorized access attempts",
+            "Violating Meta Platforms or WhatsApp Business policies",
+            "Processing or sharing personal data unlawfully"
+          ],
+          "note": [
+            "StayLine has the right to suspend or terminate a user account if it detects that these provisions have been violated."
           ]
         },
         {
-          "heading": "Third-party services",
+          "heading": "5. WhatsApp Business Services",
           "body": [
-            "StayLine relies on third-party services, including the Meta WhatsApp Cloud API and Anthropic's Claude AI. Your use of those services through StayLine is also subject to their respective terms and policies. We are not responsible for third-party services' availability or actions."
+            "StayLine provides its services through the WhatsApp Business Platform and WhatsApp Cloud API infrastructure offered by Meta Platforms.",
+            "When benefiting from WhatsApp services, users are obliged to comply with the current terms of use, commerce policies and other rules published by Meta Platforms.",
+            "StayLine is not responsible for consequences that may arise due to restrictions, account closures, access blocks or policy violations applied by Meta Platforms."
           ]
         },
         {
-          "heading": "Intellectual property",
+          "heading": "6. Artificial Intelligence Services",
           "body": [
-            "StayLine and its software, design and content are owned by İsmail Akkul (Red X Eight) and protected by law. We grant you a limited, non-exclusive, non-transferable right to use the service during your subscription. You retain rights to your own data."
+            "Some features offered by StayLine may be operated using artificial intelligence technologies.",
+            "Responses, translations, suggestions, analyses or classifications generated by artificial intelligence systems are of an auxiliary nature only. These outputs do not constitute definitive information, professional advice or a guarantee.",
+            "Users are obliged to carry out the necessary checks before using content generated by artificial intelligence.",
+            "StayLine cannot be held responsible for errors, deficiencies or inaccuracies that may occur in content generated by artificial intelligence systems."
           ]
         },
         {
-          "heading": "Fees",
+          "heading": "7. Intellectual Property Rights",
           "body": [
-            "Access to StayLine may require a subscription. Fees, billing terms and plans are set out in your order or agreement with us."
+            "The intellectual and industrial property rights over the StayLine platform, its software, user interfaces, designs, database structures, logos, trademarks, visuals, algorithms, artificial intelligence integrations and all other content belong to StayLine or to the relevant rights holders.",
+            "Users are granted only a limited, revocable and non-transferable right of use for the purpose of benefiting from the services.",
+            "Users may not copy, reproduce, reverse engineer, attempt to obtain the source code of or use for commercial purposes the platform without the written permission of StayLine."
           ]
         },
         {
-          "heading": "Disclaimers",
+          "heading": "8. Protection of Personal Data",
           "body": [
-            "The service is provided \"as is\" and \"as available\" without warranties of any kind to the extent permitted by law. AI-generated suggestions may be inaccurate; you are responsible for reviewing messages before they are sent where applicable. We do not warrant uninterrupted or error-free operation."
+            "StayLine carries out its activities relating to the processing of personal data in accordance with the applicable data protection legislation.",
+            "Detailed information regarding the processing of personal data is set out in the Privacy Policy and the KVKK Disclosure Notice.",
+            "With respect to the guest data processed through the platform, the data controller is the relevant hotel or accommodation business. StayLine acts in the capacity of data processor with respect to this data."
           ]
         },
         {
-          "heading": "Limitation of liability",
+          "heading": "9. Service Continuity and Interruptions",
           "body": [
-            "To the maximum extent permitted by law, StayLine and its suppliers will not be liable for indirect, incidental, special, consequential or punitive damages, or for lost profits or data. Our total liability for any claim is limited to the amounts you paid for the service in the 12 months before the claim."
+            "StayLine aims to provide its services at the highest possible level of availability.",
+            "Nevertheless, temporary interruptions in services may occur due to maintenance work, updates, problems originating from third-party service providers, internet infrastructure problems, cyber attacks, force majeure or technical malfunctions.",
+            "StayLine does not guarantee that the services will be uninterrupted, error-free or continuously accessible."
           ]
         },
         {
-          "heading": "Indemnification",
+          "heading": "10. Limitation of Liability",
           "body": [
-            "You agree to indemnify and hold StayLine harmless from claims arising out of your use of the service, your content, or your violation of these Terms or applicable law, including messaging and data-protection laws."
+            "To the extent permitted by the applicable legislation, StayLine cannot be held responsible for direct or indirect damages, data losses, business losses, revenue losses, reputational losses or disputes with third parties arising from the use or inability to use the platform.",
+            "In the event that StayLine is held liable for any reason, its liability shall be limited to the service fee paid to StayLine by the relevant user within the last twelve months.",
+            "This limitation does not apply in cases of gross negligence or willful misconduct."
           ]
         },
         {
-          "heading": "Termination",
+          "heading": "11. Suspension and Termination",
           "body": [
-            "You may stop using the service at any time. We may suspend or terminate access if you breach these Terms or if required to protect the service or comply with law. Upon termination, your right to use the service ends."
+            "StayLine may temporarily suspend or completely terminate a user account in cases of violation of these Terms of Use, detection of unlawful use, occurrence of a security risk or violation of the rules of third-party providers.",
+            "Users may also terminate their accounts and use of the services at any time.",
+            "Termination does not eliminate the rights and obligations of the parties that have accrued up to the date of termination."
           ]
         },
         {
-          "heading": "Governing law",
+          "heading": "12. Changes",
           "body": [
-            "These Terms are governed by the laws of the Republic of Türkiye, without regard to conflict-of-laws rules. The courts of Antalya, Türkiye will have jurisdiction, unless otherwise required by mandatory law."
+            "StayLine reserves the right to update, change or reorganize these Terms of Use at any time.",
+            "The updated text enters into force on the date it is published on the website. Continued use of the platform means that the current terms have been accepted."
           ]
         },
         {
-          "heading": "Changes to these Terms",
+          "heading": "13. Applicable Law and Jurisdiction",
           "body": [
-            "We may update these Terms from time to time. We will revise the \"last updated\" date and, where appropriate, notify you. Continued use after changes means you accept the updated Terms."
+            "The law of the Republic of Türkiye shall apply to the interpretation and implementation of these Terms of Use.",
+            "The Antalya Courts and Antalya Enforcement Offices shall have exclusive jurisdiction in the resolution of any disputes arising from or connected with these Terms of Use."
           ]
         },
         {
-          "heading": "Contact",
+          "heading": "14. Contact",
           "body": [
-            "Questions about these Terms? Contact info@stayline.net."
+            "For any questions, opinions or requests regarding these Terms of Use, you may contact us through the following contact information:",
+            "StayLine",
+            "Email: info@stayline.net",
+            "Website: www.stayline.net"
+          ]
+        }
+      ]
+    },
+    "kvkk": {
+      "title": "KVKK Disclosure Notice",
+      "lastUpdated": "Last updated: 14 June 2026",
+      "intro": [],
+      "sections": [
+        {
+          "heading": "1. Identity of the Data Controller",
+          "body": [
+            "This Disclosure Notice has been prepared by StayLine, acting in its capacity as data controller, pursuant to Article 10 of the Personal Data Protection Law No. 6698 (\"KVKK\").",
+            "StayLine is a technology platform that provides guest communication, operations management, and artificial intelligence-supported services developed for hotels and accommodation businesses.",
+            "For any questions, requests, and applications within the scope of the KVKK, you may contact us through the following communication channels:"
+          ],
+          "bullets": [
+            "Email: info@stayline.net",
+            "Website: www.stayline.net"
+          ]
+        },
+        {
+          "heading": "2. Personal Data Processed",
+          "body": [
+            "The personal data processed by StayLine may vary depending on the manner in which you use the services.",
+            "When you visit the website, request a demo, contact us, or become a platform user, your name and surname information, contact information, user account information, IP address, device and browser information, session records, technical log records, and other information shared by you with us may be processed.",
+            "In addition, with respect to platform users, user account information, authorization and role information, login records, and system usage records may also be processed."
+          ]
+        },
+        {
+          "heading": "3. Purposes of Processing Personal Data",
+          "body": [
+            "Your personal data;",
+            "may be processed for the purposes of providing platform services, creating and managing user accounts, providing technical support services, ensuring system security, carrying out communication activities, evaluating your requests, improving service quality, enhancing user experience, fulfilling legal obligations, carrying out information security processes, and resolving potential disputes."
+          ]
+        },
+        {
+          "heading": "4. Legal Grounds for Processing Personal Data",
+          "body": [
+            "Your personal data;",
+            "as set out in Article 5 of the KVKK;"
+          ],
+          "bullets": [
+            "Being expressly provided for by law",
+            "Being directly related to the establishment or performance of a contract",
+            "Being mandatory for the data controller to fulfill its legal obligation",
+            "Processing of data being mandatory for the establishment, exercise, or protection of a right",
+            "The existence of legitimate interests of the data controller, provided that it does not harm the fundamental rights and freedoms of the data subject"
+          ],
+          "note": [
+            "is processed on the basis of these legal grounds.",
+            "In cases requiring explicit consent, the explicit consent of the data subject is obtained."
+          ]
+        },
+        {
+          "heading": "5. Transfer of Personal Data",
+          "body": [
+            "Your personal data may be transferred to technical infrastructure providers, business partners, cloud service providers, authorized public institutions and organizations, and other persons or organizations permitted by the legislation, for the purpose of providing the services.",
+            "Within the scope of operating the platform, third-party service providers such as Meta Platforms, Anthropic, and data hosting service providers may be used."
+          ]
+        },
+        {
+          "heading": "6. Cross-Border Transfer of Data",
+          "body": [
+            "Due to the technology infrastructures used and third-party service providers, your personal data may be processed or stored on servers located abroad.",
+            "Such data transfers are carried out by taking the necessary security measures within the framework of the relevant provisions of the KVKK and the applicable legislation."
+          ]
+        },
+        {
+          "heading": "7. Special Disclosure Regarding Guest Data",
+          "body": [
+            "With respect to guest data transferred to the system by hotels using the StayLine platform, the data controller is the relevant hotel or accommodation business.",
+            "StayLine acts in its capacity as data processor with respect to this data and processes personal data only in accordance with the instructions of the relevant data controller.",
+            "Requests regarding access, correction, deletion, and similar matters concerning guest data should be directed primarily to the relevant hotel or accommodation business."
+          ]
+        },
+        {
+          "heading": "8. Rights of the Data Subject",
+          "body": [
+            "Pursuant to Article 11 of the KVKK, data subjects;",
+            "have the right to learn whether their personal data is being processed, to request information regarding such processing if it has been processed, to learn the purpose of processing, to request the correction of data that has been processed incompletely or incorrectly, to request its deletion or destruction, and to exercise their other rights provided for by law.",
+            "You may submit your requests regarding these rights to info@stayline.net.",
+            "StayLine will evaluate and conclude applications within the periods provided for in the applicable legislation."
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "lastUpdated": "Last updated: 14 June 2026",
+      "intro": [],
+      "sections": [
+        {
+          "heading": "1. Purpose",
+          "body": [
+            "This Cookie Policy (the “Policy”) has been prepared to inform users about the cookies, similar technologies, and their purposes of use that are employed when the StayLine website and platform are visited.",
+            "StayLine may use cookies and similar technologies in order to improve the user experience, ensure the secure operation of the website and platform, and provide its core services.",
+            "This Policy applies to all users who visit the StayLine website and benefit from the platform services."
+          ]
+        },
+        {
+          "heading": "2. What Is a Cookie?",
+          "body": [
+            "Cookies are small text files stored on your browser or device when you visit a website. By means of cookies, a website can remember your preferences, provide session management, and help deliver services more efficiently.",
+            "Cookies do not harm your device and do not provide direct access to your personal data. However, in certain cases they may help store specific information in order to improve the user experience."
+          ]
+        },
+        {
+          "heading": "3. Types of Cookies Used",
+          "body": [
+            "The cookies used by StayLine consist primarily of technical cookies that are necessary for the operation of the website and platform."
+          ],
+          "subsections": [
+            {
+              "heading": "Mandatory Cookies",
+              "body": [
+                "These cookies are necessary for the website and platform to function properly. They may be used to manage user sessions, perform security checks, carry out login operations, and ensure system security.",
+                "If these cookies are disabled, certain parts of the website or platform may not function properly."
+              ]
+            },
+            {
+              "heading": "Functionality Cookies",
+              "body": [
+                "Certain functionality cookies may be used to remember user preferences and to ensure services are delivered more efficiently. By means of these cookies, information such as language preferences or session preferences may be stored."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "4. Purposes of Use of Cookies",
+          "body": [
+            "The cookies used by StayLine may be used for the following purposes:"
+          ],
+          "bullets": [
+            "Managing user sessions",
+            "Providing access to the platform",
+            "Protecting information security",
+            "Preventing unauthorized access",
+            "Detecting technical errors",
+            "Providing services in a secure and uninterrupted manner",
+            "Remembering user preferences",
+            "Maintaining platform performance"
+          ]
+        },
+        {
+          "heading": "5. Advertising and Tracking Cookies",
+          "body": [
+            "StayLine does not use third-party cookies that create advertising networks for the purpose of tracking users’ behavior on the internet.",
+            "StayLine does not use cookies for the purpose of creating advertising profiles of users, conducting behavioral advertising activities, or transferring data to third-party advertising networks.",
+            "However, in the future, if new services are added to the website or platform, changes may be made to the types of cookies used. In such a case, this Policy will be updated and made available to users."
+          ]
+        },
+        {
+          "heading": "6. Third-Party Services",
+          "body": [
+            "StayLine may make use of certain third-party service providers in order to operate the website or platform technically. The technical tools used by these service providers may use their own cookies or similar technologies.",
+            "Where such services are used, the privacy and cookie policies of the relevant third parties may also apply."
+          ]
+        },
+        {
+          "heading": "7. Managing Cookies",
+          "body": [
+            "Users may accept, reject, delete, or restrict cookies through the settings of their internet browsers.",
+            "Cookie preferences can be managed differently for each browser, and users can find the necessary information in the help menu of the browser they use.",
+            "Nevertheless, if certain cookies are disabled, specific features of the website or platform may not function as expected."
+          ]
+        },
+        {
+          "heading": "8. Changes to the Policy",
+          "body": [
+            "StayLine reserves the right to update this Cookie Policy in line with changes in legislation, technical requirements, or changes in the scope of services.",
+            "The updated Policy enters into force on the date it is published on the website."
+          ]
+        },
+        {
+          "heading": "9. Contact",
+          "body": [
+            "For your questions regarding the use of cookies and the protection of personal data, you may contact us using the contact details below:",
+            "StayLine",
+            "Email: info@stayline.net",
+            "Website: www.stayline.net"
           ]
         }
       ]
@@ -555,8 +839,16 @@
       "description": "How StayLine collects, uses and protects personal data for hotel guest communication over WhatsApp."
     },
     "terms": {
-      "title": "Terms of Service",
-      "description": "The terms that govern access to and use of the StayLine platform and website."
+      "title": "Terms of Use",
+      "description": "The terms and conditions that govern access to and use of the StayLine platform and website."
+    },
+    "kvkk": {
+      "title": "KVKK Disclosure Notice",
+      "description": "How StayLine processes personal data under Turkish Personal Data Protection Law No. 6698 (KVKK)."
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "description": "The cookies used on the StayLine website and platform, the cookie types, and how to manage your cookie preferences."
     },
     "dataDeletion": {
       "title": "Data Deletion",
