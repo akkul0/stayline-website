@@ -54,7 +54,7 @@ export async function generateMetadata({
       images: [{ url: `/og/og-${locale}.png`, width: 1200, height: 630 }],
     },
     twitter: { card: "summary_large_image" },
-    icons: { icon: "/icon.svg", apple: "/icon.svg" },
+    icons: { icon: "/icon.png", apple: "/apple-icon.png" },
     robots: { index: true, follow: true },
   };
 }
