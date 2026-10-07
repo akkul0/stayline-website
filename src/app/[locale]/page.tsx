@@ -29,7 +29,9 @@ export default async function HomePage({
       <StoryModules />
       <RoomPhone />
 
-      <section className="overflow-hidden border-t border-border-subtle bg-surface-0 pb-24 pt-20 sm:pt-28">
+      <section className="relative overflow-hidden border-t border-border-subtle bg-surface-0 pb-24 pt-20 sm:pt-28">
+        {/* Telefon bu bölümde görünmez: finale giderken kartların üstünden geçmesin */}
+        <div aria-hidden data-phone-slot data-mode="hidden" data-screen="booking" data-spin="0" className="absolute left-1/2 top-1/2 size-px" />
         <Container>
           <GiantWord word="StayLine" />
           <div className="mt-14 grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">

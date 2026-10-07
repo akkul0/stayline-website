@@ -19,16 +19,16 @@
     "product": "Product",
     "legal": "Legal",
     "rights": "StayLine — İsmail Akkul. All rights reserved.",
-    "builtOn": "Built on the Meta WhatsApp Cloud API and Claude AI."
+    "builtOn": "Built on the official Meta WhatsApp Cloud API."
   },
   "home": {
     "hero": {
       "eyebrow": "Hotel guest communication on WhatsApp",
       "title": "Guests write. StayLine takes care of it.",
-      "subtitle": "It understands every request coming in over WhatsApp and the phone, replies in the guest's language and passes it to the right person on shift. You see everything on one screen.",
+      "subtitle": "It understands every request coming in over WhatsApp and the room phone, replies in the guest's language and passes it to the right person on shift. You see everything on one screen.",
       "ctaPrimary": "Book a demo",
       "ctaSecondary": "See what we do",
-      "trust": "Built on the official Meta WhatsApp Cloud API and Claude AI."
+      "trust": "Built on the official Meta WhatsApp Cloud API."
     },
     "preview": {
       "online": "Online now",
@@ -47,7 +47,7 @@
       "subtitle": "Guests already use WhatsApp. StayLine turns it into a fast, organized, AI-assisted operation.",
       "aiReplies": {
         "title": "AI-powered replies",
-        "body": "Claude reads the recent conversation and guest context to suggest — or auto-send — accurate replies. Toggle AI per hotel and per conversation."
+        "body": "The AI reads the recent conversation and guest context to suggest — or auto-send — accurate replies. Toggle AI per hotel and per conversation."
       },
       "routing": {
         "title": "Automatic request routing",
@@ -73,7 +73,7 @@
         },
         {
           "title": "AI understands & classifies",
-          "body": "Claude detects the language, drafts a reply, and tags the category, urgency and department."
+          "body": "The AI detects the language, drafts a reply, and tags the category, urgency and department."
         },
         {
           "title": "The right staff is notified",
@@ -100,8 +100,8 @@
         "body": "The official WhatsApp Business platform. Use your own verified number and Meta-approved message templates."
       },
       "claude": {
-        "title": "Claude AI by Anthropic",
-        "body": "Reply drafting, request classification and translation are powered by Claude — configurable per hotel."
+        "title": "Enterprise-grade AI",
+        "body": "Reply drafting, request classification and translation run on advanced AI models, configurable per hotel."
       }
     },
     "cta": {
@@ -233,7 +233,7 @@
         {
           "id": "ai",
           "title": "AI that knows your hotel",
-          "lead": "Claude answers guests with your hotel's own information.",
+          "lead": "The AI answers guests with your hotel's own information.",
           "body": "Restaurant hours, pool, spa, transfers, rules: everything you enter on the hotel information page is the AI's source. It never makes up something that is not on the list; it politely refers the guest to the front desk. Your staff can take over a conversation at any moment.",
           "points": [
             "A knowledge base in minutes with the starter template",
@@ -267,9 +267,9 @@
         },
         {
           "id": "voice",
-          "title": "Answers for guests who call, too",
-          "lead": "The voice assistant picks up, takes the request and confirms the room number.",
-          "body": "Guests call from the room or their mobile; the voice assistant listens and confirms the number by repeating it. When the call ends, the request opens in the right department just as if it had come over WhatsApp.",
+          "title": "Answers for guests who call from the room",
+          "lead": "The voice assistant picks up the room phone, takes the request and confirms the room number.",
+          "body": "Guests call from the phone in their room; the voice assistant listens and confirms the room number by repeating it. When the call ends, the request opens in the right department just as if it had come over WhatsApp.",
           "points": [
             "Phone coverage around the clock",
             "Room number confirmation",
@@ -697,7 +697,7 @@
     "items": {
       "aiReplies": {
         "title": "AI replies & suggestions",
-        "body": "Claude uses the last messages plus guest context (name, room, stay dates, nationality, language) to draft replies. Send with one tap, or let AI auto-reply.",
+        "body": "The AI uses the last messages plus guest context (name, room, stay dates, nationality, language) to draft replies. Send with one tap, or let AI auto-reply.",
         "bullets": [
           "Suggest or auto-send — your choice",
           "Toggle per hotel and per conversation",
@@ -833,7 +833,7 @@
       },
       {
         "q": "Is our data secure and where is it stored?",
-        "a": "Access is role-scoped per hotel, authentication uses short-lived tokens kept server-side, and processing relies on trusted providers (Meta for WhatsApp, Anthropic for AI). See our Privacy Policy for details."
+        "a": "Access is role-scoped per hotel, authentication uses short-lived tokens kept server-side, and processing relies on trusted providers (such as Meta for WhatsApp). See our Privacy Policy for details."
       },
       {
         "q": "Can it import our PMS guest list?",
@@ -1399,7 +1399,7 @@
   "meta": {
     "home": {
       "title": "StayLine — Hotel guest communication on WhatsApp",
-      "description": "Run guest conversations on WhatsApp with AI replies, automatic request routing to on-shift staff, and analytics. Built on the Meta WhatsApp Cloud API and Claude AI."
+      "description": "Run guest conversations on WhatsApp with AI replies, automatic request routing to on-shift staff, and analytics. Built on the Meta WhatsApp Cloud API."
     },
     "features": {
       "title": "Features",

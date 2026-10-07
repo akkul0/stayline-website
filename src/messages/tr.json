@@ -19,16 +19,16 @@
     "product": "Ürün",
     "legal": "Yasal",
     "rights": "StayLine — İsmail Akkul. Tüm hakları saklıdır.",
-    "builtOn": "Meta WhatsApp Cloud API ve Claude AI üzerine kuruludur."
+    "builtOn": "Resmi Meta WhatsApp Cloud API üzerine kuruludur."
   },
   "home": {
     "hero": {
       "eyebrow": "WhatsApp üzerinden otel misafir iletişimi",
       "title": "Misafir yazar, StayLine ilgilenir.",
-      "subtitle": "WhatsApp'tan ve telefondan gelen her talebi anlar, misafirin dilinde cevaplar ve vardiyadaki doğru personele iletir. Siz de her şeyi tek ekrandan görürsünüz.",
+      "subtitle": "WhatsApp'tan ve oda telefonundan gelen her talebi anlar, misafirin dilinde cevaplar ve vardiyadaki doğru personele iletir. Siz de her şeyi tek ekrandan görürsünüz.",
       "ctaPrimary": "Demo randevusu al",
       "ctaSecondary": "Neler yaptığımızı görün",
-      "trust": "Resmi Meta WhatsApp Cloud API ve Claude AI üzerine kuruludur."
+      "trust": "Resmi Meta WhatsApp Cloud API üzerine kuruludur."
     },
     "preview": {
       "online": "Çevrimiçi",
@@ -47,7 +47,7 @@
       "subtitle": "Misafirler zaten WhatsApp kullanıyor. StayLine bunu hızlı, düzenli ve AI destekli bir operasyona dönüştürür.",
       "aiReplies": {
         "title": "AI destekli yanıtlar",
-        "body": "Claude son konuşmayı ve misafir bağlamını okuyarak doğru yanıtlar önerir — ya da otomatik gönderir. AI'ı otel ve konuşma bazında açıp kapatın."
+        "body": "Yapay zekâ son konuşmayı ve misafir bağlamını okuyarak doğru yanıtlar önerir — ya da otomatik gönderir. AI'ı otel ve konuşma bazında açıp kapatın."
       },
       "routing": {
         "title": "Otomatik talep yönlendirme",
@@ -73,7 +73,7 @@
         },
         {
           "title": "AI anlar ve sınıflandırır",
-          "body": "Claude dili algılar, bir yanıt taslağı hazırlar ve kategori, aciliyet ve departmanı etiketler."
+          "body": "Yapay zekâ dili algılar, bir yanıt taslağı hazırlar ve kategori, aciliyet ve departmanı etiketler."
         },
         {
           "title": "Doğru personel bilgilendirilir",
@@ -100,8 +100,8 @@
         "body": "Resmi WhatsApp Business platformu. Kendi doğrulanmış numaranızı ve Meta onaylı mesaj şablonlarınızı kullanın."
       },
       "claude": {
-        "title": "Anthropic'in Claude AI'ı",
-        "body": "Yanıt taslakları, talep sınıflandırma ve çeviri Claude ile çalışır — otel bazında yapılandırılabilir."
+        "title": "Kurumsal düzeyde yapay zekâ",
+        "body": "Yanıt taslakları, talep sınıflandırma ve çeviri gelişmiş yapay zekâ modelleriyle çalışır; otel bazında yapılandırılabilir."
       }
     },
     "cta": {
@@ -233,7 +233,7 @@
         {
           "id": "ai",
           "title": "Otelinizi bilen yapay zekâ",
-          "lead": "Claude, misafirin sorusunu otelinizin kendi bilgileriyle cevaplar.",
+          "lead": "Yapay zekâ, misafirin sorusunu otelinizin kendi bilgileriyle cevaplar.",
           "body": "Restoran saatleri, havuz, spa, transfer, kurallar: otel bilgileri sayfasına girdiğiniz her şey yapay zekânın bilgi kaynağıdır. Listede olmayan bir konuda bilgi uydurmaz; misafiri nazikçe resepsiyona yönlendirir. Personeliniz istediği an konuşmayı devralır.",
           "points": [
             "Hazır şablonla dakikalar içinde bilgi tabanı",
@@ -267,9 +267,9 @@
         },
         {
           "id": "voice",
-          "title": "Telefonla arayan misafire de cevap",
-          "lead": "Sesli asistan telefonu açar, talebi alır, oda numarasını teyit eder.",
-          "body": "Misafir odadan ya da cep telefonundan arar; sesli asistan isteği dinler ve numarayı tekrar ederek doğrular. Görüşme bittiğinde talep, WhatsApp'tan gelmiş gibi panelde doğru departmana açılır.",
+          "title": "Odadan arayan misafire de cevap",
+          "lead": "Sesli asistan oda telefonunu açar, talebi alır, oda numarasını teyit eder.",
+          "body": "Misafir odasındaki telefondan arar; sesli asistan isteği dinler ve oda numarasını tekrar ederek doğrular. Görüşme bittiğinde talep, WhatsApp'tan gelmiş gibi panelde doğru departmana açılır.",
           "points": [
             "Günün her saati telefon karşılama",
             "Oda numarası teyidi",
@@ -697,7 +697,7 @@
     "items": {
       "aiReplies": {
         "title": "AI yanıtlar ve öneriler",
-        "body": "Claude son mesajları ve misafir bağlamını (ad, oda, konaklama tarihleri, uyruk, dil) kullanarak yanıt taslağı hazırlar. Tek dokunuşla gönderin ya da AI otomatik yanıtlasın.",
+        "body": "Yapay zekâ son mesajları ve misafir bağlamını (ad, oda, konaklama tarihleri, uyruk, dil) kullanarak yanıt taslağı hazırlar. Tek dokunuşla gönderin ya da AI otomatik yanıtlasın.",
         "bullets": [
           "Öneri ya da otomatik gönderim — seçim sizin",
           "Otel ve konuşma bazında aç/kapat",
@@ -833,7 +833,7 @@
       },
       {
         "q": "Verimiz güvende mi ve nerede saklanıyor?",
-        "a": "Erişim otel bazında rollerle kapsamlıdır, kimlik doğrulama sunucu tarafında tutulan kısa ömürlü tokenlar kullanır ve işleme güvenilir sağlayıcılara dayanır (WhatsApp için Meta, AI için Anthropic). Ayrıntılar için Gizlilik Politikamıza bakın."
+        "a": "Erişim otel bazında rollerle kapsamlıdır, kimlik doğrulama sunucu tarafında tutulan kısa ömürlü tokenlar kullanır ve işleme güvenilir sağlayıcılara dayanır (örneğin WhatsApp için Meta). Ayrıntılar için Gizlilik Politikamıza bakın."
       },
       {
         "q": "PMS misafir listemizi içe aktarabilir mi?",
@@ -1399,7 +1399,7 @@
   "meta": {
     "home": {
       "title": "StayLine — WhatsApp üzerinden otel misafir iletişimi",
-      "description": "Misafir konuşmalarını WhatsApp'ta AI yanıtlar, vardiyadaki personele otomatik talep yönlendirme ve analitik ile yürütün. Meta WhatsApp Cloud API ve Claude AI üzerine kuruludur."
+      "description": "Misafir konuşmalarını WhatsApp'ta AI yanıtlar, vardiyadaki personele otomatik talep yönlendirme ve analitik ile yürütün. Meta WhatsApp Cloud API üzerine kuruludur."
     },
     "features": {
       "title": "Özellikler",

@@ -29,6 +29,26 @@ export function Slot({ screen, ry = 0, rx = 6, rz = 0, spin = 1, mode, className
   );
 }
 
+/* Bölüm boyunca ekrana sabit kalan arka plan (iOS'ta da çalışır; görsel
+   bölümün boyuna göre gerilip bulanıklaşmaz). İçerik üstünde akar. */
+function Backdrop({ name, opacity = 0.35 }: { name: string; opacity?: number }) {
+  return (
+    <div aria-hidden className="pointer-events-none sticky top-0 -mb-[100svh] h-[100svh] overflow-hidden">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={`/images/${name}-1696.webp`}
+        srcSet={`/images/${name}-900.webp 900w, /images/${name}-1696.webp 1696w`}
+        sizes="100vw"
+        alt=""
+        loading="lazy"
+        className="size-full object-cover"
+        style={{ opacity }}
+      />
+      <div className="absolute inset-0 bg-[radial-gradient(80%_70%_at_50%_50%,transparent,#061219_92%)]" />
+    </div>
+  );
+}
+
 const H2 = "font-display text-[clamp(2.3rem,5.2vw,4.6rem)] font-semibold leading-[0.95] tracking-[-0.04em]";
 
 /* ── Hero ───────────────────────────────────────────────────── */
@@ -37,7 +57,7 @@ export function StoryHero() {
   return (
     <section className="relative isolate overflow-hidden bg-[#061219] text-[#e6eef0]">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="/images/hero-1696.webp" srcSet="/images/hero-900.webp 900w, /images/hero-1696.webp 1696w" sizes="100vw" alt="" fetchPriority="high" className="absolute inset-0 -z-20 size-full object-cover opacity-45" />
+      <img src="/images/hero-aerial-1696.webp" srcSet="/images/hero-aerial-900.webp 900w, /images/hero-aerial-1696.webp 1696w" sizes="100vw" alt="" fetchPriority="high" className="absolute inset-0 -z-20 size-full object-cover opacity-55" />
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(55%_60%_at_74%_52%,rgba(70,189,180,0.2),transparent_70%),linear-gradient(90deg,#061219_10%,rgba(6,18,25,0.82)_45%,rgba(6,18,25,0.5)_100%)]" />
       <div className="absolute inset-x-0 bottom-0 -z-10 h-48 bg-gradient-to-b from-transparent to-[#061219]" />
       <Container className="grid min-h-[calc(100svh-4rem)] items-center gap-10 pb-16 pt-12 lg:grid-cols-[1.15fr_0.85fr] lg:py-0">
@@ -67,7 +87,8 @@ export function StoryJourney() {
   const tags = ts.raw("tags") as string[];
   return (
     <section id="yolculuk" aria-labelledby="yolculuk-title" className="relative scroll-mt-16 bg-[#061219] text-[#e6eef0]">
-      <Container className="pt-24 text-center lg:pt-32">
+      <Backdrop name="bg-sea" opacity={0.4} />
+      <Container className="relative pt-24 text-center lg:pt-32">
         <h2 id="yolculuk-title" className={H2}>{t("title")}</h2>
         <p className="mx-auto mt-5 max-w-xl text-[17px] leading-relaxed text-[#a7bac1]">{t("subtitle")}</p>
       </Container>
@@ -104,7 +125,9 @@ export function StoryLanguages() {
   const t = useTranslations("home.story.languages");
   const labels = t.raw("labels") as { name: string; note: string }[];
   return (
-    <section className="relative bg-[#061219] py-24 text-[#e6eef0] lg:py-32">
+    <section className="relative bg-[#061219] text-[#e6eef0]">
+      <Backdrop name="bg-lobby" opacity={0.5} />
+      <div className="relative py-24 lg:py-32">
       <Container className="text-center">
         <h2 className={H2}>{t("title")}</h2>
         <p className="mx-auto mt-5 max-w-xl text-[17px] leading-relaxed text-[#a7bac1]">{t("subtitle")}</p>
@@ -120,6 +143,7 @@ export function StoryLanguages() {
           ))}
         </div>
       </Container>
+      </div>
     </section>
   );
 }
@@ -130,7 +154,8 @@ export function StoryMerge() {
   const points = t.raw("points") as string[];
   return (
     <section className="relative bg-[#061219] text-[#e6eef0]">
-      <Container className="grid min-h-[100svh] items-center gap-12 py-16 lg:grid-cols-2">
+      <Backdrop name="bg-lobby" opacity={0.3} />
+      <Container className="relative grid min-h-[100svh] items-center gap-12 py-16 lg:grid-cols-2">
         <div className="max-w-md">
           <h2 className="font-display text-[clamp(2rem,3.6vw,3.4rem)] font-semibold leading-[1] tracking-[-0.035em]">{t("title")}</h2>
           <p className="mt-5 text-[16.5px] leading-relaxed text-[#a7bac1]">{t("body")}</p>
