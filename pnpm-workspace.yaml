@@ -3,3 +3,7 @@ allowBuilds:
   '@swc/core': false
   sharp: false
   unrs-resolver: false
+
+# Hostinger derleme çıktısını kopyalarken pnpm bağlantıları (symlink) kopuyor ve
+# Next kendi alt paketlerini (@swc/helpers) bulamıyor. Düz yapı bunu önler.
+nodeLinker: hoisted
