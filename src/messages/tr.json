@@ -8,10 +8,11 @@
     "kvkk": "KVKK",
     "cookies": "Çerezler",
     "dataDeletion": "Veri Silme",
-    "cta": "Demo isteyin",
+    "cta": "Demo randevusu al",
     "toggleTheme": "Temayı değiştir",
     "openMenu": "Menüyü aç",
-    "closeMenu": "Menüyü kapat"
+    "closeMenu": "Menüyü kapat",
+    "demo": "Demo randevusu"
   },
   "footer": {
     "tagline": "WhatsApp üzerinden otel misafir iletişimi — AI yanıtlar, otomatik talep yönlendirme ve analitik tek platformda.",
@@ -23,10 +24,10 @@
   "home": {
     "hero": {
       "eyebrow": "WhatsApp üzerinden otel misafir iletişimi",
-      "title": "Tüm misafir konuşmaları WhatsApp'ta, ağır işi AI yapsın",
-      "subtitle": "StayLine otelinizi misafirlere WhatsApp üzerinden bağlar, AI ile akıllı yanıtlar hazırlar ve her talebi doğru vardiyadaki personele otomatik olarak yönlendirir.",
-      "ctaPrimary": "Demo isteyin",
-      "ctaSecondary": "Özellikleri keşfedin",
+      "title": "Misafir yazar, StayLine ilgilenir.",
+      "subtitle": "WhatsApp'tan ve telefondan gelen her talebi anlar, misafirin dilinde cevaplar ve vardiyadaki doğru personele iletir. Siz de her şeyi tek ekrandan görürsünüz.",
+      "ctaPrimary": "Demo randevusu al",
+      "ctaSecondary": "Neler yaptığımızı görün",
       "trust": "Resmi Meta WhatsApp Cloud API ve Claude AI üzerine kuruludur."
     },
     "preview": {
@@ -107,6 +108,584 @@
       "title": "StayLine'ı otelinizin WhatsApp'ında görün",
       "subtitle": "Kısa bir demo ayarlayın; AI yanıtları ve talep yönlendirmeyi kendi senaryolarınızla gösterelim.",
       "button": "Demo isteyin"
+    },
+    "live": {
+      "label": "Canlı akış",
+      "guest": "Misafir",
+      "ai": "StayLine AI",
+      "request": "Talep",
+      "scenarios": [
+        {
+          "lang": "Almanca",
+          "guest": "Könnten wir bitte zwei zusätzliche Handtücher bekommen? Zimmer 214.",
+          "reply": "Natürlich! Unser Housekeeping bringt sie Ihnen in Kürze.",
+          "route": "Kat hizmetleri · Oda 214",
+          "status": "Vardiyadaki personele iletildi"
+        },
+        {
+          "lang": "İngilizce",
+          "guest": "The air conditioning in room 412 isn't working.",
+          "reply": "Sorry about that! Our technical team is on the way to room 412.",
+          "route": "Teknik servis · Oda 412",
+          "status": "Yüksek öncelik"
+        },
+        {
+          "lang": "Türkçe",
+          "guest": "Yarın geç çıkış yapabilir miyiz? Oda 305.",
+          "reply": "Talebinizi resepsiyona ilettim, kısa süre içinde size dönüş yapacaklar.",
+          "route": "Resepsiyon · Oda 305",
+          "status": "Vardiyadaki personele iletildi"
+        }
+      ]
+    },
+    "journey": {
+      "title": "Bir mesajın yolculuğu",
+      "subtitle": "Misafirin yazdığı andan talebin kapandığı ana kadar.",
+      "steps": [
+        {
+          "title": "Misafir yazar",
+          "body": "Otelinizin WhatsApp hattına, kendi dilinde ve uygulama indirmeden. Saat kaç olursa olsun."
+        },
+        {
+          "title": "StayLine anlar ve cevaplar",
+          "body": "Talebi, odayı ve aciliyeti çıkarır; misafire saniyeler içinde kendi dilinde cevap verir."
+        },
+        {
+          "title": "Doğru ekip devreye girer",
+          "body": "Talep vardiyadaki teknik personelin telefonuna düşer; tek dokunuşla üstlenilir."
+        },
+        {
+          "title": "Yönetim her şeyi görür",
+          "body": "Açık, işlemde ve tamamlanan talepler tek ekranda; sabah raporu e-postanızda."
+        }
+      ],
+      "stage": {
+        "guestMsg": "Könnten wir zwei zusätzliche Handtücher bekommen? Zimmer 214.",
+        "translation": "Çeviri: İki ekstra havlu alabilir miyiz? Oda 214.",
+        "tagDept": "Kat hizmetleri",
+        "tagRoom": "Oda 214",
+        "tagPriority": "Normal öncelik",
+        "aiReply": "Natürlich! Unser Housekeeping bringt sie Ihnen in Kürze.",
+        "notifyTitle": "Yeni talep · Kat hizmetleri",
+        "notifyBody": "Oda 214 — 2 ekstra havlu",
+        "notifyAction": "Üstlen",
+        "boardTitle": "Bugünün talepleri",
+        "rows": [
+          {
+            "room": "Oda 214",
+            "item": "Havlu",
+            "state": "Tamamlandı"
+          },
+          {
+            "room": "Oda 412",
+            "item": "Klima arızası",
+            "state": "İşlemde"
+          },
+          {
+            "room": "Oda 305",
+            "item": "Geç çıkış",
+            "state": "Açık"
+          }
+        ]
+      },
+      "words": [
+        "Yazar",
+        "Anlar",
+        "İletir",
+        "Görür"
+      ],
+      "notes": [
+        [
+          "Kendi dilinde, uygulama indirmeden",
+          "Otelin onaylı WhatsApp hattına"
+        ],
+        [
+          "Dil algılandı, çeviri hazır",
+          "Departman, oda ve öncelik etiketlendi"
+        ],
+        [
+          "Vardiyadaki personele anında bildirim",
+          "Tek dokunuşla üstlenir"
+        ],
+        [
+          "Bütün talepler tek ekranda",
+          "Sabah raporu e-postanızda"
+        ]
+      ]
+    },
+    "capabilities": {
+      "title": "StayLine'ın yaptığı her şey",
+      "subtitle": "Sekiz modül, tek panel. Hepsi bugün otellerde çalışıyor.",
+      "nav": "Modüller",
+      "items": [
+        {
+          "id": "whatsapp",
+          "title": "Otelinizin kendi WhatsApp hattı",
+          "lead": "Misafirler zaten WhatsApp kullanıyor; StayLine onu otelinizin resmi iletişim kanalına çevirir.",
+          "body": "Meta'nın resmi WhatsApp Cloud API'si üzerinde çalışır. Otelinizin numarasını panelden, Meta'nın kendi bağlantı penceresiyle birkaç dakikada bağlarsınız. Numaranız başka bir sağlayıcıdaysa, çalışmaya devam ederken StayLine'a taşınır.",
+          "points": [
+            "Misafir için kurulacak uygulama yok",
+            "Onaylı işletme adıyla mesajlaşma",
+            "Başka sağlayıcıdan numara taşıma",
+            "Misafir eklendiğinde otomatik karşılama mesajı"
+          ]
+        },
+        {
+          "id": "ai",
+          "title": "Otelinizi bilen yapay zekâ",
+          "lead": "Claude, misafirin sorusunu otelinizin kendi bilgileriyle cevaplar.",
+          "body": "Restoran saatleri, havuz, spa, transfer, kurallar: otel bilgileri sayfasına girdiğiniz her şey yapay zekânın bilgi kaynağıdır. Listede olmayan bir konuda bilgi uydurmaz; misafiri nazikçe resepsiyona yönlendirir. Personeliniz istediği an konuşmayı devralır.",
+          "points": [
+            "Hazır şablonla dakikalar içinde bilgi tabanı",
+            "Değişiklik anında yapay zekâya yansır",
+            "Otel ya da konuşma bazında açıp kapatma",
+            "Uydurmak yerine yönlendirme"
+          ]
+        },
+        {
+          "id": "routing",
+          "title": "Doğru ekip, doğru vardiya",
+          "lead": "Her talep sınıflandırılır ve vardiyadaki doğru kişiye ulaşır.",
+          "body": "Havlu isteği kat hizmetlerine, bozuk klima teknik servise, geç çıkış resepsiyona gider. Talep panelde departmanı, aciliyeti ve odasıyla açılır; vardiyadaki personel WhatsApp'tan bildirim alır. Şikâyetler ayrıca işaretlenir.",
+          "points": [
+            "Departman ve vardiya bazlı yönlendirme",
+            "Aciliyet ve şikâyet işaretleme",
+            "Talep durumları: açık, işlemde, tamamlandı",
+            "Personele WhatsApp bildirimi"
+          ]
+        },
+        {
+          "id": "languages",
+          "title": "Her misafir kendi dilinde",
+          "lead": "Misafir Almanca, Rusça ya da İngilizce yazar; ekibiniz Türkçe görür.",
+          "body": "StayLine mesajın dilini algılar, ekibiniz için Türkçeye, misafir için kendi diline çevirir. Orijinal mesaj da çeviri de saklanır; hiçbir ayrıntı kaybolmaz.",
+          "points": [
+            "Otomatik dil algılama",
+            "İki yönlü çeviri",
+            "Orijinal ve çeviri birlikte saklanır"
+          ]
+        },
+        {
+          "id": "voice",
+          "title": "Telefonla arayan misafire de cevap",
+          "lead": "Sesli asistan telefonu açar, talebi alır, oda numarasını teyit eder.",
+          "body": "Misafir odadan ya da cep telefonundan arar; sesli asistan isteği dinler ve numarayı tekrar ederek doğrular. Görüşme bittiğinde talep, WhatsApp'tan gelmiş gibi panelde doğru departmana açılır.",
+          "points": [
+            "Günün her saati telefon karşılama",
+            "Oda numarası teyidi",
+            "Görüşme sonunda otomatik talep",
+            "Birden fazla dil"
+          ]
+        },
+        {
+          "id": "guests",
+          "title": "Misafir listesi kendiliğinden",
+          "lead": "PMS'inizdeki konaklayan listesini yükleyin; StayLine her misafiri odasıyla tanır.",
+          "body": "Excel ya da CSV dosyasını yüklersiniz, sütunlar otomatik tanınır. Aynı liste her gün yüklenebilir; çift kayıt oluşmaz. Aynı odada kalan refakatçiler kendi telefonlarından yazdığında da odayla eşleşir.",
+          "points": [
+            "PMS listesinden toplu yükleme",
+            "Telefon numarasıyla otomatik oda eşleşmesi",
+            "Refakatçi tanıma",
+            "Uyruğa göre dil ataması"
+          ]
+        },
+        {
+          "id": "reports",
+          "title": "Yönetim için net tablo",
+          "lead": "Neyin iyi gittiğini, neyin gitmediğini rakamlarla görürsünüz.",
+          "body": "Misafir geri bildirim (MGB) raporu şikâyetleri departmana, odaya ve uyruğa göre ayırır. Acenteye göre şikâyet oranı 100 misafir başına hesaplanır; çok misafir gönderen acente yalnızca sayı yüzünden öne çıkmaz. Günlük rapor sabah e-postanızda olur.",
+          "points": [
+            "MGB raporu",
+            "Acenteye göre şikâyet oranı",
+            "Departman ve yanıt takibi",
+            "Günlük e-posta raporu"
+          ]
+        },
+        {
+          "id": "platform",
+          "title": "Zincirler için çok otelli yapı",
+          "lead": "Her otelin kendi giriş adresi, kendi verisi, kendi ekibi.",
+          "body": "Bir zincirin bütün otelleri tek platformda, birbirinden ayrı çalışır. Yönetici, müdür, talep alıcı ve personel rolleriyle herkes yalnızca yetkisi olanı görür. WhatsApp erişim anahtarları şifreli saklanır; KVKK kapsamında veri silme talepleri desteklenir.",
+          "points": [
+            "Otele özel giriş adresi",
+            "Rol bazlı yetki",
+            "Şifreli erişim anahtarları",
+            "KVKK uyumlu veri silme"
+          ]
+        }
+      ]
+    },
+    "booking": {
+      "title": "Otelinizde nasıl çalışacağını 30 dakikada gösterelim.",
+      "body": "Size uygun saati seçin; görüşmede kendi otelinizin senaryolarını birlikte deneyelim.",
+      "cta": "Demo randevusu al"
+    },
+    "screens": {
+      "online": "çevrimiçi",
+      "whatsapp": {
+        "title": "WhatsApp hattı",
+        "connected": "Bağlı",
+        "verified": "Onaylı işletme adı",
+        "quality": "Kalite: yüksek",
+        "welcome": "Karşılama mesajı"
+      },
+      "ai": {
+        "title": "Otel bilgileri",
+        "items": [
+          [
+            "Havuz",
+            "08:00–19:00"
+          ],
+          [
+            "Kahvaltı",
+            "07:00–10:30"
+          ],
+          [
+            "Spa",
+            "10:00–20:00"
+          ],
+          [
+            "Transfer",
+            "Resepsiyondan"
+          ]
+        ],
+        "q": "Sauna var mı?",
+        "a": "Bu konuda bilgim yok; sizi hemen resepsiyona yönlendiriyorum.",
+        "q1": "Kahvaltı kaçta bitiyor?",
+        "a1": "Kahvaltı ana restoranda 07:00–10:30 arası."
+      },
+      "routing": {
+        "title": "Talepler",
+        "items": [
+          [
+            "Oda 214",
+            "Havlu",
+            "Kat hizmetleri",
+            "Tamamlandı"
+          ],
+          [
+            "Oda 412",
+            "Klima",
+            "Teknik servis",
+            "İşlemde"
+          ],
+          [
+            "Oda 305",
+            "Geç çıkış",
+            "Resepsiyon",
+            "Açık"
+          ]
+        ]
+      },
+      "languages": {
+        "original": "Можно ещё одно одеяло? Номер 118.",
+        "label": "Rusça → Türkçe",
+        "translated": "Bir battaniye daha alabilir miyim? Oda 118.",
+        "reply": "Конечно! Одеяло скоро будет у вас."
+      },
+      "voice": {
+        "title": "Odadan gelen aramalar",
+        "room": "Oda 214",
+        "lines": [
+          "Misafir: İki havlu daha istiyoruz.",
+          "Asistan: Bir-iki-dört, doğru mu?",
+          "Misafir: Evet, teşekkürler."
+        ],
+        "ended": "Talep açıldı · Kat hizmetleri",
+        "calls": [
+          [
+            "Oda 214",
+            "1:12",
+            "2 havlu · Kat hizmetleri"
+          ],
+          [
+            "Oda 509",
+            "0:48",
+            "Oda servisi · Kahvaltı"
+          ],
+          [
+            "Oda 118",
+            "1:31",
+            "Klima · Teknik servis"
+          ]
+        ]
+      },
+      "guests": {
+        "title": "Misafir listesi",
+        "file": "konaklayan-liste.xlsx",
+        "ready": "212 misafir hazır",
+        "issues": "2 satırda telefon yok",
+        "rows": [
+          [
+            "Hans Müller",
+            "110",
+            "DE"
+          ],
+          [
+            "İpek Şen",
+            "111",
+            "TR"
+          ],
+          [
+            "Olga Ivanova",
+            "112",
+            "RU"
+          ]
+        ]
+      },
+      "reports": {
+        "title": "Acenteye göre şikâyet",
+        "sub": "100 konaklayan misafir başına",
+        "bars": [
+          [
+            "Acente A",
+            78
+          ],
+          [
+            "Acente B",
+            44
+          ],
+          [
+            "Acente C",
+            20
+          ]
+        ],
+        "sample": "Örnek veri"
+      },
+      "platform": {
+        "title": "Oteller",
+        "hotels": [
+          "Hotel Belek",
+          "Hotel Side",
+          "Hotel Kemer"
+        ],
+        "rolesLabel": "Roller",
+        "roles": [
+          "Yönetici",
+          "Müdür",
+          "Talep alıcı",
+          "Personel"
+        ],
+        "secure": "Erişim anahtarları şifreli"
+      },
+      "message": "Mesaj"
+    },
+    "story": {
+      "tags": [
+        "Teknik servis",
+        "Oda 412",
+        "Yüksek öncelik"
+      ],
+      "languages": {
+        "title": "Aynı istek, dört dil",
+        "subtitle": "Misafirleriniz hangi dilde yazarsa yazsın, cevap kendi dillerinde ve saniyeler içinde gider.",
+        "labels": [
+          {
+            "name": "Türkçe",
+            "note": "Türkçe cevap"
+          },
+          {
+            "name": "English",
+            "note": "İngilizce cevap"
+          },
+          {
+            "name": "Deutsch",
+            "note": "Almanca cevap"
+          },
+          {
+            "name": "Русский",
+            "note": "Rusça cevap"
+          }
+        ]
+      },
+      "merge": {
+        "title": "Dört dil, tek ekip ekranı",
+        "body": "Ekibiniz dört farklı dilde gelen isteği tek listede, Türkçe olarak görür. Kimsenin çeviri yapmasına gerek kalmaz.",
+        "points": [
+          "Her talep Türkçeye çevrilir",
+          "Orijinal mesaj da saklanır",
+          "Aynı istekler aynı ekibe düşer"
+        ]
+      },
+      "room": {
+        "title": "Odadaki telefon da StayLine'a bağlı",
+        "body": "Misafir yatağının yanındaki telefonu kaldırır. Sesli asistan isteği dinler, oda numarasını teyit eder ve talep panele düşer; gece gündüz, birden fazla dilde.",
+        "transcript": "Arama dökümü",
+        "lines": [
+          "Misafir: Merhaba, iki havlu daha alabilir miyiz?",
+          "StayLine: Tabii. Oda numaranız iki-bir-dört, doğru mu?",
+          "Misafir: Evet, doğru.",
+          "StayLine: Kat hizmetlerine ilettim, birazdan odanızda olacak."
+        ],
+        "done": "Talep açıldı · Kat hizmetleri · Oda 214"
+      }
+    },
+    "phone": {
+      "online": "çevrimiçi",
+      "typing": "yazıyor…",
+      "placeholder": "Mesaj",
+      "today": "Bugün",
+      "hero": [
+        {
+          "from": "guest",
+          "text": "Merhaba! 214'e iki havlu daha rica edebilir miyim?",
+          "time": "21:46"
+        },
+        {
+          "from": "hotel",
+          "text": "Tabii ki! Kat hizmetlerine ilettim, birkaç dakika içinde odanızda olacak.",
+          "time": "21:46"
+        },
+        {
+          "from": "guest",
+          "text": "Spa kaçta kapanıyor?",
+          "time": "21:47"
+        },
+        {
+          "from": "hotel",
+          "text": "Spa her gün 10:00–20:00 arası açık. Yarın için masaj saati ayarlamamı ister misiniz?",
+          "time": "21:47"
+        },
+        {
+          "from": "guest",
+          "text": "Evet, 17:00 olur mu?",
+          "time": "21:47"
+        },
+        {
+          "from": "hotel",
+          "text": "İsteğinizi spa ekibine ilettim; onaylayınca buradan haber vereceğiz.",
+          "time": "21:48"
+        }
+      ],
+      "j": {
+        "guest": "İyi akşamlar, 412'nin kliması çalışmıyor, oda çok sıcak.",
+        "reply": "Çok özür dileriz! Teknik ekibimize ilettim, 15 dakika içinde odanızda olacaklar."
+      },
+      "lock": {
+        "date": "Çarşamba, 7 Ekim",
+        "now": "şimdi",
+        "title": "Yeni talep · Teknik servis",
+        "body": "Oda 412 — Klima çalışmıyor, oda çok sıcak. Öncelik: yüksek",
+        "take": "Üstlen",
+        "open": "Aç",
+        "older": "Oda 214 · 2 havlu — tamamlandı"
+      },
+      "dash": {
+        "title": "Bugünün talepleri",
+        "stats": [
+          [
+            "Açık",
+            "3"
+          ],
+          [
+            "İşlemde",
+            "2"
+          ],
+          [
+            "Tamamlandı",
+            "18"
+          ]
+        ],
+        "rows": [
+          [
+            "Oda 412",
+            "Klima arızası",
+            "İşlemde",
+            1
+          ],
+          [
+            "Oda 214",
+            "2 havlu",
+            "Tamamlandı",
+            2
+          ],
+          [
+            "Oda 118",
+            "Battaniye",
+            "Açık",
+            0
+          ],
+          [
+            "Oda 305",
+            "Geç çıkış",
+            "Açık",
+            0
+          ]
+        ]
+      },
+      "langs": {
+        "tr": {
+          "guest": "305 numaralı odaya bir yastık daha alabilir miyim?",
+          "reply": "Elbette! Kat hizmetleri birazdan getirecek.",
+          "online": "çevrimiçi",
+          "placeholder": "Mesaj",
+          "today": "Bugün"
+        },
+        "en": {
+          "guest": "Could I get an extra pillow for room 305?",
+          "reply": "Of course! Housekeeping will bring it shortly.",
+          "online": "online",
+          "placeholder": "Message",
+          "today": "Today"
+        },
+        "de": {
+          "guest": "Könnte ich ein zusätzliches Kissen für Zimmer 305 bekommen?",
+          "reply": "Natürlich! Das Housekeeping bringt es Ihnen gleich.",
+          "online": "online",
+          "placeholder": "Nachricht",
+          "today": "Heute"
+        },
+        "ru": {
+          "guest": "Можно ещё одну подушку в номер 305?",
+          "reply": "Конечно! Горничная скоро принесёт её.",
+          "online": "в сети",
+          "placeholder": "Сообщение",
+          "today": "Сегодня"
+        }
+      },
+      "team": {
+        "title": "Kat hizmetleri",
+        "sub": "Gelen talepler · Türkçe",
+        "rows": [
+          [
+            "TR",
+            "Oda 305 · Bir yastık daha istiyor"
+          ],
+          [
+            "EN",
+            "Oda 207 · Bir yastık daha istiyor"
+          ],
+          [
+            "DE",
+            "Oda 118 · Bir yastık daha istiyor"
+          ],
+          [
+            "RU",
+            "Oda 412 · Bir yastık daha istiyor"
+          ]
+        ],
+        "note": "4 dilde geldi, ekibiniz hepsini Türkçe gördü."
+      },
+      "booking": [
+        {
+          "from": "hotel",
+          "text": "Merhaba! StayLine'ın otelinizde nasıl çalışacağını 30 dakikada gösterelim mi?",
+          "time": "10:29"
+        },
+        {
+          "from": "guest",
+          "text": "Evet, demo istiyorum.",
+          "time": "10:30"
+        },
+        {
+          "from": "hotel",
+          "text": "Harika! Size uygun saati buradan seçebilirsiniz:",
+          "time": "10:30"
+        }
+      ],
+      "bookingCard": {
+        "title": "Demo randevusu al"
+      }
     }
   },
   "features": {
@@ -853,6 +1432,44 @@
     "dataDeletion": {
       "title": "Veri Silme",
       "description": "StayLine ile ilişkili kişisel verilerin silinmesi nasıl talep edilir — info@stayline.net adresine e-posta gönderin."
+    },
+    "demo": {
+      "title": "Demo randevusu — StayLine",
+      "description": "StayLine'ı otelinizin senaryolarıyla 30 dakikada gösterelim. Size uygun gün ve saati seçin."
     }
+  },
+  "demo": {
+    "title": "Demo randevusu alın",
+    "subtitle": "30 dakikalık görüntülü görüşmede StayLine'ı otelinizin senaryolarıyla gösteriyoruz. Size uygun gün ve saati seçin.",
+    "expect": [
+      "30 dakika, görüntülü görüşme",
+      "Kendi otelinizin örnekleriyle canlı gösterim",
+      "Kurulum ve fiyat sorularınız"
+    ],
+    "dayLabel": "Gün",
+    "timeLabel": "Saat",
+    "infoLabel": "Bilgileriniz",
+    "timezone": "Saatler İstanbul saatiyle (GMT+3).",
+    "loading": "Uygun saatler yükleniyor…",
+    "none": "Şu anda boş saat yok. Bize {email} adresinden yazın.",
+    "loadError": "Saatler yüklenemedi. Sayfayı yenileyin ya da {email} adresine yazın.",
+    "pickDay": "Önce bir gün seçin.",
+    "name": "Ad soyad",
+    "company": "Otel ya da işletme adı",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "rooms": "Oda sayısı (isteğe bağlı)",
+    "message": "Görüşmede konuşmak istedikleriniz (isteğe bağlı)",
+    "consentBefore": "Kişisel verilerimin randevu için işlenmesine ilişkin",
+    "consentLink": "aydınlatma metnini",
+    "consentAfter": "okudum.",
+    "selected": "Seçilen zaman",
+    "submit": "Randevuyu onayla",
+    "submitting": "Oluşturuluyor…",
+    "successTitle": "Randevunuz oluşturuldu",
+    "successBody": "{when} için görüşmemiz planlandı. Onayı ve takvim davetini {email} adresine gönderdik.",
+    "another": "Başka bir randevu al",
+    "rateLimited": "Çok fazla deneme yapıldı. Biraz sonra tekrar deneyin.",
+    "genericError": "Randevu oluşturulamadı. Lütfen tekrar deneyin ya da {email} adresine yazın."
   }
 }

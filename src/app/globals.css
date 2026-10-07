@@ -29,6 +29,9 @@
   --status-blue: #4a90c2;
   --status-violet: #9b8ccb;
 
+  /* ---- lamba: otel ışıklarının sıcak kehribarı, insana ait anlar için (az kullanılır) ---- */
+  --lamp: #e9a95c;
+
   /* ---- LIGHT surfaces (white / near-white, faint cool tint) ---- */
   --surface-0: #ffffff; /* page background */
   --surface-1: #ffffff; /* cards */
@@ -61,18 +64,18 @@
 }
 
 .dark {
-  /* ---- primitives: neutral slate dark ramp (tinted, not pure black) ---- */
-  --slate-950: #0b0f14;
-  --slate-900: #11161d;
-  --slate-850: #161c25;
-  --slate-800: #1c2430;
-  --slate-700: #2a3645;
-  --slate-600: #3a4859;
-  --slate-500: #566273;
-  --ink-100: #e7edf2;
-  --ink-300: #9fb1c0;
-  --ink-500: #8593a1;
-  --ink-700: #47586a;
+  /* ---- gece denizi: zemin rengini hero görselinin mavi saatinden alır ---- */
+  --slate-950: #061219;
+  --slate-900: #0a1922;
+  --slate-850: #0e202b;
+  --slate-800: #142a36;
+  --slate-700: #213d4b;
+  --slate-600: #34525f;
+  --slate-500: #4f6b77;
+  --ink-100: #e6eef0;
+  --ink-300: #a7bac1;
+  --ink-500: #7f959d;
+  --ink-700: #4a626c;
 
   --surface-0: var(--slate-950);
   --surface-1: var(--slate-900);
@@ -84,8 +87,8 @@
   --text-dim: var(--ink-500);
   --text-faint: var(--ink-700);
 
-  --border-subtle: rgba(255, 255, 255, 0.06);
-  --border-strong: rgba(255, 255, 255, 0.1);
+  --border-subtle: rgba(167, 214, 220, 0.08);
+  --border-strong: rgba(167, 214, 220, 0.16);
 
   /* brighter teal reads better on dark */
   --brand: var(--brand-400);
@@ -93,12 +96,12 @@
   --brand-deep: var(--brand-600);
   --accent-soft: rgba(70, 189, 180, 0.12);
   --accent-border: rgba(70, 189, 180, 0.22);
-  --on-accent: #0b0f14; /* dark text on teal button (dark) */
+  --on-accent: #061219; /* dark text on teal button (dark) */
   --bg: var(--surface-0);
 
-  --elev-sm: 0 1px 2px rgba(8, 12, 18, 0.45);
-  --elev-md: 0 6px 20px rgba(8, 12, 18, 0.5);
-  --elev-lg: 0 16px 48px rgba(8, 12, 18, 0.6);
+  --elev-sm: 0 1px 2px rgba(2, 10, 14, 0.45);
+  --elev-md: 0 6px 20px rgba(2, 10, 14, 0.5);
+  --elev-lg: 0 16px 48px rgba(2, 10, 14, 0.6);
 }
 
 /* ============================================================
@@ -111,6 +114,8 @@
 @theme inline {
   --font-sans: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
   --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --font-display: var(--font-bricolage), var(--font-geist-sans), system-ui, sans-serif;
+  --color-lamp: var(--lamp);
 
   --color-bg: var(--bg);
   --color-surface-0: var(--surface-0);
@@ -236,3 +241,26 @@
     transition-duration: 0.001ms !important;
   }
 }
+
+/* ── Hareket azaltma: kullanıcı istemişse bütün süreklilikleri durdur ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* İnce sinyal çizgisi animasyonu (talep yönlendirme görseli) */
+@keyframes signal-dash { to { stroke-dashoffset: -40; } }
+.signal-line { stroke-dasharray: 4 6; animation: signal-dash 1.6s linear infinite; }
+
+/* Lenis (yumuşak kaydırma) */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: clip; }
+
+/* Dev başlıkların çerçeve hali (kaydırmayla dolar) */
+.text-outline { -webkit-text-stroke: 1px var(--border-strong); color: transparent; }

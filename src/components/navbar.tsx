@@ -31,7 +31,7 @@ export function Navbar() {
 
         {/* Desktop nav */}
         <nav className="hidden items-center gap-1 md:flex">
-          {NAV_LINKS.map(({ key, href }) => {
+          {NAV_LINKS.filter(({ key }) => key !== "demo").map(({ key, href }) => {
             const isActive = pathname === href;
             return (
               <Link
@@ -53,7 +53,7 @@ export function Navbar() {
         <div className="hidden items-center gap-2 md:flex">
           <LocaleSwitcher />
           <ThemeToggle />
-          <Link href="/contact" className={buttonVariants({ size: "sm" })}>
+          <Link href="/demo" className={buttonVariants({ size: "sm" })}>
             {t("cta")}
           </Link>
         </div>

@@ -8,10 +8,11 @@
     "kvkk": "KVKK",
     "cookies": "Cookies",
     "dataDeletion": "Data Deletion",
-    "cta": "Request a demo",
+    "cta": "Book a demo",
     "toggleTheme": "Toggle theme",
     "openMenu": "Open menu",
-    "closeMenu": "Close menu"
+    "closeMenu": "Close menu",
+    "demo": "Book a demo"
   },
   "footer": {
     "tagline": "Hotel guest communication on WhatsApp — AI replies, automatic request routing and analytics in one platform.",
@@ -23,10 +24,10 @@
   "home": {
     "hero": {
       "eyebrow": "Hotel guest communication on WhatsApp",
-      "title": "Every guest conversation on WhatsApp, with AI doing the heavy lifting",
-      "subtitle": "StayLine connects your hotel to guests over WhatsApp, drafts smart replies with AI, and routes every request to the right on-shift staff — automatically.",
-      "ctaPrimary": "Request a demo",
-      "ctaSecondary": "Explore features",
+      "title": "Guests write. StayLine takes care of it.",
+      "subtitle": "It understands every request coming in over WhatsApp and the phone, replies in the guest's language and passes it to the right person on shift. You see everything on one screen.",
+      "ctaPrimary": "Book a demo",
+      "ctaSecondary": "See what we do",
       "trust": "Built on the official Meta WhatsApp Cloud API and Claude AI."
     },
     "preview": {
@@ -107,6 +108,584 @@
       "title": "See StayLine on your hotel's WhatsApp",
       "subtitle": "Book a short demo and we'll show you AI replies and request routing with your own use cases.",
       "button": "Request a demo"
+    },
+    "live": {
+      "label": "Live feed",
+      "guest": "Guest",
+      "ai": "StayLine AI",
+      "request": "Request",
+      "scenarios": [
+        {
+          "lang": "German",
+          "guest": "Könnten wir bitte zwei zusätzliche Handtücher bekommen? Zimmer 214.",
+          "reply": "Natürlich! Unser Housekeeping bringt sie Ihnen in Kürze.",
+          "route": "Housekeeping · Room 214",
+          "status": "Sent to staff on shift"
+        },
+        {
+          "lang": "English",
+          "guest": "The air conditioning in room 412 isn't working.",
+          "reply": "Sorry about that! Our technical team is on the way to room 412.",
+          "route": "Maintenance · Room 412",
+          "status": "High priority"
+        },
+        {
+          "lang": "Turkish",
+          "guest": "Yarın geç çıkış yapabilir miyiz? Oda 305.",
+          "reply": "Talebinizi resepsiyona ilettim, kısa süre içinde size dönüş yapacaklar.",
+          "route": "Front desk · Room 305",
+          "status": "Sent to staff on shift"
+        }
+      ]
+    },
+    "journey": {
+      "title": "The journey of a message",
+      "subtitle": "From the moment a guest writes to the moment the request is closed.",
+      "steps": [
+        {
+          "title": "The guest writes",
+          "body": "To your hotel's WhatsApp line, in their own language and without an app. At any hour."
+        },
+        {
+          "title": "StayLine understands and replies",
+          "body": "It extracts the request, the room and the urgency, and answers the guest in their own language within seconds."
+        },
+        {
+          "title": "The right team steps in",
+          "body": "The request lands on the phone of the maintenance staff on shift; one tap and it's taken."
+        },
+        {
+          "title": "Management sees everything",
+          "body": "Open, in-progress and completed requests on one screen; the morning report in your inbox."
+        }
+      ],
+      "stage": {
+        "guestMsg": "Könnten wir zwei zusätzliche Handtücher bekommen? Zimmer 214.",
+        "translation": "Translation: Could we get two extra towels? Room 214.",
+        "tagDept": "Housekeeping",
+        "tagRoom": "Room 214",
+        "tagPriority": "Normal priority",
+        "aiReply": "Natürlich! Unser Housekeeping bringt sie Ihnen in Kürze.",
+        "notifyTitle": "New request · Housekeeping",
+        "notifyBody": "Room 214 — 2 extra towels",
+        "notifyAction": "Take it",
+        "boardTitle": "Today's requests",
+        "rows": [
+          {
+            "room": "Room 214",
+            "item": "Towels",
+            "state": "Done"
+          },
+          {
+            "room": "Room 412",
+            "item": "AC failure",
+            "state": "In progress"
+          },
+          {
+            "room": "Room 305",
+            "item": "Late check-out",
+            "state": "Open"
+          }
+        ]
+      },
+      "words": [
+        "Writes",
+        "Reads",
+        "Routes",
+        "Sees"
+      ],
+      "notes": [
+        [
+          "In their own language, no app",
+          "To the hotel's verified WhatsApp line"
+        ],
+        [
+          "Language detected, translation ready",
+          "Department, room and priority tagged"
+        ],
+        [
+          "Instant alert to staff on shift",
+          "Taken with a single tap"
+        ],
+        [
+          "Every request on one screen",
+          "Morning report in your inbox"
+        ]
+      ]
+    },
+    "capabilities": {
+      "title": "Everything StayLine does",
+      "subtitle": "Eight modules, one dashboard. All of them running in hotels today.",
+      "nav": "Modules",
+      "items": [
+        {
+          "id": "whatsapp",
+          "title": "Your hotel's own WhatsApp line",
+          "lead": "Guests already use WhatsApp; StayLine turns it into your hotel's official channel.",
+          "body": "It runs on Meta's official WhatsApp Cloud API. You connect your hotel's number from the dashboard in a few minutes, through Meta's own sign-up window. If your number is with another provider, it moves to StayLine while it keeps working.",
+          "points": [
+            "No app for guests to install",
+            "Messaging under your approved business name",
+            "Number migration from another provider",
+            "Automatic welcome message when a guest is added"
+          ]
+        },
+        {
+          "id": "ai",
+          "title": "AI that knows your hotel",
+          "lead": "Claude answers guests with your hotel's own information.",
+          "body": "Restaurant hours, pool, spa, transfers, rules: everything you enter on the hotel information page is the AI's source. It never makes up something that is not on the list; it politely refers the guest to the front desk. Your staff can take over a conversation at any moment.",
+          "points": [
+            "A knowledge base in minutes with the starter template",
+            "Changes reach the AI instantly",
+            "Switch on or off per hotel or per conversation",
+            "Referral instead of guesswork"
+          ]
+        },
+        {
+          "id": "routing",
+          "title": "The right team, the right shift",
+          "lead": "Every request is classified and reaches the right person on shift.",
+          "body": "A towel request goes to housekeeping, a broken AC to maintenance, a late check-out to the front desk. The request opens with its department, urgency and room; the staff on shift get a WhatsApp notification. Complaints are flagged separately.",
+          "points": [
+            "Routing by department and shift",
+            "Urgency and complaint flags",
+            "Request states: open, in progress, done",
+            "WhatsApp notifications for staff"
+          ]
+        },
+        {
+          "id": "languages",
+          "title": "Every guest in their own language",
+          "lead": "Guests write in German, Russian or English; your team reads Turkish.",
+          "body": "StayLine detects the language and translates into Turkish for your team and back into the guest's language. Both the original and the translation are kept, so no detail is lost.",
+          "points": [
+            "Automatic language detection",
+            "Two-way translation",
+            "Original and translation kept together"
+          ]
+        },
+        {
+          "id": "voice",
+          "title": "Answers for guests who call, too",
+          "lead": "The voice assistant picks up, takes the request and confirms the room number.",
+          "body": "Guests call from the room or their mobile; the voice assistant listens and confirms the number by repeating it. When the call ends, the request opens in the right department just as if it had come over WhatsApp.",
+          "points": [
+            "Phone coverage around the clock",
+            "Room number confirmation",
+            "Automatic request after the call",
+            "Multiple languages"
+          ]
+        },
+        {
+          "id": "guests",
+          "title": "A guest list that keeps itself",
+          "lead": "Upload the in-house list from your PMS; StayLine knows every guest and their room.",
+          "body": "You upload an Excel or CSV file and the columns are recognised automatically. The same list can be uploaded every day without creating duplicates. Companions staying in the same room are matched to it when they write from their own phones.",
+          "points": [
+            "Bulk upload from your PMS list",
+            "Automatic room matching by phone number",
+            "Companion recognition",
+            "Language set from nationality"
+          ]
+        },
+        {
+          "id": "reports",
+          "title": "A clear picture for management",
+          "lead": "You see in numbers what is going well and what is not.",
+          "body": "The guest feedback report splits complaints by department, room and nationality. The complaint rate per agency is calculated per 100 guests, so agencies that send many guests do not stand out just because of volume. The daily report lands in your inbox every morning.",
+          "points": [
+            "Guest feedback report",
+            "Complaint rate per agency",
+            "Department and response tracking",
+            "Daily e-mail report"
+          ]
+        },
+        {
+          "id": "platform",
+          "title": "Built for chains with many hotels",
+          "lead": "Each hotel has its own sign-in address, its own data, its own team.",
+          "body": "All hotels of a chain run on one platform, kept apart from each other. With admin, manager, order taker and staff roles, everyone sees only what they are allowed to. WhatsApp access keys are stored encrypted; data deletion requests under KVKK are supported.",
+          "points": [
+            "Sign-in address per hotel",
+            "Role-based access",
+            "Encrypted access keys",
+            "KVKK-compliant data deletion"
+          ]
+        }
+      ]
+    },
+    "booking": {
+      "title": "Let us show you how it works in your hotel, in 30 minutes.",
+      "body": "Pick a time that suits you; in the call we try your hotel's own scenarios together.",
+      "cta": "Book a demo"
+    },
+    "screens": {
+      "online": "online",
+      "whatsapp": {
+        "title": "WhatsApp line",
+        "connected": "Connected",
+        "verified": "Verified business name",
+        "quality": "Quality: high",
+        "welcome": "Welcome message"
+      },
+      "ai": {
+        "title": "Hotel information",
+        "items": [
+          [
+            "Pool",
+            "08:00–19:00"
+          ],
+          [
+            "Breakfast",
+            "07:00–10:30"
+          ],
+          [
+            "Spa",
+            "10:00–20:00"
+          ],
+          [
+            "Transfer",
+            "At the front desk"
+          ]
+        ],
+        "q": "Is there a sauna?",
+        "a": "I don't have that information; let me refer you to the front desk.",
+        "q1": "When does breakfast end?",
+        "a1": "Breakfast is served 07:00–10:30 in the main restaurant."
+      },
+      "routing": {
+        "title": "Requests",
+        "items": [
+          [
+            "Room 214",
+            "Towels",
+            "Housekeeping",
+            "Done"
+          ],
+          [
+            "Room 412",
+            "AC",
+            "Maintenance",
+            "In progress"
+          ],
+          [
+            "Room 305",
+            "Late check-out",
+            "Front desk",
+            "Open"
+          ]
+        ]
+      },
+      "languages": {
+        "original": "Можно ещё одно одеяло? Номер 118.",
+        "label": "Russian → Turkish",
+        "translated": "Bir battaniye daha alabilir miyim? Oda 118.",
+        "reply": "Конечно! Одеяло скоро будет у вас."
+      },
+      "voice": {
+        "title": "Calls from rooms",
+        "room": "Room 214",
+        "lines": [
+          "Guest: Two more towels, please.",
+          "Assistant: Two-one-four, is that right?",
+          "Guest: Yes, thank you."
+        ],
+        "ended": "Request opened · Housekeeping",
+        "calls": [
+          [
+            "Room 214",
+            "1:12",
+            "2 towels · Housekeeping"
+          ],
+          [
+            "Room 509",
+            "0:48",
+            "Room service · Breakfast"
+          ],
+          [
+            "Room 118",
+            "1:31",
+            "AC · Maintenance"
+          ]
+        ]
+      },
+      "guests": {
+        "title": "Guest list",
+        "file": "in-house-list.xlsx",
+        "ready": "212 guests ready",
+        "issues": "2 rows without a phone",
+        "rows": [
+          [
+            "Hans Müller",
+            "110",
+            "DE"
+          ],
+          [
+            "İpek Şen",
+            "111",
+            "TR"
+          ],
+          [
+            "Olga Ivanova",
+            "112",
+            "RU"
+          ]
+        ]
+      },
+      "reports": {
+        "title": "Complaints by agency",
+        "sub": "Per 100 guests staying",
+        "bars": [
+          [
+            "Agency A",
+            78
+          ],
+          [
+            "Agency B",
+            44
+          ],
+          [
+            "Agency C",
+            20
+          ]
+        ],
+        "sample": "Sample data"
+      },
+      "platform": {
+        "title": "Hotels",
+        "hotels": [
+          "Hotel Belek",
+          "Hotel Side",
+          "Hotel Kemer"
+        ],
+        "rolesLabel": "Roles",
+        "roles": [
+          "Admin",
+          "Manager",
+          "Order taker",
+          "Staff"
+        ],
+        "secure": "Access keys encrypted"
+      },
+      "message": "Message"
+    },
+    "story": {
+      "tags": [
+        "Maintenance",
+        "Room 412",
+        "High priority"
+      ],
+      "languages": {
+        "title": "One request, four languages",
+        "subtitle": "Whatever language your guests write in, the answer goes back in theirs within seconds.",
+        "labels": [
+          {
+            "name": "Türkçe",
+            "note": "Answered in Turkish"
+          },
+          {
+            "name": "English",
+            "note": "Answered in English"
+          },
+          {
+            "name": "Deutsch",
+            "note": "Answered in German"
+          },
+          {
+            "name": "Русский",
+            "note": "Answered in Russian"
+          }
+        ]
+      },
+      "merge": {
+        "title": "Four languages, one team screen",
+        "body": "Your team sees requests that arrived in four languages in one list, in Turkish. Nobody has to translate.",
+        "points": [
+          "Every request is translated into Turkish",
+          "The original message is kept",
+          "Identical requests go to the same team"
+        ]
+      },
+      "room": {
+        "title": "The room phone is connected too",
+        "body": "The guest picks up the phone by the bed. The voice assistant listens, confirms the room number and the request lands on the dashboard; day and night, in several languages.",
+        "transcript": "Call transcript",
+        "lines": [
+          "Guest: Hi, could we get two more towels?",
+          "StayLine: Of course. Your room is two-one-four, correct?",
+          "Guest: Yes, that's right.",
+          "StayLine: I've passed it to housekeeping, they'll be with you shortly."
+        ],
+        "done": "Request opened · Housekeeping · Room 214"
+      }
+    },
+    "phone": {
+      "online": "online",
+      "typing": "typing…",
+      "placeholder": "Message",
+      "today": "Today",
+      "hero": [
+        {
+          "from": "guest",
+          "text": "Hi! Could I get two more towels for room 214?",
+          "time": "21:46"
+        },
+        {
+          "from": "hotel",
+          "text": "Of course! I've told housekeeping, they'll be at your room in a few minutes.",
+          "time": "21:46"
+        },
+        {
+          "from": "guest",
+          "text": "What time does the spa close?",
+          "time": "21:47"
+        },
+        {
+          "from": "hotel",
+          "text": "The spa is open daily 10:00–20:00. Shall I book you a massage for tomorrow?",
+          "time": "21:47"
+        },
+        {
+          "from": "guest",
+          "text": "Yes, would 17:00 work?",
+          "time": "21:47"
+        },
+        {
+          "from": "hotel",
+          "text": "I've passed it to the spa team; we'll confirm here shortly.",
+          "time": "21:48"
+        }
+      ],
+      "j": {
+        "guest": "Good evening, the AC in 412 isn't working and the room is very hot.",
+        "reply": "We're so sorry! I've alerted our maintenance team; they'll be at your room within 15 minutes."
+      },
+      "lock": {
+        "date": "Wednesday, 7 October",
+        "now": "now",
+        "title": "New request · Maintenance",
+        "body": "Room 412 — AC not working, room very hot. Priority: high",
+        "take": "Take it",
+        "open": "Open",
+        "older": "Room 214 · 2 towels — done"
+      },
+      "dash": {
+        "title": "Today's requests",
+        "stats": [
+          [
+            "Open",
+            "3"
+          ],
+          [
+            "In progress",
+            "2"
+          ],
+          [
+            "Done",
+            "18"
+          ]
+        ],
+        "rows": [
+          [
+            "Room 412",
+            "AC failure",
+            "In progress",
+            1
+          ],
+          [
+            "Room 214",
+            "2 towels",
+            "Done",
+            2
+          ],
+          [
+            "Room 118",
+            "Blanket",
+            "Open",
+            0
+          ],
+          [
+            "Room 305",
+            "Late check-out",
+            "Open",
+            0
+          ]
+        ]
+      },
+      "langs": {
+        "tr": {
+          "guest": "305 numaralı odaya bir yastık daha alabilir miyim?",
+          "reply": "Elbette! Kat hizmetleri birazdan getirecek.",
+          "online": "çevrimiçi",
+          "placeholder": "Mesaj",
+          "today": "Bugün"
+        },
+        "en": {
+          "guest": "Could I get an extra pillow for room 305?",
+          "reply": "Of course! Housekeeping will bring it shortly.",
+          "online": "online",
+          "placeholder": "Message",
+          "today": "Today"
+        },
+        "de": {
+          "guest": "Könnte ich ein zusätzliches Kissen für Zimmer 305 bekommen?",
+          "reply": "Natürlich! Das Housekeeping bringt es Ihnen gleich.",
+          "online": "online",
+          "placeholder": "Nachricht",
+          "today": "Heute"
+        },
+        "ru": {
+          "guest": "Можно ещё одну подушку в номер 305?",
+          "reply": "Конечно! Горничная скоро принесёт её.",
+          "online": "в сети",
+          "placeholder": "Сообщение",
+          "today": "Сегодня"
+        }
+      },
+      "team": {
+        "title": "Housekeeping",
+        "sub": "Incoming requests · in Turkish",
+        "rows": [
+          [
+            "TR",
+            "Oda 305 · Bir yastık daha istiyor"
+          ],
+          [
+            "EN",
+            "Oda 207 · Bir yastık daha istiyor"
+          ],
+          [
+            "DE",
+            "Oda 118 · Bir yastık daha istiyor"
+          ],
+          [
+            "RU",
+            "Oda 412 · Bir yastık daha istiyor"
+          ]
+        ],
+        "note": "Arrived in 4 languages; your team read them all in Turkish."
+      },
+      "booking": [
+        {
+          "from": "hotel",
+          "text": "Hi! Shall we show you how StayLine works in your hotel, in 30 minutes?",
+          "time": "10:29"
+        },
+        {
+          "from": "guest",
+          "text": "Yes, I'd like a demo.",
+          "time": "10:30"
+        },
+        {
+          "from": "hotel",
+          "text": "Great! Pick a time that suits you here:",
+          "time": "10:30"
+        }
+      ],
+      "bookingCard": {
+        "title": "Book a demo"
+      }
     }
   },
   "features": {
@@ -853,6 +1432,44 @@
     "dataDeletion": {
       "title": "Data Deletion",
       "description": "How to request deletion of personal data associated with StayLine — email info@stayline.net."
+    },
+    "demo": {
+      "title": "Book a demo — StayLine",
+      "description": "See StayLine with your hotel's own scenarios in 30 minutes. Pick a day and time that suits you."
     }
+  },
+  "demo": {
+    "title": "Book a demo",
+    "subtitle": "In a 30-minute video call we show StayLine with your hotel's own scenarios. Pick a day and time that suits you.",
+    "expect": [
+      "30 minutes, video call",
+      "A live walkthrough with your hotel's examples",
+      "Your setup and pricing questions"
+    ],
+    "dayLabel": "Day",
+    "timeLabel": "Time",
+    "infoLabel": "Your details",
+    "timezone": "Times are in Istanbul time (GMT+3).",
+    "loading": "Loading available times…",
+    "none": "No free times right now. Write to us at {email}.",
+    "loadError": "Times could not be loaded. Refresh the page or write to {email}.",
+    "pickDay": "Pick a day first.",
+    "name": "Full name",
+    "company": "Hotel or business name",
+    "email": "E-mail",
+    "phone": "Phone",
+    "rooms": "Number of rooms (optional)",
+    "message": "What you would like to discuss (optional)",
+    "consentBefore": "I have read the",
+    "consentLink": "privacy notice",
+    "consentAfter": "on processing my personal data for this booking.",
+    "selected": "Selected time",
+    "submit": "Confirm booking",
+    "submitting": "Booking…",
+    "successTitle": "Your demo is booked",
+    "successBody": "Our call is scheduled for {when}. We sent the confirmation and a calendar invitation to {email}.",
+    "another": "Book another time",
+    "rateLimited": "Too many attempts. Please try again a little later.",
+    "genericError": "The booking could not be created. Please try again or write to {email}."
   }
 }

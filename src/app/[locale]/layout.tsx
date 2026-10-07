@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Bricolage_Grotesque } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
@@ -16,6 +16,12 @@ import "../globals.css";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin", "latin-ext"],
+});
+// Başlıklar: karakterli ama ölçülü bir grotesk (Türkçe karakterler tam)
+const bricolage = Bricolage_Grotesque({
+  variable: "--font-bricolage",
+  subsets: ["latin", "latin-ext"],
+  display: "swap",
 });
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -74,7 +80,7 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       suppressHydrationWarning
-      className={`${geistSans.variable} ${geistMono.variable}`}
+      className={`${geistSans.variable} ${geistMono.variable} ${bricolage.variable}`}
     >
       <body className="min-h-full bg-bg text-text-body antialiased">
         <NextIntlClientProvider>

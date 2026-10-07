@@ -5,6 +5,11 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const isDev = process.env.NODE_ENV !== "production";
 
+// Demo randevuları için StayLine API'sinin kökeni (CSP connect-src)
+const apiOrigin = new URL(
+  process.env.NEXT_PUBLIC_STAYLINE_API_URL ?? "https://guestflow-production.up.railway.app/api/v1",
+).origin;
+
 // Pragmatic CSP for a static marketing site. 'unsafe-inline' on styles is needed
 // by Tailwind + next-themes inline theme script and Framer Motion's inline styles.
 // 'unsafe-eval' is only needed by Next's dev runtime (HMR).
@@ -18,7 +23,8 @@ const csp = [
   "font-src 'self' data:",
   "style-src 'self' 'unsafe-inline'",
   `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}`,
-  `connect-src 'self'${isDev ? " ws:" : ""}`,
+  // Demo randevu formu StayLine API'sine bağlanır
+  `connect-src 'self' ${apiOrigin}${isDev ? " ws: http://localhost:*" : ""}`,
 ].join("; ");
 
 const securityHeaders = [

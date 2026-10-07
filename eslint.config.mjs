@@ -11,6 +11,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Gömülü üçüncü taraf kodu (Lenis, MIT) — olduğu gibi tutulur
+    "src/lib/vendor/**",
   ]),
 ]);
 

@@ -1,34 +1,14 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
-import { MessageCircle, Sparkles, ArrowRight } from "lucide-react";
-import { Link } from "@/i18n/navigation";
+import { MessageCircle, Sparkles } from "lucide-react";
 import { Container } from "@/components/ui/container";
-import { buttonVariants } from "@/components/ui/button";
-import { Reveal } from "@/components/motion/reveal";
-import { Hero } from "@/components/sections/hero";
-import { HowItWorks } from "@/components/sections/how-it-works";
-import { SectionHeading } from "@/components/sections/section-heading";
-import {
-  FeatureGrid,
-  type FeatureItem,
-} from "@/components/sections/feature-grid";
-import { CtaBand } from "@/components/sections/cta-band";
+import { StoryHero, StoryJourney, StoryLanguages, StoryMerge, StoryModules, RoomPhone } from "@/components/home/story";
+import { GiantWord } from "@/components/home/giant-word";
+import { BookingBand } from "@/components/home/booking-band";
+import { PhoneDirector } from "@/components/phone/phone-director";
+import { Preloader } from "@/components/motion/preloader";
+import { FloatingCta } from "@/components/motion/floating-cta";
 
-const PILLARS: FeatureItem[] = [
-  { key: "aiReplies", icon: "bot" },
-  { key: "routing", icon: "route" },
-  { key: "multilingual", icon: "globe" },
-  { key: "analytics", icon: "chart" },
-];
-
-const OVERVIEW: FeatureItem[] = [
-  { key: "aiReplies", icon: "bot" },
-  { key: "routing", icon: "route" },
-  { key: "multilingual", icon: "globe" },
-  { key: "shifts", icon: "clock" },
-  { key: "guests", icon: "users" },
-  { key: "reports", icon: "dashboard" },
-];
-
+// Ana sayfa: tek telefon bütün sayfa boyunca bölümden bölüme döne döne iner.
 export default async function HomePage({
   params,
 }: {
@@ -40,99 +20,41 @@ export default async function HomePage({
 
   return (
     <>
-      <Hero />
+      <Preloader />
+      <PhoneDirector />
+      <StoryHero />
+      <StoryJourney />
+      <StoryLanguages />
+      <StoryMerge />
+      <StoryModules />
+      <RoomPhone />
 
-      {/* Pillars */}
-      <section className="py-20 sm:py-28">
+      <section className="overflow-hidden border-t border-border-subtle bg-surface-0 pb-24 pt-20 sm:pt-28">
         <Container>
-          <SectionHeading
-            eyebrow={t("pillars.eyebrow")}
-            title={t("pillars.title")}
-            subtitle={t("pillars.subtitle")}
-          />
-          <div className="mt-14">
-            <FeatureGrid namespace="home.pillars" items={PILLARS} columns={4} />
-          </div>
-        </Container>
-      </section>
-
-      {/* How it works */}
-      <section className="border-y border-border-subtle bg-surface-2/40 py-20 sm:py-28">
-        <Container>
-          <SectionHeading
-            eyebrow={t("how.eyebrow")}
-            title={t("how.title")}
-            subtitle={t("how.subtitle")}
-          />
-          <div className="mt-14">
-            <HowItWorks />
-          </div>
-        </Container>
-      </section>
-
-      {/* Features overview */}
-      <section className="py-20 sm:py-28">
-        <Container>
-          <SectionHeading
-            eyebrow={t("featuresOverview.eyebrow")}
-            title={t("featuresOverview.title")}
-            subtitle={t("featuresOverview.subtitle")}
-          />
-          <div className="mt-14">
-            <FeatureGrid namespace="features.items" items={OVERVIEW} columns={3} />
-          </div>
-          <div className="mt-10 flex justify-center">
-            <Link
-              href="/features"
-              className={buttonVariants({ variant: "outline" })}
-            >
-              {t("featuresOverview.cta")}
-              <ArrowRight className="size-4" />
-            </Link>
-          </div>
-        </Container>
-      </section>
-
-      {/* Built on */}
-      <section className="border-y border-border-subtle bg-surface-2/40 py-20 sm:py-28">
-        <Container>
-          <SectionHeading
-            eyebrow={t("builtOn.eyebrow")}
-            title={t("builtOn.title")}
-            subtitle={t("builtOn.subtitle")}
-          />
-          <div className="mt-14 grid gap-5 sm:grid-cols-2">
-            <Reveal>
-              <div className="h-full rounded-2xl border border-border-subtle bg-surface-1 p-6">
-                <div className="flex size-11 items-center justify-center rounded-xl bg-accent-soft text-brand">
-                  <MessageCircle className="size-5" />
+          <GiantWord word="StayLine" />
+          <div className="mt-14 grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
+            <div>
+              <h2 className="font-display text-[clamp(1.9rem,3.2vw,2.75rem)] font-semibold leading-[1.05] tracking-[-0.03em] text-text-strong">{t("builtOn.title")}</h2>
+              <p className="mt-4 max-w-md text-[16px] leading-relaxed text-text-body">{t("builtOn.subtitle")}</p>
+            </div>
+            <div className="grid gap-px overflow-hidden rounded-[20px] border border-border-subtle bg-border-subtle sm:grid-cols-2">
+              {([
+                ["whatsapp", MessageCircle],
+                ["claude", Sparkles],
+              ] as const).map(([key, Icon]) => (
+                <div key={key} className="bg-surface-1 p-7">
+                  <Icon className="size-5 text-brand" aria-hidden />
+                  <h3 className="mt-5 text-[17px] font-semibold text-text-strong">{t(`builtOn.${key}.title`)}</h3>
+                  <p className="mt-2 text-[14.5px] leading-relaxed text-text-body">{t(`builtOn.${key}.body`)}</p>
                 </div>
-                <h3 className="mt-5 text-lg font-semibold text-text-strong">
-                  {t("builtOn.whatsapp.title")}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-text-body">
-                  {t("builtOn.whatsapp.body")}
-                </p>
-              </div>
-            </Reveal>
-            <Reveal delay={0.05}>
-              <div className="h-full rounded-2xl border border-border-subtle bg-surface-1 p-6">
-                <div className="flex size-11 items-center justify-center rounded-xl bg-accent-soft text-brand">
-                  <Sparkles className="size-5" />
-                </div>
-                <h3 className="mt-5 text-lg font-semibold text-text-strong">
-                  {t("builtOn.claude.title")}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-text-body">
-                  {t("builtOn.claude.body")}
-                </p>
-              </div>
-            </Reveal>
+              ))}
+            </div>
           </div>
         </Container>
       </section>
 
-      <CtaBand />
+      <BookingBand phone />
+      <FloatingCta />
     </>
   );
 }
